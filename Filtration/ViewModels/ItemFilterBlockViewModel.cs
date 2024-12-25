@@ -51,7 +51,7 @@ namespace Filtration.ViewModels
         IEnumerable<string> AutoCompleteItemClasses { get; }
         IEnumerable<string> AutoCompleteItemBaseTypes { get; }
         IEnumerable<string> AutoCompleteProphecies { get; }
-        IEnumerable<string> AutocompleteItemMods { get; }
+        IEnumerable<string> AutoCompleteItemMods { get; }
         List<Type> BlockItemTypesAvailable { get; }
         List<Type> AudioVisualBlockItemTypesAvailable { get; }
         Color DisplayTextColor { get; }
@@ -206,13 +206,13 @@ namespace Filtration.ViewModels
 
         public IEnumerable<string> AutoCompleteProphecies => _staticDataService.Prophecies;
 
-        public IEnumerable<string> AutocompleteItemMods => _staticDataService.ItemMods;
+        public IEnumerable<string> AutoCompleteItemMods => _staticDataService.ItemMods;
 
-        public IEnumerable<string> AutocompleteEnchantments => _staticDataService.Enchantments;
+        public IEnumerable<string> AutoCompleteEnchantments => _staticDataService.Enchantments;
 
-        public IEnumerable<string> AutocompleteInfluenceTypes => _staticDataService.Influences;
+        public IEnumerable<string> AutoCompleteInfluenceTypes => _staticDataService.Influences;
 
-        public IEnumerable<string> AutocompleteEnchantmentPassiveNode => _staticDataService.EnchantmentPassiveNode;
+        public IEnumerable<string> AutoCompleteEnchantmentPassiveNode => _staticDataService.EnchantmentPassiveNode;
 
 
         public List<Type> BlockItemTypesAvailable => new List<Type>

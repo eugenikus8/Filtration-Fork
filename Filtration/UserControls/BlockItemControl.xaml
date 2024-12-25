@@ -96,22 +96,22 @@
 
                     <!-- Explicit Mods Template --><!--
                     <DataTemplate DataType="{x:Type blockItemTypes:HasExplicitModBlockItem}">
-                        <userControls:EditableListBoxControl Margin="5,5,5,5" ItemsSource="{Binding Items}" AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutocompleteItemMods}" />
+                        <userControls:EditableListBoxControl Margin="5,5,5,5" ItemsSource="{Binding Items}" AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutoCompleteItemMods}" />
                     </DataTemplate>-->
 
                     <!-- Enchantments Template -->
                     <DataTemplate DataType="{x:Type blockItemTypes:HasEnchantmentBlockItem}">
-                        <userControls:EditableListBoxControl Margin="5,5,5,5" ItemsSource="{Binding Items}" AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutocompleteEnchantments}" />
+                        <userControls:EditableListBoxControl Margin="5,5,5,5" ItemsSource="{Binding Items}" AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutoCompleteEnchantments}" />
                     </DataTemplate>
 
                     <!-- Influence Template -->
                     <DataTemplate DataType="{x:Type blockItemTypes:HasInfluenceBlockItem}">
-                        <userControls:EditableListBoxControl Margin="5,5,5,5" ItemsSource="{Binding Items}" AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutocompleteInfluenceTypes}" />
+                        <userControls:EditableListBoxControl Margin="5,5,5,5" ItemsSource="{Binding Items}" AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutoCompleteInfluenceTypes}" />
                     </DataTemplate>
 
                     <!-- Cluster Jewel Node Template -->
                     <DataTemplate DataType="{x:Type blockItemTypes:EnchantmentPassiveNodeBlockItem}">
-                        <userControls:EditableListBoxControl Margin="5,5,5,5" ItemsSource="{Binding Items}" AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutocompleteEnchantmentPassiveNode}" />
+                        <userControls:EditableListBoxControl Margin="5,5,5,5" ItemsSource="{Binding Items}" AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutoCompleteEnchantmentPassiveNode}" />
                     </DataTemplate>
           
                     <!-- Socket Groups Template -->

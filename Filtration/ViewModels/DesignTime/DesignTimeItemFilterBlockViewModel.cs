@@ -116,7 +116,7 @@ namespace Filtration.ViewModels.DesignTime
         public IEnumerable<string> AutoCompleteItemBaseTypes { get; }
         public IEnumerable<string> AutoCompleteProphecies { get; }
         public IEnumerable<string> AutoCompleteEnchantmentPassiveNode { get; }
-        public IEnumerable<string> AutocompleteItemMods { get; }
+        public IEnumerable<string> AutoCompleteItemMods { get; }
         public List<Type> BlockItemTypesAvailable => new List<Type>
                                                      {
                                                          typeof (MinimalBlockItem),
