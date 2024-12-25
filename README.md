@@ -1,10 +1,20 @@
-# Filtration
+# Filtration Fork for POE1 & POE2
+Filtration by [Ben Wallis](https://github.com/ben-wallis/Filtration) is an editor for Path of Exile item filter scripts.
 
-Filtration is an editor for Path of Exile item filter scripts.
+## Current Release Filtration Fork (released 2024-12-23)
+<b>Installer Ben Wallis version (from 2019 years) see here</b> <a href="https://github.com/ben-wallis/Filtration/releases/download/1.2.2/Setup.exe">Setup.exe</a>
+<br>
+<b>For the latest compiled portable version, see releases</b> https://github.com/eugenikus8/Filtration-POE-Fork/releases
+<br>
 
-## Current Release (Released 2019-09-11)
-<b>Installer</b><br>
-<a href="https://github.com/ben-wallis/Filtration/releases/download/1.2.2/Setup.exe">Setup.exe</a>
+> [!WARNING]
+> ## Who can help implement these changes? I don't understand how to do this.
+> On the left - what the function window looks like at the moment in the program, in the center - how it should be implemented, on the right how the text should ultimately be displayed.
+  
+![filtration-new-feature-2](https://github.com/user-attachments/assets/41c26dcd-4b12-4a14-8fbf-7a1a91e6626e)
+
+
+
 
 ## System Requirements
 Filtration requires .NET Framework 4.6.1 installed.
@@ -24,7 +34,13 @@ If you'd like to make your script fully compatible with Filtration, please take 
 ## Screenshots
 
 ##### Main Window
-<img src="https://i.imgur.com/d3tKEab.png" />
+![2024-12-25_002700](https://github.com/user-attachments/assets/6279f07f-678b-4ca9-ba77-23e410e474ff)
+
+
 
 ##### Theme Editor
-<img src="https://i.imgur.com/Pi9wds1.png" />
+![2024-12-25_002624](https://github.com/user-attachments/assets/9850bfc4-e978-4a53-ad36-eca68950de36)
+
+
+
+
