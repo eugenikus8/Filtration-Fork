@@ -194,7 +194,7 @@
                                 <userControls:EditableListBoxControl Margin="0,0,0,0"
                                     Height="195"
                                     ItemsSource="{Binding Items}"
-                                    AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutoCompleteItemMods}" />
+                                    AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutocompleteItemMods}" />
                             </StackPanel>
                         </StackPanel>
                     </DataTemplate>
