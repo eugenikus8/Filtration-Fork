@@ -24,6 +24,16 @@ namespace Filtration.ObjectModel
                 throw new InvalidOperationException("A linked socket group must have at least 2 sockets");
             }
 
+            if (linked && sockets.Contains(new Socket(Enums.SocketColor.Abyss)))
+            {
+                throw new InvalidOperationException("Abyssal sockets cannot be linked to other sockets");
+            }
+
+            if (linked && sockets.Contains(new Socket(Enums.SocketColor.Delve)))
+            {
+                throw new InvalidOperationException("Delve sockets are never linked together");
+            }
+
             AddRange(sockets);
             Linked = linked;
         }

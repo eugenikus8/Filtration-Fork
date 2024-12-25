@@ -16,9 +16,9 @@
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </UserControl.Resources>
-    <Grid Height="20">
+    <Grid Height="25">
         <Grid.Resources>
-            <Style TargetType="{x:Type ComboBox}" BasedOn="{StaticResource MetroComboBox}">
+            <Style TargetType="{x:Type ComboBox}" BasedOn="{StaticResource MahApps.Styles.ComboBox}">
                 <Setter Property="MinHeight" Value="0" />
             </Style>
         </Grid.Resources>
@@ -49,7 +49,7 @@
                                                     <ColumnDefinition SharedSizeGroup="ComponentNameColumn" Width="Auto" />
                                                     <ColumnDefinition SharedSizeGroup="ComponentValueColumn" Width="20" />
                                                 </Grid.ColumnDefinitions>
-                                                <TextBlock Grid.Column="0" Text="{Binding ComponentName}" Margin="0,0,2,0" />
+                                                <TextBlock Grid.Column="0" Text="{Binding ComponentName}" Padding="0,-4,4,0" Margin="0,0,2,0" />
                                                 <ContentControl Content="{Binding Mode=OneWay}" Grid.Column="1">
                                                     <ContentControl.Resources>
                                                         <DataTemplate DataType="{x:Type themeEditor:ColorThemeComponent}">

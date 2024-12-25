@@ -9,7 +9,7 @@ namespace Filtration.ObjectModel.BlockItemTypes
     {
         public override string PrefixText => "HasEnchantment";
         public override int MaximumAllowed => 1;
-        public override string DisplayHeading => "Has Enchantment";
+        public override string DisplayHeading => "Enchantment";
 
         public override string SummaryText
         {

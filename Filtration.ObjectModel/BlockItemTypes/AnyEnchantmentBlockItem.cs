@@ -15,7 +15,7 @@ namespace Filtration.ObjectModel.BlockItemTypes
         }
 
         public override string PrefixText => "AnyEnchantment";
-        public override string DisplayHeading => "Any Enchantment";
+        public override string DisplayHeading => "AnyEnchantment";
         public override Color SummaryBackgroundColor => Colors.YellowGreen;
         public override Color SummaryTextColor => Colors.Black;
         public override BlockItemOrdering SortOrder => BlockItemOrdering.AnyEnchantment;

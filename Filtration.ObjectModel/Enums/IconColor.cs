@@ -21,6 +21,16 @@ namespace Filtration.ObjectModel.Enums
         [Description("White")]
         White,
         [Description("Yellow")]
-        Yellow
+        Yellow,
+        [Description("Cyan")]
+        Cyan,
+        [Description("Grey")]
+        Grey,
+        [Description("Orange")]
+        Orange,
+        [Description("Pink")]
+        Pink,
+        [Description("Purple")]
+        Purple
     }
 }

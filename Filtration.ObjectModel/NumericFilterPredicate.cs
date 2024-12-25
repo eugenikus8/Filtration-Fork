@@ -67,6 +67,10 @@ namespace Filtration.ObjectModel
                     {
                         return target <= PredicateOperand;
                     }
+                case FilterPredicateOperator.NotEqual:
+                    {
+                        return target != PredicateOperand;
+                    }
                 default:
                     {
                         return false;

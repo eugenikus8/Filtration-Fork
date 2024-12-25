@@ -1,0 +1,7 @@
+﻿Shaper
+Elder
+Crusader
+Hunter
+Redeemer
+Warlord
+None

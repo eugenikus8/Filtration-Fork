@@ -16,9 +16,9 @@ namespace Filtration.ObjectModel.BlockItemTypes
 
         public override string PrefixText => "ItemLevel";
         public override int MaximumAllowed => 2;
-        public override string DisplayHeading => "Item Level";
+        public override string DisplayHeading => "ItemLevel";
         public override string SummaryText => "Item Level " + FilterPredicate;
-        public override Color SummaryBackgroundColor => Colors.DarkSlateGray;
+        public override Color SummaryBackgroundColor => Colors.SteelBlue;
         public override Color SummaryTextColor => Colors.White;
         public override BlockItemOrdering SortOrder => BlockItemOrdering.ItemLevel;
         public override int Minimum => 0;

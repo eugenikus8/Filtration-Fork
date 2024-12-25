@@ -492,7 +492,7 @@ namespace Filtration.ViewModels
         {
             var openFileDialog = new OpenFileDialog
             {
-                Filter = "Filter Files (*.filter)|*.filter|All Files (*.*)|*.*",
+                Filter = "Filter Files (*.filter)|*.filter|Filter Files (*.ruthlessfilter)|*.ruthlessfilter|All Files (*.*)|*.*",
                 InitialDirectory = _itemFilterScriptDirectoryService.ItemFilterScriptDirectory
             };
 

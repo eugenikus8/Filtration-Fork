@@ -697,7 +697,7 @@ namespace Filtration.ViewModels
             var saveDialog = new SaveFileDialog
             {
                 DefaultExt = ".filter",
-                Filter = @"Filter Files (*.filter)|*.filter|All Files (*.*)|*.*",
+                Filter = @"Filter Files (*.filter)|*.filter|Filter Files (*.ruthlessfilter)|*.ruthlessfilter|All Files (*.*)|*.*",
                 InitialDirectory = _persistenceService.ItemFilterScriptDirectory
             };
 

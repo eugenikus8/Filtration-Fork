@@ -16,11 +16,23 @@ namespace Filtration.ObjectModel
         string BaseType { get; set; }
         int DropLevel { get; set; }
         int ItemLevel { get; set; }
+        int AreaLevel { get; set; }
         int Height { get; set; }
         int Width { get; set; }
         int Quality { get; set; }
+        int BaseDefencePercentile { get; set; }
+        int BaseArmour { get; set; }
+        int BaseEvasion { get; set; }
+        int BaseEnergyShield { get; set; }
+        int BaseWard { get; set; }
+        int EnchantmentPassiveNum { get; set; }
+        int HasEaterOfWorldsImplicit { get; set; }
+        int HasSearingExarchImplicit { get; set; }
         ItemRarity ItemRarity { get; set; }
         int SocketCount { get; }
+
+        GemQualityType GemQualityType { get; set; }
+
         int LinkedSockets { get; }
         IEnumerable<SocketGroup> LinkedSocketGroups { get; }
         List<SocketGroup> SocketGroups { get; set; }
@@ -50,13 +62,33 @@ namespace Filtration.ObjectModel
 
         public int ItemLevel { get; set; }
 
+        public int AreaLevel { get; set; }
+
         public int Height { get; set; }
 
         public int Width { get; set; }
 
         public int Quality { get; set; }
-        
+
+        public int BaseDefencePercentile { get; set; }
+
+        public int BaseArmour { get; set; }
+
+        public int BaseEvasion { get; set; }
+
+        public int BaseEnergyShield { get; set; }
+
+        public int BaseWard { get; set; }
+
+        public int EnchantmentPassiveNum { get; set; }
+
+        public int HasEaterOfWorldsImplicit { get; set; }
+
+        public int HasSearingExarchImplicit { get; set; }
+
         public ItemRarity ItemRarity { get; set; }
+
+        public GemQualityType GemQualityType { get; set; }
 
         [StringLength(20)]
         public string Sockets { get; set; }
@@ -66,6 +98,7 @@ namespace Filtration.ObjectModel
         public virtual ItemSet ItemSet { get; set; }
 
         public int SocketCount { get; private set; }
+
         public int LinkedSockets { get; private set; }
 
         public IEnumerable<SocketGroup> LinkedSocketGroups

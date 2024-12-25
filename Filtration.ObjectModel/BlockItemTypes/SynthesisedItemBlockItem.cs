@@ -15,9 +15,9 @@ namespace Filtration.ObjectModel.BlockItemTypes
         }
 
         public override string PrefixText => "SynthesisedItem";
-        public override string DisplayHeading => "Synthesised Item";
-        public override Color SummaryBackgroundColor => Colors.Salmon;
-        public override Color SummaryTextColor => Colors.Black;
+        public override string DisplayHeading => "SynthesisedItem";
+        public override Color SummaryBackgroundColor => Colors.MediumPurple;
+        public override Color SummaryTextColor => Colors.White;
         public override BlockItemOrdering SortOrder => BlockItemOrdering.SynthesisedItem;
     }
 }

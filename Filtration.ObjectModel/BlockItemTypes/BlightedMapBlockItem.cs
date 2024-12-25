@@ -15,7 +15,7 @@ namespace Filtration.ObjectModel.BlockItemTypes
         }
 
         public override string PrefixText => "BlightedMap";
-        public override string DisplayHeading => "Blighted Map";
+        public override string DisplayHeading => "BlightedMap";
         public override Color SummaryBackgroundColor => Colors.Khaki;
         public override Color SummaryTextColor => Colors.Black;
         public override BlockItemOrdering SortOrder => BlockItemOrdering.BligtedMap;

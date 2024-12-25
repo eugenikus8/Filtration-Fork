@@ -76,5 +76,10 @@ namespace Filtration.Views
         {
             return dependencyObject is ScrollViewer scrollViewer && scrollViewer.Name == "DropDownScrollViewer";
         }
+
+        private void ItemPreviewControl_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

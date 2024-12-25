@@ -16,7 +16,7 @@ namespace Filtration.ObjectModel.BlockItemTypes
 
         public override string PrefixText => "SocketGroup";
         public override int MaximumAllowed => 1;
-        public override string DisplayHeading => "Socket Group";
+        public override string DisplayHeading => "SocketGroup";
         public override string SummaryText
         {
             get
@@ -60,6 +60,14 @@ namespace Filtration.ObjectModel.BlockItemTypes
                 case 'W':
                 {
                     return SocketColor.White;
+                }
+                case 'A':
+                {
+                    return SocketColor.Abyss;
+                }
+                case 'D':
+                {
+                    return SocketColor.Delve;
                 }
                 default:
                 {

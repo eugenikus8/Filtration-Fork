@@ -42,24 +42,48 @@ namespace Filtration.ItemFilterPreview.Services
             if (blockItemType == typeof(ItemLevelBlockItem))
                 return ItemLevelBlockItemMatch((ItemLevelBlockItem)blockItem, item);
 
+            if (blockItemType == typeof(AreaLevelBlockItem))
+                return AreaLevelBlockItemMatch((AreaLevelBlockItem)blockItem, item);
+
             if (blockItemType == typeof(LinkedSocketsBlockItem))
                 return LinkedSocketsBlockItemMatch((LinkedSocketsBlockItem)blockItem, item);
+
+            if (blockItemType == typeof(SocketsBlockItem))
+                return SocketsBlockItemMatch((SocketsBlockItem)blockItem, item);
 
             if (blockItemType == typeof(QualityBlockItem))
                 return QualityBlockItemMatch((QualityBlockItem)blockItem, item);
 
+            if (blockItemType == typeof(BaseArmourBlockItem))
+                return BaseArmourBlockItemMatch((BaseArmourBlockItem)blockItem, item);
+
+            if (blockItemType == typeof(BaseDefencePercentileBlockItem))
+                return BaseDefencePercentileBlockItemMatch((BaseDefencePercentileBlockItem)blockItem, item);
+
+            if (blockItemType == typeof(BaseEnergyShieldBlockItem))
+                return BaseEnergyShieldBlockItemMatch((BaseEnergyShieldBlockItem)blockItem, item);
+
+            if (blockItemType == typeof(BaseEvasionBlockItem))
+                return BaseEvasionBlockItemMatch((BaseEvasionBlockItem)blockItem, item);
+
+            if (blockItemType == typeof(BaseWardBlockItem))
+                return BaseWardBlockItemMatch((BaseWardBlockItem)blockItem, item);
+
+            if (blockItemType == typeof(EnchantmentPassiveNumBlockItem))
+                return EnchantmentPassiveNumBlockItemMatch((EnchantmentPassiveNumBlockItem)blockItem, item);
+
             if (blockItemType == typeof(RarityBlockItem))
                 return RarityBlockItemMatch((RarityBlockItem)blockItem, item);
 
-            if (blockItemType == typeof(SocketsBlockItem))
-                return SocketsBlockItemMatch((SocketsBlockItem)blockItem, item);
+
+
 
             if (blockItemType == typeof(WidthBlockItem))
                 return WidthBlockItemMatch((WidthBlockItem)blockItem, item);
 
             if (blockItemType == typeof(SocketGroupBlockItem))
                 return SocketGroupBlockItemMatch((SocketGroupBlockItem)blockItem, item);
-
+                        
             return false;
         }
 
@@ -87,20 +111,14 @@ namespace Filtration.ItemFilterPreview.Services
         {
             return NumericFilterPredicateBlockItemMatch(itemLevelBlockItem, item.ItemLevel);
         }
+        private static bool AreaLevelBlockItemMatch(AreaLevelBlockItem areaLevelBlockItem, IItem item)
+        {
+            return NumericFilterPredicateBlockItemMatch(areaLevelBlockItem, item.AreaLevel);
+        }
 
         private static bool LinkedSocketsBlockItemMatch(LinkedSocketsBlockItem linkedSocketsBlockItem, IItem item)
         {
             return NumericFilterPredicateBlockItemMatch(linkedSocketsBlockItem, item.LinkedSockets);
-        }
-
-        private static bool QualityBlockItemMatch(QualityBlockItem qualityBlockItem, IItem item)
-        {
-            return NumericFilterPredicateBlockItemMatch(qualityBlockItem, item.Quality);
-        }
-
-        private static bool RarityBlockItemMatch(RarityBlockItem qualityBlockItem, IItem item)
-        {
-            return NumericFilterPredicateBlockItemMatch(qualityBlockItem, (int)item.ItemRarity);
         }
 
         private static bool SocketsBlockItemMatch(SocketsBlockItem socketsBlockItem, IItem item)
@@ -108,10 +126,59 @@ namespace Filtration.ItemFilterPreview.Services
             return NumericFilterPredicateBlockItemMatch(socketsBlockItem, item.SocketCount);
         }
 
+        private static bool QualityBlockItemMatch(QualityBlockItem qualityBlockItem, IItem item)
+        {
+            return NumericFilterPredicateBlockItemMatch(qualityBlockItem, item.Quality);
+        }
+
+        private static bool BaseDefencePercentileBlockItemMatch(BaseDefencePercentileBlockItem BaseDefencePercentileBlockItem, IItem item)
+        {
+            return NumericFilterPredicateBlockItemMatch(BaseDefencePercentileBlockItem, item.BaseDefencePercentile);
+        }
+
+        private static bool BaseArmourBlockItemMatch(BaseArmourBlockItem BaseArmourBlockItem, IItem item)
+        {
+            return NumericFilterPredicateBlockItemMatch(BaseArmourBlockItem, item.BaseArmour);
+        }
+
+        private static bool BaseEnergyShieldBlockItemMatch(BaseEnergyShieldBlockItem BaseEnergyShieldBlockItem, IItem item)
+        {
+            return NumericFilterPredicateBlockItemMatch(BaseEnergyShieldBlockItem, item.BaseEnergyShield);
+        }
+
+        private static bool BaseEvasionBlockItemMatch(BaseEvasionBlockItem BaseEvasionBlockItem, IItem item)
+        {
+            return NumericFilterPredicateBlockItemMatch(BaseEvasionBlockItem, item.BaseEvasion);
+        }
+
+        private static bool BaseWardBlockItemMatch(BaseWardBlockItem BaseWardBlockItem, IItem item)
+        {
+            return NumericFilterPredicateBlockItemMatch(BaseWardBlockItem, item.BaseWard);
+        }
+
+        private static bool EnchantmentPassiveNumBlockItemMatch(EnchantmentPassiveNumBlockItem EnchantmentPassiveNumBlockItem, IItem item)
+        {
+            return NumericFilterPredicateBlockItemMatch(EnchantmentPassiveNumBlockItem, item.EnchantmentPassiveNum);
+        }
+
+
+        private static bool RarityBlockItemMatch(RarityBlockItem qualityBlockItem, IItem item)
+        {
+            return NumericFilterPredicateBlockItemMatch(qualityBlockItem, (int)item.ItemRarity);
+        }
+
+        private static bool GemQualityTypeBlockItemMatch(GemQualityTypeBlockItem qualityBlockItem, IItem item)
+        {
+            return NumericFilterPredicateBlockItemMatch(qualityBlockItem, (int)item.GemQualityType);
+        }
+
+
+
         private static bool WidthBlockItemMatch(WidthBlockItem widthBlockItem, IItem item)
         {
             return NumericFilterPredicateBlockItemMatch(widthBlockItem, item.Width);
         }
+
 
         private static bool SocketGroupBlockItemMatch(SocketGroupBlockItem socketGroupBlockItem, IItem item)
         {

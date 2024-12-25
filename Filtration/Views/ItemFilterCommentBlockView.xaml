@@ -35,7 +35,7 @@
                     </Style>
                 </ResourceDictionary>
                 <ResourceDictionary>
-                <Style TargetType="{x:Type TextBox}" BasedOn="{StaticResource MetroTextBox}">
+                <Style TargetType="{x:Type TextBox}" BasedOn="{StaticResource MahApps.Styles.TextBox}">
                     <Style.Setters>
                         <Setter Property="BorderBrush" Value="Transparent" />
                         <Setter Property="Background" Value="Transparent" />

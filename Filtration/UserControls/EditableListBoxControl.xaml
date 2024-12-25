@@ -24,7 +24,7 @@
                     ItemsSource="{Binding ItemsSource}"
                     SelectedItem="{Binding SelectedItem}"
                     BorderThickness="1"
-                    Height="120"
+                    Height="100"
                     HorizontalContentAlignment="Stretch"
                     ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                     VerticalAlignment="Stretch" SelectionMode="Single" x:Name="ControlListBox" BorderBrush="#CCCCCC">
@@ -70,7 +70,7 @@
                 <KeyBinding Key="Delete" Command="{Binding Path=DeleteItemCommand}" CommandParameter="{Binding ElementName=ControlListBox, Path=SelectedValue}" />
             </ListBox.InputBindings>
         </ListBox>
-        <toolkit:AutoCompleteBox x:Name="AutoCompleteBox" Grid.Row="1" Grid.Column="0" ItemsSource="{Binding AutoCompleteItemsSource}" FilterMode="Contains" Text="{Binding AddItemText, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" PreviewKeyDown="AutoCompleteBox_OnPreviewKeyDown" />
-        <Button Grid.Row="1" Grid.Column="1" Command="{Binding AddItemCommand}" IsDefault="True">Add</Button>
+        <toolkit:AutoCompleteBox x:Name="AutoCompleteBox" Grid.Row="1" Grid.Column="0" ItemsSource="{Binding AutoCompleteItemsSource}" FilterMode="Contains" Text="{Binding AddItemText, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" PreviewKeyDown="AutoCompleteBox_OnPreviewKeyDown" Height="25" />
+        <Button Grid.Row="1" Grid.Column="1" Command="{Binding AddItemCommand}" Height="25" IsDefault="True">Add</Button>
     </Grid>
 </UserControl>

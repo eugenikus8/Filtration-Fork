@@ -6,6 +6,8 @@ namespace Filtration.ObjectModel.Enums
     {
         [Description("=")]
         Equal,
+        [Description("!=")]
+        NotEqual,
         [Description("<")]
         LessThan,
         [Description("<=")]
@@ -13,6 +15,8 @@ namespace Filtration.ObjectModel.Enums
         [Description(">")]
         GreaterThan,
         [Description(">=")]
-        GreaterThanOrEqual
+        GreaterThanOrEqual,
+        [Description("==")]
+        ExactEqual
     }
 }

@@ -6,7 +6,6 @@ namespace Filtration.ObjectModel.Enums
     [Serializable]
     public enum SocketColor
     {
-        Yellow,
         [Description("R")]
         Red,
         [Description("G")]
@@ -14,6 +13,10 @@ namespace Filtration.ObjectModel.Enums
         [Description("B")]
         Blue,
         [Description("W")]
-        White
+        White,
+        [Description("A")]
+        Abyss,
+        [Description("D")]
+        Delve
     }
 }

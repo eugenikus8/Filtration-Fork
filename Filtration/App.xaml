@@ -8,19 +8,16 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="pack://application:,,,/Filtration.Common;component/Styles/SharedResourcesDictionary.xaml" />
                 
-                <!--<ResourceDictionary Source="pack://application:,,,/Fluent;Component/Themes/Generic.xaml" />-->
-                <!--<ResourceDictionary Source="pack://application:,,,/Fluent;component/Themes/windows8/Generic.xaml" />-->
-                <!--<ResourceDictionary Source="pack://application:,,,/Fluent;component/Themes/windows8/silver.xaml" />-->
                 <ResourceDictionary Source="pack://application:,,,/Fluent;Component/Themes/Generic.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Fluent;component/Themes/Themes/Dark.Cobalt.xaml" />
                 <ResourceDictionary Source="Views/Styles/Colours.xaml" />
                 <ResourceDictionary Source="Views/Styles/CheckBox.xaml" />
                 <ResourceDictionary Source="Views/Styles/ListBoxItem.xaml" />
                 <ResourceDictionary Source="Views/Styles/TreeViewItem.xaml" />
 
-
-                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Sizes.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.Blue.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.ComboBox.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.RadioButton.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.Scrollbars.xaml" />
@@ -29,17 +26,18 @@
 
                 <ResourceDictionary Source="Views/CrossButton.xaml" />
                 <ResourceDictionary Source="Views/IconsDictionary.xaml" />
-                <ResourceDictionary Source="Views/ExpanderStyle.xaml" />
-
+                <ResourceDictionary Source="Views/ExpanderStyle.xaml" />              
+                             
                 <ResourceDictionary>
-                    <Style TargetType="ComboBox" BasedOn="{StaticResource MetroComboBox}" />
-                    <Style TargetType="ComboBoxItem" BasedOn="{StaticResource MetroComboBoxItem}" />
-                    <Style TargetType="ScrollBar" BasedOn="{StaticResource MetroScrollBar}" />
-                    <Style TargetType="TextBox" BasedOn="{StaticResource MetroTextBox}" />
+                    <Style TargetType="ComboBox" BasedOn="{StaticResource MahApps.Styles.ComboBox}" />
+                    <Style TargetType="ComboBoxItem" BasedOn="{StaticResource MahApps.Styles.ComboBoxItem}" />
+                    <Style TargetType="ScrollBar" BasedOn="{StaticResource MahApps.Styles.ScrollBar}" />
+                    <Style TargetType="TextBox" BasedOn="{StaticResource MahApps.Styles.TextBox}" />
                 </ResourceDictionary>
                 <ResourceDictionary>
                     <converters:BlockItemToRemoveEnabledVisibilityConverter x:Key="BlockItemToRemoveEnabledVisibilityConverter" />
                     <converters:IntToItemRarityConverter x:Key="IntToItemRarityConverter" />
+					<converters:IntToGemQualityTypeConverter x:Key="IntToGemQualityTypeConverter" />
                     <converters:BooleanToBlockActionConverter x:Key="BooleanToBlockActionConverter" />
                     <converters:BlockItemTypeToStringConverter x:Key="BlockItemTypeToStringConverter" />
                     <converters:BooleanToBlockActionInverseConverter x:Key="BooleanToBlockActionInverseConverter" />

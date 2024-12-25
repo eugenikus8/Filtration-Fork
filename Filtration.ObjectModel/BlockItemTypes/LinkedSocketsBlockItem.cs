@@ -17,7 +17,7 @@ namespace Filtration.ObjectModel.BlockItemTypes
 
         public override string PrefixText => "LinkedSockets";
         public override int MaximumAllowed => 2;
-        public override string DisplayHeading => "Linked Sockets";
+        public override string DisplayHeading => "LinkedSockets";
         public override string SummaryText => "Linked Sockets " + FilterPredicate;
         public override Color SummaryBackgroundColor => Colors.Gold;
         public override Color SummaryTextColor => Colors.Black;

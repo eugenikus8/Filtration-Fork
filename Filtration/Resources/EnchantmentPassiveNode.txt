@@ -1,0 +1,51 @@
+﻿Area Damage
+Armour
+Attack Damage
+Attack Damage while Dual Wielding
+Attack Damage while holding a Shield
+Aura Effect
+Axe and Sword Damage
+Bow Damage
+Brand Damage
+Chance to Block Attack Damage
+Chance to Block Spell Damage
+Channelling Skill Damage
+Chaos Damage
+Chaos Damage over Time
+Chaos Resistance
+Cold Damage
+Cold Damage over Time
+Cold Resistance
+Critical Chance
+Curse Effect
+Dagger and Claw Damage
+Damage over Time
+Damage while you have a Herald
+Damage with Two Handed Weapons
+Effect of Non-Damaging Ailments
+Elemental Damage
+Energy Shield
+Evasion
+Exerted Attack Damage
+Fire Damage
+Fire Damage over Time
+Fire Resistance
+Flask Duration
+Life
+Life and Mana recovery from Flasks
+Lightning Damage
+Lightning Resistance
+Mace and Staff Damage
+Mana
+Minion Damage
+Minion Damage while you have a Herald
+Minion Life
+Physical Damage
+Physical Damage over Time
+Projectile Damage
+Reservation Efficiency
+Spell Damage
+Suppres
+Totem Damage
+Trap and Mine Damage
+Wand Damage

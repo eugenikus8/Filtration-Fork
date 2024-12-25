@@ -130,7 +130,7 @@
 
                             <!-- Item Preview Box -->
                             <WrapPanel Grid.Row="0" Grid.Column="2" VerticalAlignment="Center">
-                                <Image Height="40" Width="40" Margin="0,0,10,0" Stretch="Fill">
+                                <Image Height="40" Width="40" Margin="0,0,10,0" Stretch="None">
                                     <Image.Source>
                                         <MultiBinding Converter="{StaticResource MinimapIconToCroppedBitmapConverter}">
                                             <Binding Path="DisplayIconSize"/>
@@ -232,7 +232,7 @@
                                     <userControls:ItemPreviewControl TextColor="{Binding DisplayTextColor}"
                                                                      BackgroundColor="{Binding DisplayBackgroundColor}"
                                                                      BorderColor="{Binding DisplayBorderColor}"
-                                                                     BlockFontSize="{Binding DisplayFontSize}" />
+                                                                     BlockFontSize="{Binding DisplayFontSize}" Loaded="ItemPreviewControl_Loaded" />
                                 </ToggleButton>
                             </WrapPanel>
                         </Grid>

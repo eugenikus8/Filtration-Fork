@@ -339,17 +339,27 @@ namespace Filtration.ObjectModel
                     switch (beamBlockItem.Color)
                     {
                         case EffectColor.Red:
-                            return Colors.Red;
+                            return Colors.Crimson;
                         case EffectColor.Green:
-                            return Colors.Green;
+                            return Colors.OliveDrab;
                         case EffectColor.Blue:
-                            return Colors.Blue;
+                            return Colors.RoyalBlue;
                         case EffectColor.Brown:
-                            return Colors.Brown;
+                            return Colors.SaddleBrown;
                         case EffectColor.White:
-                            return Colors.White;
+                            return Colors.Gainsboro;
                         case EffectColor.Yellow:
-                            return Colors.Yellow;
+                            return Colors.Gold;
+                        case EffectColor.Cyan:
+                            return Colors.DarkTurquoise;
+                        case EffectColor.Grey:
+                            return Colors.DimGray;
+                        case EffectColor.Orange:
+                            return Colors.DarkOrange;
+                        case EffectColor.Pink:
+                            return Colors.HotPink;
+                        case EffectColor.Purple:
+                            return Colors.DarkOrchid;
                     }
                 }
 

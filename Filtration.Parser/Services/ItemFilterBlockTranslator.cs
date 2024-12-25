@@ -127,28 +127,116 @@ namespace Filtration.Parser.Services
                         AddNumericFilterPredicateItemToBlockItems<DropLevelBlockItem>(block, trimmedLine);
                         break;
                     }
+                    case "AreaLevel":
+                    {
+                        AddNumericFilterPredicateItemToBlockItems<AreaLevelBlockItem>(block, trimmedLine);
+                        break;
+                    }
                     case "Quality":
                     {
                         AddNumericFilterPredicateItemToBlockItems<QualityBlockItem>(block,trimmedLine);
                         break;
                     }
-                    case "Rarity":
-                    {
-                        RemoveExistingBlockItemsOfType<RarityBlockItem>(block);
 
-                        var blockItemValue = new RarityBlockItem();
-                        var result = Regex.Match(trimmedLine, @"^\w+\s+([><!=]{0,2})\s*(\w+)$");
-                        if (result.Groups.Count == 3)
+
+                    case "Rarity":
                         {
-                            blockItemValue.FilterPredicate.PredicateOperator =
-                                EnumHelper.GetEnumValueFromDescription<FilterPredicateOperator>(string.IsNullOrEmpty(result.Groups[1].Value) ? "=" : result.Groups[1].Value);
-                            blockItemValue.FilterPredicate.PredicateOperand =
-                                (int)EnumHelper.GetEnumValueFromDescription<ItemRarity>(result.Groups[2].Value);
+                            RemoveExistingBlockItemsOfType<RarityBlockItem>(block);
+
+                            var blockItemValue = new RarityBlockItem();
+
+                            // Определяем возможные качества
+                            var rarityOrder = new List<string> { "Normal", "Magic", "Rare", "Unique" };
+                            var presentRarities = rarityOrder.Where(r => trimmedLine.Contains(r)).ToList();
+
+                            if (presentRarities.Count > 1)
+                            {
+                                // Если несколько уровней качества, преобразуем в формат <= MaxRarity
+                                var maxRarity = presentRarities.Last();
+                                trimmedLine = $"Item <= {maxRarity}";
+                            }
+                            else if (presentRarities.Count == 1 && !Regex.IsMatch(trimmedLine, @"[><!=]"))
+                            {
+                                // Если одно качество и нет оператора, добавляем "="
+                                trimmedLine = $"Item = {presentRarities.First()}";
+                            }
+
+                            // Применяем регулярное выражение только после модификации строки
+                            var result = Regex.Match(trimmedLine, @"^\w+\s+([><!=]{0,2})\s*(\w+)$");
+                            if (result.Groups.Count == 3)
+                            {
+                                blockItemValue.FilterPredicate.PredicateOperator =
+                                    EnumHelper.GetEnumValueFromDescription<FilterPredicateOperator>(string.IsNullOrEmpty(result.Groups[1].Value) ? "=" : result.Groups[1].Value);
+                                blockItemValue.FilterPredicate.PredicateOperand =
+                                    (int)EnumHelper.GetEnumValueFromDescription<ItemRarity>(result.Groups[2].Value);
+                            }
+
+                            block.BlockItems.Add(blockItemValue);
+                            break;
                         }
 
-                        block.BlockItems.Add(blockItemValue);
+
+                    case "GemQualityType":
+                    {
+                         RemoveExistingBlockItemsOfType<GemQualityTypeBlockItem>(block);
+
+                         var blockItemValue = new GemQualityTypeBlockItem();
+                         var result = Regex.Match(trimmedLine, @"^\w+\s+([><!=]{0,2})\s*(\w+)$");
+                         if (result.Groups.Count == 3)
+                         {
+                             blockItemValue.FilterPredicate.PredicateOperator =
+                                 EnumHelper.GetEnumValueFromDescription<FilterPredicateOperator>(string.IsNullOrEmpty(result.Groups[1].Value) ? "=" : result.Groups[1].Value);
+                             blockItemValue.FilterPredicate.PredicateOperand =
+                                 (int)EnumHelper.GetEnumValueFromDescription<GemQualityType>(result.Groups[2].Value);
+                         }
+
+                         block.BlockItems.Add(blockItemValue);
+                         break;
+                    }
+
+
+
+
+               //case "Sockets":
+               //   {
+               //      RemoveExistingBlockItemsOfType<SocketsBlockItem>(block);
+               //      var blockItemValue = new SocketsBlockItem();
+
+               //      // Удаляем кавычки из строки
+               //      trimmedLine = trimmedLine.Replace("\"", "").Replace("'", "");
+
+               //      var result = Regex.Match(trimmedLine, @"^\w+\s*([><=]{0,2})\s*(\d{0,4})?\s*([A-Za-z]{0,6})$");
+
+               //      // Проверяем, что строка соответствует шаблону
+               //      if (result.Groups.Count < 4)
+               //         break;
+
+               //      // Задаём оператор
+               //      string operatorValue = result.Groups[1].Value;
+               //      blockItemValue.FilterPredicate.PredicateOperator =
+               //          EnumHelper.GetEnumValueFromDescription<FilterPredicateOperator>(
+               //              string.IsNullOrEmpty(operatorValue) ? "=" : operatorValue);
+
+               //      // Задаём операнд (по умолчанию 0)
+               //      string operandValue = result.Groups[2].Value;
+               //      blockItemValue.FilterPredicate.PredicateOperand =
+               //          string.IsNullOrEmpty(operandValue) ? 0 : Convert.ToInt16(operandValue);
+
+               //      // Парсим строку с цветами сокетов
+               //      string colorSockets = result.Groups[3].Value;
+               //      ParseColorSockets(colorSockets, blockItemValue.FilterPredicate);
+
+               //      block.BlockItems.Add(blockItemValue);
+               //      break;
+               //   }
+
+
+                    case "Sockets":
+                    {
+                        AddNumericFilterPredicateItemToBlockItems<SocketsBlockItem>(block, trimmedLine);
                         break;
                     }
+
                     case "Class":
                     {
                         AddStringListItemToBlockItems<ClassBlockItem>(block, trimmedLine);
@@ -159,14 +247,34 @@ namespace Filtration.Parser.Services
                         AddStringListItemToBlockItems<BaseTypeBlockItem>(block, trimmedLine);
                         break;
                     }
-                    case "Prophecy":
-                    {
-                        AddStringListItemToBlockItems<ProphecyBlockItem>(block, trimmedLine);
-                        break;
-                    }
                     case "Corrupted":
                     {
                         AddBooleanItemToBlockItems<CorruptedBlockItem>(block, trimmedLine);
+                        break;
+                    }
+                    case "Mirrored":
+                    {
+                        AddBooleanItemToBlockItems<MirroredBlockItem>(block, trimmedLine);
+                        break;
+                    }
+                    case "HasImplicitMod":
+                    {
+                        AddBooleanItemToBlockItems<HasImplicitModBlockItem>(block, trimmedLine);
+                        break;
+                    }
+                    case "HasCruciblePassiveTree":
+                    {
+                        AddBooleanItemToBlockItems<HasCruciblePassiveTreeBlockItem>(block, trimmedLine);
+                        break;
+                    }
+                    case "Replica":
+                    {
+                        AddBooleanItemToBlockItems<ReplicaBlockItem>(block, trimmedLine);
+                        break;
+                    }
+                    case "Scourged":
+                    {
+                        AddBooleanItemToBlockItems<ScourgedBlockItem>(block, trimmedLine);
                         break;
                     }
                     case "Identified":
@@ -174,14 +282,18 @@ namespace Filtration.Parser.Services
                         AddBooleanItemToBlockItems<IdentifiedBlockItem>(block, trimmedLine);
                         break;
                     }
-                    case "ElderItem":
+                    case "HasInfluence":
                     {
-                        AddBooleanItemToBlockItems<ElderItemBlockItem>(block, trimmedLine);
+                        AddStringListItemToBlockItems<HasInfluenceBlockItem>(block, trimmedLine);
                         break;
                     }
-                    case "ShaperItem":
+
+
+
+
+                    case "EnchantmentPassiveNode":
                     {
-                        AddBooleanItemToBlockItems<ShaperItemBlockItem>(block, trimmedLine);
+                        AddStringListItemToBlockItems<EnchantmentPassiveNodeBlockItem>(block, trimmedLine);
                         break;
                     }
                     case "SynthesisedItem":
@@ -199,16 +311,7 @@ namespace Filtration.Parser.Services
                         AddBooleanItemToBlockItems<AnyEnchantmentBlockItem>(block, trimmedLine);
                         break;
                     }
-                    case "ShapedMap":
-                    {
-                        AddBooleanItemToBlockItems<ShapedMapBlockItem>(block, trimmedLine);
-                        break;
-                    }
-                    case "Sockets":
-                    {
-                        AddNumericFilterPredicateItemToBlockItems<SocketsBlockItem>(block, trimmedLine);
-                        break;
-                    }
+
                     case "LinkedSockets":
                     {
                         AddNumericFilterPredicateItemToBlockItems<LinkedSocketsBlockItem>(block,trimmedLine);
@@ -224,11 +327,75 @@ namespace Filtration.Parser.Services
                         AddNumericFilterPredicateItemToBlockItems<HeightBlockItem>(block, trimmedLine);
                         break;
                     }
+
+                    //case "Sockets":
+                    //{
+                    //    AddNumericFilterPredicateItemToBlockItems<SocketsBlockItem>(block, trimmedLine);
+                    //    break;
+                    //}
+
                     case "SocketGroup":
                     {
                         AddStringListItemToBlockItems<SocketGroupBlockItem>(block, trimmedLine);
                         break;
                     }
+                    case "BaseArmour":
+                    {
+                        AddNumericFilterPredicateItemToBlockItems<BaseArmourBlockItem>(block, trimmedLine);
+                        break;
+                    }
+                    case "BaseDefencePercentile":
+                    {
+                        AddNumericFilterPredicateItemToBlockItems<BaseDefencePercentileBlockItem>(block, trimmedLine);
+                        break;
+                    }
+                    case "BaseEnergyShield":
+                    {
+                        AddNumericFilterPredicateItemToBlockItems<BaseEnergyShieldBlockItem>(block, trimmedLine);
+                        break;
+                    }
+                    case "BaseEvasion":
+                    {
+                        AddNumericFilterPredicateItemToBlockItems<BaseEvasionBlockItem>(block, trimmedLine);
+                        break;
+                        }
+                    case "BaseWard":
+                    {
+                        AddNumericFilterPredicateItemToBlockItems<BaseWardBlockItem>(block, trimmedLine);
+                        break;
+                    }
+                    case "EnchantmentPassiveNum":
+                    {
+                        AddNumericFilterPredicateItemToBlockItems<EnchantmentPassiveNumBlockItem>(block, trimmedLine);
+                        break;
+                    }
+                    case "Continue":
+                    {
+                        AddNilItemToBlockItems<ContinueBlockItem>(block, trimmedLine);
+                        break;
+                    }
+                    case "Minimal":
+                    {
+                        AddNilItemToBlockItems<MinimalBlockItem>(block, trimmedLine);
+                        break;
+                    }
+                    case "HasEaterOfWorldsImplicit":
+                    {
+                        AddNumericFilterPredicateItemToBlockItems<HasEaterOfWorldsImplicitBlockItem>(block, trimmedLine);
+                        break;
+                    }
+                    case "HasSearingExarchImplicit":
+                    {
+                         AddNumericFilterPredicateItemToBlockItems<HasSearingExarchImplicitBlockItem>(block, trimmedLine);
+                        break;
+                    }
+
+
+
+
+
+
+
                     case "SetTextColor":
                     {
                         // Only ever use the last SetTextColor item encountered as multiples aren't valid.
@@ -322,9 +489,26 @@ namespace Filtration.Parser.Services
                         AddNumericFilterPredicateItemToBlockItems<GemLevelBlockItem>(block, trimmedLine);
                         break;
                     }
+                    case "AlternateQuality":
+                    {
+                        AddBooleanItemToBlockItems<AlternateQualityBlockItem>(block, trimmedLine);
+                        break;
+                    }
+
+                    case "TransfiguredGem":
+                    {
+                        AddBooleanItemToBlockItems<TransfiguredGemBlockItem>(block, trimmedLine);
+                        break;
+                    }
+
                     case "StackSize":
                     {
                         AddNumericFilterPredicateItemToBlockItems<StackSizeBlockItem>(block, trimmedLine);
+                        break;
+                    }
+                    case "CorruptedMods":
+                    {
+                        AddNumericFilterPredicateItemToBlockItems<CorruptedModsBlockItem>(block, trimmedLine);
                         break;
                     }
                     case "HasExplicitMod":
@@ -335,11 +519,6 @@ namespace Filtration.Parser.Services
                     case "HasEnchantment":
                     {
                         AddStringListItemToBlockItems<HasEnchantmentBlockItem>(block, trimmedLine);
-                        break;
-                    }
-                    case "ElderMap":
-                    {
-                        AddBooleanItemToBlockItems<ElderMapBlockItem>(block, trimmedLine);
                         break;
                     }
                     case "DisableDropSound":
@@ -357,7 +536,7 @@ namespace Filtration.Parser.Services
 
                         // TODO: Get size, color, shape values programmatically
                         var match = Regex.Match(trimmedLine,
-                            @"\S+\s+(0|1|2)\s+(Red|Green|Blue|Brown|White|Yellow)\s+(Circle|Diamond|Hexagon|Square|Star|Triangle)\s*([#]?)(.*)",
+                            @"\S+\s+(0|1|2)\s+(Red|Green|Blue|Brown|White|Yellow|Cyan|Grey|Orange|Pink|Purple)\s+(Circle|Diamond|Hexagon|Square|Star|Triangle|Cross|Moon|Raindrop|Kite|Pentagon|UpsideDownHouse)\s*([#]?)(.*)",
                             RegexOptions.IgnoreCase);
 
                         if (match.Success)
@@ -380,7 +559,7 @@ namespace Filtration.Parser.Services
                         RemoveExistingBlockItemsOfType<PlayEffectBlockItem>(block);
 
                         // TODO: Get colors programmatically
-                        var match = Regex.Match(trimmedLine, @"\S+\s+(Red|Green|Blue|Brown|White|Yellow)\s*(Temp)?", RegexOptions.IgnoreCase);
+                        var match = Regex.Match(trimmedLine, @"\S+\s+(Red|Green|Blue|Brown|White|Yellow|Cyan|Grey|Orange|Pink|Purple)\s*(Temp)?", RegexOptions.IgnoreCase);
 
                         if (match.Success)
                         {
@@ -419,11 +598,21 @@ namespace Filtration.Parser.Services
                         AddNumericFilterPredicateItemToBlockItems<MapTierBlockItem>(block, trimmedLine);
                         break;
                     }
+                    case "WaystoneTier":
+                    {
+                        AddNumericFilterPredicateItemToBlockItems<WaystoneTierBlockItem>(block, trimmedLine);
+                        break;
+                    }
                     case "BlightedMap":
                     {
                         AddBooleanItemToBlockItems<BlightedMapBlockItem>(block, trimmedLine);
                         break;
                     }
+                    case "UberBlightedMap":
+                        {
+                            AddBooleanItemToBlockItems<UberBlightedMapBlockItem>(block, trimmedLine);
+                            break;
+                        }
                 }
 
                 if (!string.IsNullOrWhiteSpace(blockComment) && block.BlockItems.Count > 1)
@@ -509,6 +698,16 @@ namespace Filtration.Parser.Services
             return block;
         }
 
+        private void AddStringListItemToBlockItems<T>(string value)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void AddNumericFilterPredicateItemToBlockItems<T>(string value)
+        {
+            throw new NotImplementedException();
+        }
+
         private static void RemoveExistingBlockItemsOfType<T>(IItemFilterBlock block)
         {
             var existingBlockItemCount = block.BlockItems.Count(b => b.GetType() == typeof(T));
@@ -546,15 +745,61 @@ namespace Filtration.Parser.Services
             block.BlockItems.Add(blockItem);
         }
 
-        private static void SetNumericFilterPredicateFromString(NumericFilterPredicate predicate, string inputString)
-        {
-            var result = Regex.Match(inputString, @"^\w+\s+([><=]{0,2})\s*(\d{0,3})$");
-            if (result.Groups.Count != 3) return;
 
+
+
+         private static void SetNumericFilterPredicateFromString(NumericFilterPredicate predicate, string inputString)
+         {
+            // Удаляем кавычки (если они есть) перед парсингом
+            inputString = inputString.Replace("\"", "").Replace("'", "");
+
+            // Используем обновленное регулярное выражение
+            var result = Regex.Match(inputString, @"^\w+\s*(!=|[><=]{0,2})\s*(\d{0,4})([RGBADW]{0,6})$");
+
+            if (result.Groups.Count < 4) return; // Проверяем, что строка соответствует шаблону
+            
+            // Получаем оператор (по умолчанию "=")
+            string operatorValue = result.Groups[1].Value;
             predicate.PredicateOperator =
-                EnumHelper.GetEnumValueFromDescription<FilterPredicateOperator>(string.IsNullOrEmpty(result.Groups[1].Value) ? "=" : result.Groups[1].Value);
-            predicate.PredicateOperand = Convert.ToInt16(result.Groups[2].Value);
+            EnumHelper.GetEnumValueFromDescription<FilterPredicateOperator>(string.IsNullOrEmpty(operatorValue) ? "=" : operatorValue);
+
+            // Получаем операнд, если он существует (по умолчанию "0")
+            string operandValue = result.Groups[2].Value;
+            predicate.PredicateOperand = string.IsNullOrEmpty(operandValue) ? 0 : Convert.ToInt16(operandValue);
+
+            //string operandValue = result.Groups[2].Value;
+            //if (!string.IsNullOrEmpty(operandValue))
+            //{
+            //    predicate.PredicateOperand = Convert.ToInt16(operandValue);
+            //}
+
+            // Получаем строку с цветами сокетов
+            string socketColors = result.Groups[3].Value;
+
+            //// Распределяем цвета по свойствам
+            //RedSockets = 0;
+            //GreenSockets = 0;
+            //BlueSockets = 0;
+            //AbyssSockets = 0;
+            //DelveSockets = 0;
+            //WhiteSockets = 0;
+
+            //foreach (char color in socketColors)
+            //{
+            //    switch (color)
+            //    {
+            //        case 'R': RedSockets++; break;
+            //        case 'G': GreenSockets++; break;
+            //        case 'B': BlueSockets++; break;
+            //        case 'A': AbyssSockets++; break;
+            //        case 'D': DelveSockets++; break;
+            //        case 'W': WhiteSockets++; break;
+            //    }
+            //}
         }
+
+
+
 
         private static void AddStringListItemToBlockItems<T>(IItemFilterBlock block, string inputString) where T : StringListBlockItem
         {
@@ -565,6 +810,9 @@ namespace Filtration.Parser.Services
 
         private static void PopulateListFromString(ICollection<string> list, string inputString)
         {
+            // Удаляем кавычки (если они есть) перед парсингом
+            //inputString = Regex.Replace(inputString, @"(?<=\d|[<>]=?|!=?)[""'](?=\d|[<>]=?|!=?)", "");
+
             var result = Regex.Matches(inputString, @"[^\s""]+|""([^""]*)""");
             foreach (Match match in result)
             {
@@ -573,6 +821,19 @@ namespace Filtration.Parser.Services
                     : match.Groups[0].Value);
             }
         }
+
+
+        //private static void PopulateListFromString(ICollection<string> list, string inputString)
+        //{
+        //    var result = Regex.Matches(inputString, @"[^\s""]+|""([^""]*)""");
+        //    foreach (Match match in result)
+        //    {
+        //        list.Add(match.Groups[1].Success
+        //            ? match.Groups[1].Value
+        //            : match.Groups[0].Value);
+        //    }
+        //}
+
 
         public void ReplaceAudioVisualBlockItemsFromString(ObservableCollection<IItemFilterBlockItem> blockItems, string inputString)
         {
@@ -691,7 +952,7 @@ namespace Filtration.Parser.Services
                     {
                         // TODO: Get size, color, shape values programmatically
                         var match = Regex.Match(trimmedLine,
-                            @"\S+\s+(0|1|2)\s+(Red|Green|Blue|Brown|White|Yellow)\s+(Circle|Diamond|Hexagon|Square|Star|Triangle)\s*([#]?)(.*)",
+                            @"\S+\s+(0|1|2)\s+(Red|Green|Blue|Brown|White|Yellow|Cyan|Grey|Orange|Pink|Purple)\s+(Circle|Diamond|Hexagon|Square|Star|Triangle|Cross|Moon|Raindrop|Kite|Pentagon|UpsideDownHouse)\s*([#]?)(.*)",
                             RegexOptions.IgnoreCase);
 
                         if (match.Success)
@@ -710,7 +971,7 @@ namespace Filtration.Parser.Services
                     case "PlayEffect":
                     {
                         // TODO: Get colors programmatically
-                        var match = Regex.Match(trimmedLine, @"\S+\s+(Red|Green|Blue|Brown|White|Yellow)\s*(Temp)?", RegexOptions.IgnoreCase);
+                        var match = Regex.Match(trimmedLine, @"\S+\s+(Red|Green|Blue|Brown|White|Yellow|Cyan|Grey|Orange|Pink|Purple)\s*(Temp)?", RegexOptions.IgnoreCase);
 
                         if (match.Success)
                         {

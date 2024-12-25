@@ -9,7 +9,7 @@ namespace Filtration.ObjectModel.BlockItemTypes
     {
         public override string PrefixText => "BaseType";
         public override int MaximumAllowed => 1;
-        public override string DisplayHeading => "Base Type";
+        public override string DisplayHeading => "BaseType";
 
         public override string SummaryText
         {

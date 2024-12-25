@@ -15,9 +15,9 @@ namespace Filtration.ObjectModel.BlockItemTypes
         }
 
         public override string PrefixText => "FracturedItem";
-        public override string DisplayHeading => "Fractured Item";
-        public override Color SummaryBackgroundColor => Colors.Salmon;
-        public override Color SummaryTextColor => Colors.Black;
+        public override string DisplayHeading => "FracturedItem";
+        public override Color SummaryBackgroundColor => Colors.DarkCyan;
+        public override Color SummaryTextColor => Colors.White;
         public override BlockItemOrdering SortOrder => BlockItemOrdering.FracturedItem;
     }
 }

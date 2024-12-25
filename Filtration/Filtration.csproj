@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <!--<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />-->
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -15,6 +15,21 @@
     <WarningLevel>4</WarningLevel>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -25,6 +40,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,6 +50,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>Filtration.App</StartupObject>
@@ -95,6 +112,7 @@
     <Compile Include="Converters\BlockItemToRemoveEnabledVisibilityConverter.cs" />
     <Compile Include="Converters\DisabledDefaultSoundConverter.cs" />
     <Compile Include="Converters\DisabledDefaultSoundTooltipConverter.cs" />
+    <Compile Include="Converters\GemQualityTypeConverter.cs" />
     <Compile Include="Converters\MinimapIconToCroppedBitmapConverter.cs" />
     <Compile Include="Converters\HashSignRemovalConverter.cs" />
     <Compile Include="Converters\ItemRarityConverter.cs" />
@@ -167,22 +185,6 @@
     <Compile Include="Views\SettingsPageView.xaml.cs">
       <DependentUpon>SettingsPageView.xaml</DependentUpon>
     </Compile>
-    <Page Include="UserControls\BlockItemControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UserControls\EnableDisableToggleButton.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UserControls\ThemeComponentSelectionControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\Styles\ListBoxItem.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Compile Include="Views\ToolPanes\BlockGroupBrowserView.xaml.cs">
       <DependentUpon>BlockGroupBrowserView.xaml</DependentUpon>
     </Compile>
@@ -226,6 +228,31 @@
     <Compile Include="WindsorInstallers\ServicesInstaller.cs" />
     <Compile Include="WindsorInstallers\ViewModelsInstaller.cs" />
     <Compile Include="WindsorInstallers\ViewsInstaller.cs" />
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewModels\MainWindowViewModel.cs" />
+    <Compile Include="Views\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="UserControls\BlockItemControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\EnableDisableToggleButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\ThemeComponentSelectionControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Styles\ListBoxItem.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="UserControls\ItemPreviewControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -298,15 +325,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="ViewModels\MainWindowViewModel.cs" />
-    <Compile Include="Views\MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
     <Page Include="UserControls\NumericFilterPredicateControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -346,19 +364,21 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Resource Include="Resources\EnchantmentPassiveNode.txt" />
+    <EmbeddedResource Include="Resources\InfluenceTypes.txt" />
     <EmbeddedResource Include="Resources\Enchantments.txt" />
-    <Resource Include="Resources\Icons\no_sound_dds_light.png" />
-    <Resource Include="Resources\Icons\no_sound_dds.png" />
-    <Resource Include="Resources\Icons\speaker_icon.png" />
-    <Resource Include="Resources\Icons\sound_dds.png" />
-    <EmbeddedResource Include="Resources\Prophecies.txt" />
     <EmbeddedResource Include="Resources\ItemMods.txt" />
-    <Resource Include="Resources\loading_spinner.gif" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <Resource Include="Resources\Icons\no_sound_dds_light.png" />
+    <Resource Include="Resources\Icons\no_sound_dds.png" />
+    <Resource Include="Resources\Icons\speaker_icon.png" />
+    <Resource Include="Resources\Icons\sound_dds.png" />
+    <Resource Include="Resources\loading_spinner.gif" />
+    <Resource Include="Resources\Fontin-SmallCaps.ttf" />
     <Content Include="LICENSE.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -366,16 +386,19 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </Content>
-    <None Include="Filtration.nuspec" />
+    <None Include="Filtration.nuspec">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
-    <Resource Include="Resources\Fontin-SmallCaps.ttf" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\groundtile.png" />
@@ -543,45 +566,43 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="AutoMapper">
-      <Version>8.0.0</Version>
+      <Version>9.0.0</Version>
     </PackageReference>
     <PackageReference Include="Castle.Core">
-      <Version>4.4.0</Version>
+      <Version>4.4.1</Version>
     </PackageReference>
     <PackageReference Include="Castle.Windsor">
-      <Version>5.0.0</Version>
+      <Version>5.0.1</Version>
     </PackageReference>
     <PackageReference Include="CommonServiceLocator">
-      <Version>2.0.4</Version>
+      <Version>2.0.5</Version>
     </PackageReference>
     <PackageReference Include="DynamicData">
-      <Version>6.8.0.2561</Version>
+      <Version>6.15.1</Version>
     </PackageReference>
     <PackageReference Include="Extended.Wpf.Toolkit">
-      <Version>3.5.0</Version>
+      <Version>3.8.1</Version>
     </PackageReference>
     <PackageReference Include="Fluent.Ribbon">
-      <Version>6.1.0.326</Version>
+      <Version>7.1.0</Version>
     </PackageReference>
     <PackageReference Include="MahApps.Metro">
-      <Version>1.2.4</Version>
+      <Version>2.0.1</Version>
     </PackageReference>
     <PackageReference Include="MvvmLightLibs">
       <Version>5.4.1.1</Version>
     </PackageReference>
-    <PackageReference Include="NLog">
-      <Version>4.6.2</Version>
-    </PackageReference>
+    <PackageReference Include="NLog" Version="4.7.2" />
     <PackageReference Include="NLog.Schema">
-      <Version>4.6.2</Version>
+      <Version>4.7.2</Version>
     </PackageReference>
     <PackageReference Include="NuGet.CommandLine">
-      <Version>4.7.1</Version>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <Version>5.5.1</Version>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="squirrel.windows">
-      <Version>1.9.0</Version>
+      <Version>1.9.1</Version>
     </PackageReference>
     <PackageReference Include="WindowsAPICodePack-Core">
       <Version>1.1.2</Version>
@@ -590,13 +611,12 @@
       <Version>1.1.1</Version>
     </PackageReference>
     <PackageReference Include="WpfAnimatedGif">
-      <Version>1.4.18</Version>
+      <Version>2.0.0</Version>
     </PackageReference>
     <PackageReference Include="WPFToolkit">
       <Version>3.5.50211.1</Version>
     </PackageReference>
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="AfterBuild" Condition=" '$(Configuration)' == 'Releasify'">
     <GetAssemblyIdentity AssemblyFiles="$(TargetPath)">
       <Output TaskParameter="Assemblies" ItemName="myAssemblyInfo" />
@@ -605,25 +625,20 @@
       <Output TaskParameter="Lines" ItemName="ItemsFromFile" />
     </ReadLinesFromFile>
     <ItemGroup>
-      <!-- If your .NET version is <3.5 and you get build error, move this ItemGroup outside of Target -->
       <NuGetExe Include="$(UserProfile)\.nuget\packages\NuGet.CommandLine\4.7.1\tools\nuget.exe" />
       <SquirrelExe Include="$(UserProfile)\.nuget\packages\Squirrel.Windows\1.9.0\tools\squirrel.exe" />
     </ItemGroup>
     <PropertyGroup>
       <ReleaseDir>..\Releases\</ReleaseDir>
-      <!-- Extra optional params for squirrel. can be empty -->
       <SquirrelParams>--no-msi</SquirrelParams>
       <Pattern>(?&lt;=\[assembly: AssemblyInformationalVersion\(").*?(?="\)\])</Pattern>
       <In>@(ItemsFromFile)</In>
       <SemVerNumber>$([System.Text.RegularExpressions.Regex]::Match($(In), $(Pattern)))</SemVerNumber>
-      <!-- <SemVerNumber>$([System.Version]::Parse(%(myAssemblyInfo.Version)).ToString(3))</SemVerNumber> -->
     </PropertyGroup>
-    <!-- Add some nice errors for the next person that comes along -->
     <Error Condition="!Exists(%(NuGetExe.FullPath))" Text="You are trying to use the NuGet.CommandLine package, but it is not installed. Please install NuGet.CommandLine from the Package Manager." />
     <Error Condition="!Exists(%(SquirrelExe.FullPath))" Text="You are trying to use the Squirrel.Windows package, but it is not installed. Please install Squirrel.Windows from the Package Manager." />
-    <!-- Build nupkg into the project local bin\Release\ directory temporarily -->
     <Exec Command="&quot;%(NuGetExe.FullPath)&quot; pack $(TargetName).nuspec -Version $(SemVerNumber) -OutputDirectory $(OutDir) -BasePath $(OutDir)" />
-    <!-- Squirrelify into the release dir (usually at solution level. Change the property above for a different location -->
     <Exec Command="&quot;%(SquirrelExe.FullPath)&quot; --releasify $(OutDir)Filtration.$(SemVerNumber).nupkg --releaseDir=$(ReleaseDir) $(SquirrelParams)" />
   </Target>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

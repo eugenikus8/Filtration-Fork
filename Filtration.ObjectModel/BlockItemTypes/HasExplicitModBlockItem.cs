@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Windows.Media;
 using Filtration.ObjectModel.BlockItemBaseTypes;
 using Filtration.ObjectModel.Enums;
@@ -9,7 +10,7 @@ namespace Filtration.ObjectModel.BlockItemTypes
     {
         public override string PrefixText => "HasExplicitMod";
         public override int MaximumAllowed => 8;
-        public override string DisplayHeading => "Has Explicit Mod";
+        public override string DisplayHeading => "ExplicitMod";
 
         public override string SummaryText
         {
@@ -35,5 +36,27 @@ namespace Filtration.ObjectModel.BlockItemTypes
         public override Color SummaryBackgroundColor => Colors.MidnightBlue;
         public override Color SummaryTextColor => Colors.White;
         public override BlockItemOrdering SortOrder => BlockItemOrdering.HasExplicitMod;
+
+        public override string OutputText => base.OutputText;
+
+        public override bool Equals(object obj)
+        {
+            return base.Equals(obj);
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
+        public override string ToString()
+        {
+            return base.ToString();
+        }
+
+        protected override void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            base.OnPropertyChanged(propertyName);
+        }
     }
 }

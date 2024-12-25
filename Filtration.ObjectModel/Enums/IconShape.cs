@@ -21,6 +21,18 @@ namespace Filtration.ObjectModel.Enums
         [Description("Star")]
         Star,
         [Description("Triangle")]
-        Triangle
+        Triangle,
+        [Description("Cross")]
+        Cross,
+        [Description("Moon")]
+        Moon,
+        [Description("Raindrop")]
+        Raindrop,
+        [Description("Kite")]
+        Kite,
+        [Description("Pentagon")]
+        Pentagon,
+        [Description("UpsideDownHouse")]
+        UpsideDownHouse
     }
 }

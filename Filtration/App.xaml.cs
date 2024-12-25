@@ -15,6 +15,7 @@ namespace Filtration
     public partial class App
     {
         private IWindsorContainer _container;
+        private MapperConfiguration mapper;
 
         private async void Application_Startup(object sender, StartupEventArgs e)
         {
@@ -31,8 +32,7 @@ namespace Filtration
             _container.AddFacility<TypedFactoryFacility>();
             _container.Install(FromAssembly.InThisApplication());
             _container.Install(FromAssembly.Named("Filtration.Parser")); // Not directly referenced so manually call its installers
-
-            Mapper.Initialize(cfg =>
+            mapper = new MapperConfiguration(cfg =>
             {
                 cfg.ConstructServicesUsing(_container.Resolve);
                 cfg.CreateMap<Theme, IThemeEditorViewModel>().ConstructUsingServiceLocator();
@@ -46,7 +46,7 @@ namespace Filtration
                 cfg.CreateMap<ThemeEditorViewModel, Theme>();
             });
 
-            Mapper.AssertConfigurationIsValid();
+            mapper.AssertConfigurationIsValid();
             
             var bootstrapper = _container.Resolve<IBootstrapper>();
             await bootstrapper.GoAsync();

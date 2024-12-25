@@ -5,6 +5,7 @@ using System.Windows;
 using System.Windows.Data;
 using System.Windows.Media.Imaging;
 using Filtration.ObjectModel.Enums;
+using System.Windows.Media;
 
 namespace Filtration.Converters
 {
@@ -12,15 +13,13 @@ namespace Filtration.Converters
 	{
 		private static readonly int cellHeight = 64;
 		private static readonly int cellWidth = 64;
-		private static readonly int gridWidth = 14;
-		private static readonly int startColumn = 4;
-		private static readonly int startRow = 3;
-		private static readonly int emptyColumn = 2;
-		private static readonly int emptyRow = 11;
-		private static readonly int colorCount = 6;
-		private static readonly int shapeCount = 6;
-		private static readonly int sizeCount = 3;
-
+		private static readonly int emptyColumn = 11;
+		private static readonly int emptyRow = 1;
+		private static readonly int colorCount = Enum.GetNames(typeof(IconColor)).Length;
+		private static readonly int shapeCount = Enum.GetNames(typeof(IconShape)).Length;
+		private static readonly float sizeSmall = 0.4f;
+		private static readonly float sizeMedium = 0.5f;
+		private static readonly float sizeLarge = 0.6f;
 		private static readonly Uri uri;
 		private static readonly CroppedBitmap empty;
 		private static readonly List<CroppedBitmap> bitmaps;
@@ -39,29 +38,19 @@ namespace Filtration.Converters
 			};
 			
 			empty = new CroppedBitmap(new BitmapImage(uri), emptyRect);
-			bitmaps = new List<CroppedBitmap>(shapeCount * colorCount * sizeCount);
+			bitmaps = new List<CroppedBitmap>(shapeCount * colorCount);
 
-			var row = startRow;
-			var column = startColumn;
 			for (var i = 0; i < shapeCount; i++) {
-				for (var j = 0; j < colorCount; j++) {
-					for (var k = 0; k < sizeCount; k++) {
-						if (column == gridWidth) {
-							column = 0;
-							row++;
-						}
+				for (var j = 0; j < colorCount; j++) {				
+					var bitmapRect = new Int32Rect
+					{
+						Width = cellWidth,
+						Height = cellHeight,
+						X = j * cellWidth,
+						Y = i * cellHeight
+					};
 
-						var bitmapRect = new Int32Rect
-						{
-							Width = cellWidth,
-							Height = cellHeight,
-							X = column * cellWidth,
-							Y = row * cellHeight
-						};
-
-						bitmaps.Add(new CroppedBitmap(sourceImage, bitmapRect));
-						column++;
-					}
+					bitmaps.Add(new CroppedBitmap(sourceImage, bitmapRect));					
 				}
 			}
 		}
@@ -86,9 +75,8 @@ namespace Filtration.Converters
 				return empty;
 			}
 
-			var shapeOffset = iconShape * (sizeCount * colorCount);
-			var colorOffset = iconColor * sizeCount;
-			var iconIndex = shapeOffset + colorOffset + iconSize;
+			var shapeOffset = iconShape * colorCount;
+			var iconIndex = shapeOffset + iconColor;
 
 			if (iconIndex >= bitmaps.Count)
 			{
@@ -96,7 +84,20 @@ namespace Filtration.Converters
 			}
 			else
 			{
-				return bitmaps[iconIndex];
+				float size = 0;
+				switch(iconSize) {
+					case (int)IconSize.Small: 
+						size = sizeSmall;
+						break;
+					case (int)IconSize.Medium: 
+						size = sizeMedium;
+						break;
+					case (int)IconSize.Largest: 
+						size = sizeLarge;
+						break;
+				}
+				                 
+				return new TransformedBitmap(bitmaps[iconIndex], new ScaleTransform(size, size));
 			}
 		}
 

@@ -73,20 +73,21 @@
                     <xctk:ShortUpDown Value="{Binding Value}" />
                 </DataTemplate>
 
-                <!-- String Integer Theme Template -->
+                <!-- String Integer Theme Template (Alert sound theme component) -->
                 <DataTemplate  DataType="{x:Type themeEditor:StrIntThemeComponent}">
                     <Grid>
+                        <!--TODO: Add play sound support-->
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*" />
                             <ColumnDefinition Width="Auto" />
                         </Grid.ColumnDefinitions>
-                        <TextBox Grid.Column="0" Text="{Binding Value}" Height="25" Padding="2,-15,0,0" />
+                        <TextBox Grid.Column="0" Text="{Binding Value}" Height="25" Padding="2,2,0,0" />
                         <xctk:ShortUpDown Grid.Column="1" Value="{Binding SecondValue}" HorizontalAlignment="Right"/>
                     </Grid>
                 </DataTemplate>
 
                 <!--TODO:File block type and string block type should be separate-->
-                <!-- Custom Sound Theme Template -->
+                <!-- Custom Alert Sound Theme Component Template -->
                 <DataTemplate DataType="{x:Type themeEditor:StringThemeComponent}">
                     <Grid>
                         <!--TODO: Add play sound support-->
@@ -94,7 +95,7 @@
                             <Image Source="/Filtration.ThemeEditor;component/Resources/speaker_icon.png"  VerticalAlignment="Center" HorizontalAlignment="Center" />
                         </Button>-->
                         <ComboBox ItemsSource="{Binding CustomSoundsAvailable}" 
-                                      SelectedValue="{Binding Value}" Style="{StaticResource MetroComboBox}"/>
+                                      SelectedValue="{Binding Value}" Style="{StaticResource MahApps.Styles.ComboBox}"/>
                         <Button Command="{Binding CustomSoundFileDialogCommand}"
                                     Width="20" Height="20" Background="Transparent" BorderBrush="Transparent" Margin="0,0,30,0" VerticalAlignment="Center" HorizontalAlignment="Right">
                             <Image Source="/Filtration.ThemeEditor;component/Resources/open_icon.png"/>
@@ -105,15 +106,15 @@
                  <!--Icon Theme Template--> 
                 <DataTemplate  DataType="{x:Type themeEditor:IconThemeComponent}">
                     <StackPanel Orientation="Vertical" Margin="5,5,5,5">
-                        <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:IconSize}}}" Style="{StaticResource MetroComboBox}"
+                        <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:IconSize}}}" Style="{StaticResource MahApps.Styles.ComboBox}"
                                                               DisplayMemberPath="Description"
                                                               SelectedValue="{Binding IconSize}"
                                                               SelectedValuePath="Value" />
-                        <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:IconColor}}}" Style="{StaticResource MetroComboBox}"
+                        <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:IconColor}}}" Style="{StaticResource MahApps.Styles.ComboBox}"
                                                               DisplayMemberPath="Description"
                                                               SelectedValue="{Binding IconColor}"
                                                               SelectedValuePath="Value" />
-                        <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:IconShape}}}" Style="{StaticResource MetroComboBox}"
+                        <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:IconShape}}}" Style="{StaticResource MahApps.Styles.ComboBox}"
                                                               DisplayMemberPath="Description"
                                                               SelectedValue="{Binding IconShape}"
                                                               SelectedValuePath="Value" />
@@ -127,7 +128,7 @@
                             <RadioButton IsChecked="{Binding Temporary, Converter={StaticResource BoolInverterConverter}}" Margin="0,0,10,0">Permanent</RadioButton>
                             <RadioButton IsChecked="{Binding Temporary}" >Temporary</RadioButton>
                         </WrapPanel>
-                        <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:EffectColor}}}" Style="{StaticResource MetroComboBox}"
+                        <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:EffectColor}}}" Style="{StaticResource MahApps.Styles.ComboBox}"
                                                               DisplayMemberPath="Description"
                                                               SelectedValue="{Binding EffectColor}"
                                                               SelectedValuePath="Value" />

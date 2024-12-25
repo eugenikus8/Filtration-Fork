@@ -17,7 +17,7 @@ namespace Filtration.ObjectModel.BlockItemTypes
 
         public override string PrefixText => "DropLevel";
         public override int MaximumAllowed => 2;
-        public override string DisplayHeading => "Drop Level";
+        public override string DisplayHeading => "DropLevel";
         public override string SummaryText => "Drop Level " + FilterPredicate;
         public override Color SummaryBackgroundColor => Colors.DodgerBlue;
         public override Color SummaryTextColor => Colors.White;

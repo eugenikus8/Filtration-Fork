@@ -16,19 +16,19 @@
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="300"></ColumnDefinition>
+            <ColumnDefinition Width="370"></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid >
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="80"></ColumnDefinition>
+                <ColumnDefinition Width="65"></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
-            <Image Source="/Filtration;component/Resources/logo.png" Width="75" Height="75" VerticalAlignment="Top" />
+            <Image Source="/Filtration;component/Resources/logo.png" Width="55" Height="55" VerticalAlignment="Top" />
             <StackPanel Grid.Row="0" Grid.Column="1">
                 <TextBlock FontWeight="Black">Filtration</TextBlock>
                 <TextBlock Text="{Binding Version}" />
@@ -37,6 +37,11 @@
                 <TextBlock>
                     <Hyperlink NavigateUri="https://github.com/ben-wallis/Filtration/" extensions:HyperlinkExtensions.IsExternal="True">https://github.com/ben-wallis/Filtration/</Hyperlink>
                     <LineBreak />
+                </TextBlock>
+                <TextBlock FontWeight="Bold">Current support</TextBlock>
+                <TextBlock TextWrapping="Wrap">eugenikus8</TextBlock>
+                <TextBlock>
+                    <Hyperlink NavigateUri="https://github.com/eugenikus8/Filtration-POE-Fork/releases" extensions:HyperlinkExtensions.IsExternal="True">https://github.com/eugenikus8/Filtration-POE-Fork/releases</Hyperlink> <LineBreak />
                 </TextBlock>
             </StackPanel>
             <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" TextWrapping="Wrap" Margin="0,0,20,0">

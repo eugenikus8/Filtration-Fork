@@ -17,9 +17,9 @@ namespace Filtration.ObjectModel.BlockItemTypes
 
         public override string PrefixText => "GemLevel";
         public override int MaximumAllowed => 2;
-        public override string DisplayHeading => "Gem Level";
+        public override string DisplayHeading => "GemLevel";
         public override string SummaryText => "Gem Level " + FilterPredicate;
-        public override Color SummaryBackgroundColor => Colors.DarkSlateGray;
+        public override Color SummaryBackgroundColor => Colors.OliveDrab;
         public override Color SummaryTextColor => Colors.White;
         public override BlockItemOrdering SortOrder => BlockItemOrdering.GemLevel;
         public override int Minimum => 0;

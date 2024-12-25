@@ -46,6 +46,9 @@ namespace Filtration.ViewModels.DesignTime
                                   };
 
             itemFilterBlock.BlockItems.Add(new RarityBlockItem(FilterPredicateOperator.Equal, ItemRarity.Rare));
+      
+            itemFilterBlock.BlockItems.Add(new GemQualityTypeBlockItem(FilterPredicateOperator.Equal, GemQualityType.Anomalous));
+
             itemFilterBlock.BlockItems.Add(new DropLevelBlockItem(FilterPredicateOperator.GreaterThan, 23));
             itemFilterBlock.BlockItems.Add(new BaseTypeBlockItem());
             itemFilterBlock.BlockItems.Add(new BaseTypeBlockItem());
@@ -112,36 +115,58 @@ namespace Filtration.ViewModels.DesignTime
         public IEnumerable<string> AutoCompleteItemClasses { get; }
         public IEnumerable<string> AutoCompleteItemBaseTypes { get; }
         public IEnumerable<string> AutoCompleteProphecies { get; }
+        public IEnumerable<string> AutoCompleteEnchantmentPassiveNode { get; }
         public IEnumerable<string> AutocompleteItemMods { get; }
         public List<Type> BlockItemTypesAvailable => new List<Type>
                                                      {
-                                                         typeof (ItemLevelBlockItem),
-                                                         typeof (DropLevelBlockItem),
-                                                         typeof (QualityBlockItem),
-                                                         typeof (RarityBlockItem),
-                                                         typeof (SocketsBlockItem),
-                                                         typeof (LinkedSocketsBlockItem),
-                                                         typeof (WidthBlockItem),
-                                                         typeof (HeightBlockItem),
-                                                         typeof (SocketGroupBlockItem),
-                                                         typeof (ClassBlockItem),
-                                                         typeof (BaseTypeBlockItem),
-                                                         typeof (ProphecyBlockItem),
+                                                         typeof (MinimalBlockItem),
                                                          typeof (IdentifiedBlockItem),
                                                          typeof (CorruptedBlockItem),
-                                                         typeof (ElderItemBlockItem),
-                                                         typeof (ShaperItemBlockItem),
+                                                         typeof (CorruptedModsBlockItem),
+                                                         typeof (HasCruciblePassiveTreeBlockItem),
+                                                         typeof (MirroredBlockItem),
+                                                         typeof (ReplicaBlockItem),
+                                                         typeof (ScourgedBlockItem),
+                                                         typeof (AreaLevelBlockItem),
+                                                         typeof (DropLevelBlockItem),
+                                                         typeof (ItemLevelBlockItem),
+                                                         typeof (RarityBlockItem),
+                                                         typeof (ClassBlockItem),
+                                                         typeof (BaseTypeBlockItem),
+                                                         typeof (QualityBlockItem),
+                                                         typeof (LinkedSocketsBlockItem),
+                                                         typeof (SocketsBlockItem),
+                                                         typeof (SocketGroupBlockItem),
+                                                         typeof (HeightBlockItem),
+                                                         typeof (WidthBlockItem),
                                                          typeof (SynthesisedItemBlockItem),
                                                          typeof (FracturedItemBlockItem),
                                                          typeof (AnyEnchantmentBlockItem),
                                                          typeof (MapTierBlockItem),
-                                                         typeof (ShapedMapBlockItem),
-                                                         typeof (ElderMapBlockItem),
+                                                         typeof (WaystoneTierBlockItem),
                                                          typeof (BlightedMapBlockItem),
+                                                         typeof (UberBlightedMapBlockItem),
                                                          typeof (GemLevelBlockItem),
+                                                         typeof (AlternateQualityBlockItem),
+                                                         typeof (TransfiguredGemBlockItem),
+
+                                                         ///typeof (GemQualityTypeBlockItem),
+
                                                          typeof (StackSizeBlockItem),
+                                                         typeof (HasImplicitModBlockItem),
                                                          typeof (HasExplicitModBlockItem),
+                                                         typeof (HasEaterOfWorldsImplicitBlockItem),
+                                                         typeof (HasSearingExarchImplicitBlockItem),
                                                          typeof (HasEnchantmentBlockItem),
+                                                         typeof (EnchantmentPassiveNumBlockItem),
+                                                         typeof (EnchantmentPassiveNodeBlockItem),
+                                                         typeof (HasInfluenceBlockItem),
+                                                         typeof (BaseDefencePercentileBlockItem),
+                                                         typeof (BaseArmourBlockItem),
+                                                         typeof (BaseEvasionBlockItem),
+                                                         typeof (BaseEnergyShieldBlockItem),
+                                                         typeof (BaseWardBlockItem),
+                                                         typeof (ContinueBlockItem),
                                                      };
         public List<Type> AudioVisualBlockItemTypesAvailable { get; }
         public Color DisplayTextColor => Colors.Red;

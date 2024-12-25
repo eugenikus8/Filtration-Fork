@@ -50,16 +50,16 @@
 
                     <!-- NumericFilterPredicate Template -->
                     <DataTemplate DataType="{x:Type blockItemBaseTypes:NumericFilterPredicateBlockItem}">
-                        <userControls:NumericFilterPredicateControl Margin="5,5,5,5" NumericFilterPredicate="{Binding FilterPredicate}" Minimum="{Binding Minimum, Mode=OneTime}" Maximum="{Binding Maximum, Mode=OneTime}" />
+                        <userControls:NumericFilterPredicateControl Margin="1,1,1,1" NumericFilterPredicate="{Binding FilterPredicate}" Minimum="{Binding Minimum, Mode=OneTime}" Maximum="{Binding Maximum, Mode=OneTime}" />
                     </DataTemplate>
 
                     <!-- Rarity Template -->
                     <DataTemplate DataType="{x:Type blockItemTypes:RarityBlockItem}">
-                        <StackPanel Orientation="Horizontal" Margin="5,5,5,5">
+                        <StackPanel Orientation="Horizontal" Margin="1,1,1,1">
                             <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:FilterPredicateOperator}}}"
                                                               DisplayMemberPath="Description"
                                                               SelectedValue="{Binding FilterPredicate.PredicateOperator}"
-                                                              SelectedValuePath="Value" Width="50" Margin="0,0,6,0"  />
+                                                              SelectedValuePath="Value" Width="50" Margin="0,0,4,0"  />
                             <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:ItemRarity}}}"
                                                               DisplayMemberPath="Description"
                                                               SelectedValue="{Binding FilterPredicate.PredicateOperand, Converter={StaticResource IntToItemRarityConverter}}"
@@ -67,35 +67,188 @@
                         </StackPanel>
                     </DataTemplate>
 
-                    <!-- Class Template -->
+
+                    <!-- Not Used (hide) -->
+                    <!-- GemQualityType Template -->
+                    <DataTemplate DataType="{x:Type blockItemTypes:GemQualityTypeBlockItem}">
+                        <StackPanel Orientation="Horizontal" Margin="1,1,1,1">
+                            <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:FilterPredicateOperator}}}"
+                                                              DisplayMemberPath="Description"
+                                                              SelectedValue="{Binding FilterPredicate.PredicateOperator}"
+                                                              SelectedValuePath="Value" Width="50" Margin="0,0,4,0"  />
+                            <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:GemQualityType}}}"
+                                                              DisplayMemberPath="Description"
+                                                              SelectedValue="{Binding FilterPredicate.PredicateOperand, Converter={StaticResource IntToGemQualityTypeConverter}}"
+                                                              SelectedValuePath="Value" />
+                        </StackPanel>
+                    </DataTemplate>
+
+
+                    <!-- Class Template --><!--
                     <DataTemplate DataType="{x:Type blockItemTypes:ClassBlockItem}">
                         <userControls:EditableListBoxControl Margin="5,5,5,5" ItemsSource="{Binding Items}" AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutoCompleteItemClasses}" />
-                    </DataTemplate>
+                    </DataTemplate>-->
 
-                    <!-- Base Type Template -->
+                    <!-- Base Type Template --><!--
                     <DataTemplate DataType="{x:Type blockItemTypes:BaseTypeBlockItem}">
                         <userControls:EditableListBoxControl Margin="5,5,5,5" ItemsSource="{Binding Items}" AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutoCompleteItemBaseTypes}" />
-                    </DataTemplate>
+                    </DataTemplate>-->
 
-                    <!-- Prophecy Template -->
-                    <DataTemplate DataType="{x:Type blockItemTypes:ProphecyBlockItem}">
-                        <userControls:EditableListBoxControl Margin="5,5,5,5" ItemsSource="{Binding Items}" AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutoCompleteProphecies}" />
-                    </DataTemplate>
-
-                    <!-- Explicit Mods Template -->
+                    <!-- Explicit Mods Template --><!--
                     <DataTemplate DataType="{x:Type blockItemTypes:HasExplicitModBlockItem}">
                         <userControls:EditableListBoxControl Margin="5,5,5,5" ItemsSource="{Binding Items}" AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutocompleteItemMods}" />
-                    </DataTemplate>
+                    </DataTemplate>-->
 
                     <!-- Enchantments Template -->
                     <DataTemplate DataType="{x:Type blockItemTypes:HasEnchantmentBlockItem}">
                         <userControls:EditableListBoxControl Margin="5,5,5,5" ItemsSource="{Binding Items}" AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutocompleteEnchantments}" />
                     </DataTemplate>
 
+                    <!-- Influence Template -->
+                    <DataTemplate DataType="{x:Type blockItemTypes:HasInfluenceBlockItem}">
+                        <userControls:EditableListBoxControl Margin="5,5,5,5" ItemsSource="{Binding Items}" AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutocompleteInfluenceTypes}" />
+                    </DataTemplate>
+
+                    <!-- Cluster Jewel Node Template -->
+                    <DataTemplate DataType="{x:Type blockItemTypes:EnchantmentPassiveNodeBlockItem}">
+                        <userControls:EditableListBoxControl Margin="5,5,5,5" ItemsSource="{Binding Items}" AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutocompleteEnchantmentPassiveNode}" />
+                    </DataTemplate>
+          
                     <!-- Socket Groups Template -->
                     <DataTemplate DataType="{x:Type blockItemTypes:SocketGroupBlockItem}">
                         <userControls:EditableListBoxControl Margin="5,5,5,5" ItemsSource="{Binding Items}" />
                     </DataTemplate>
+
+
+
+                            <!--left  up  right  down-->
+                    <!--Margin=  "2,  0,   2,     5">-->
+
+
+                    <!--Class Template-->
+                    <DataTemplate DataType="{x:Type blockItemTypes:ClassBlockItem}">
+                        <StackPanel Margin="2,0,2,0"  Height="155">
+                            <!--Оператор-->
+                            <StackPanel Orientation="Horizontal" Margin="0,0,0,2">
+                                <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:FilterPredicateOperator}}}"
+                                    SelectedValue="{Binding PredicateOperator, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                    DisplayMemberPath="Description" SelectedValuePath="Value" Width="50" Margin="0,0,4,0" />
+                            <!--Операнд-->
+                                <xctk:ShortUpDown Value="{Binding PredicateOperand, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                    Minimum="{Binding Minimum}" Maximum="{Binding Maximum}" Margin="0,0,5,0" />
+                                <!--WIP (TEMP)-->
+                                <TextBlock Text="[Panel WIP]" VerticalAlignment="Center" Margin="0,0,0,0" />
+                            </StackPanel>
+                            <StackPanel>
+                            <!--Список элементов-->
+                            <userControls:EditableListBoxControl Margin="0,0,0,0"
+                                Height="195"
+                                ItemsSource="{Binding Items}"
+                                AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutoCompleteItemClasses}" />
+                            </StackPanel>
+                        </StackPanel>
+                    </DataTemplate>
+
+
+                    <!--Base Type Template-->
+                    <DataTemplate DataType="{x:Type blockItemTypes:BaseTypeBlockItem}">
+                        <StackPanel Margin="2,0,2,0"  Height="155">
+                            <!--Оператор-->
+                            <StackPanel Orientation="Horizontal" Margin="0,0,0,2">
+                                <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:FilterPredicateOperator}}}"
+                                    SelectedValue="{Binding PredicateOperator, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                    DisplayMemberPath="Description" SelectedValuePath="Value" Width="50" Margin="0,0,4,0" />
+                                <!--Операнд-->
+                                <xctk:ShortUpDown Value="{Binding PredicateOperand, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                    Minimum="{Binding Minimum}" Maximum="{Binding Maximum}" Margin="0,0,5,0" />
+                                <!--WIP (TEMP)-->
+                                <TextBlock Text="[Panel WIP]" VerticalAlignment="Center" Margin="0,0,0,0" />
+                            </StackPanel>
+                            <StackPanel>
+                                <!--Список элементов-->
+                                <userControls:EditableListBoxControl Margin="0,0,0,0"
+                                    Height="195"
+                                    ItemsSource="{Binding Items}"
+                                    AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutoCompleteItemBaseTypes}" />
+                            </StackPanel>
+                        </StackPanel>
+                    </DataTemplate>
+
+
+                    <!--Explicit Mods Template-->
+                    <DataTemplate DataType="{x:Type blockItemTypes:HasExplicitModBlockItem}">
+                        <StackPanel Margin="2,0,2,2"  Height="155">
+                            <!--Оператор-->
+                            <StackPanel Orientation="Horizontal" Margin="0,0,0,2">
+                                <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:FilterPredicateOperator}}}"
+                                    SelectedValue="{Binding PredicateOperator, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                    DisplayMemberPath="Description" SelectedValuePath="Value" Width="50" Margin="0,0,4,0" />
+                                <!--Операнд-->
+                                <xctk:ShortUpDown Value="{Binding PredicateOperand, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                    Minimum="{Binding Minimum}" Maximum="{Binding Maximum}" Margin="0,0,5,0" />
+                                <!--WIP (TEMP)-->
+                                <TextBlock Text="[Panel WIP]" VerticalAlignment="Center" Margin="0,0,0,0" />
+                            </StackPanel>
+                            <StackPanel>
+                                <!--Список элементов-->
+                                <userControls:EditableListBoxControl Margin="0,0,0,0"
+                                    Height="195"
+                                    ItemsSource="{Binding Items}"
+                                    AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutoCompleteItemMods}" />
+                            </StackPanel>
+                        </StackPanel>
+                    </DataTemplate>
+                    
+                    
+                    
+                    <!-- SocketsBlock Template -->
+                    <DataTemplate DataType="{x:Type blockItemTypes:SocketsBlockItem}">
+                        <StackPanel Margin="2,2,2,3">
+                            <!--Оператор + Операнд-->
+                            <StackPanel Orientation="Horizontal" Margin="2,0,2,5">
+                                <userControls:NumericFilterPredicateControl Margin="1,1,1,1"
+                                    NumericFilterPredicate="{Binding FilterPredicate}"
+                                    Minimum="{Binding Minimum, Mode=OneTime}" Maximum="{Binding Maximum, Mode=OneTime}" />
+                            </StackPanel>
+
+                        <!-- Пояснение панели Description  -->
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                            <TextBlock Text="[Panel WIP] (POE1)FilterColorsSockets" VerticalAlignment="Center" Margin="0,0,5,0" />
+                        </StackPanel>
+
+                         <!-- Сокеты R, G, B -->
+                         <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                            <TextBlock Text="R" VerticalAlignment="Center" Margin="1" />
+                            <xctk:IntegerUpDown Value="{Binding RedSockets, UpdateSourceTrigger=PropertyChanged}"
+                                                 Minimum="0" Maximum="6" Width="Auto" Margin="0,0,7,0" />
+
+                            <TextBlock Text="G" VerticalAlignment="Center" Margin="1" />
+                            <xctk:IntegerUpDown Value="{Binding GreenSockets, UpdateSourceTrigger=PropertyChanged}"
+                                           Minimum="0" Maximum="6" Width="Auto" Margin="0,0,7,0" />
+
+                            <TextBlock Text="B" VerticalAlignment="Center" Margin="1" />
+                            <xctk:IntegerUpDown Value="{Binding BlueSockets, UpdateSourceTrigger=PropertyChanged}"
+                                           Minimum="0" Maximum="6" Width="Auto" Margin="0,0,0,0" />
+                         </StackPanel>
+
+                         <!-- Сокеты A, D, W -->
+                         <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="A" VerticalAlignment="Center" Margin="1" />
+                            <xctk:IntegerUpDown Value="{Binding AbyssSockets, UpdateSourceTrigger=PropertyChanged}"
+                                           Minimum="0" Maximum="6" Width="Auto" Margin="0,0,7,0" />
+
+                            <TextBlock Text="D" VerticalAlignment="Center" Margin="1" />
+                            <xctk:IntegerUpDown Value="{Binding DelveSockets, UpdateSourceTrigger=PropertyChanged}"
+                                           Minimum="0" Maximum="6" Width="Auto" Margin="0,0,4,0" />
+
+                            <TextBlock Text="W" VerticalAlignment="Center" Margin="1" />
+                            <xctk:IntegerUpDown Value="{Binding WhiteSockets, UpdateSourceTrigger=PropertyChanged}"
+                                           Minimum="0" Maximum="6" Width="Auto" Margin="0,0,0,0" />
+                         </StackPanel>
+                      </StackPanel>
+                   </DataTemplate>
+
+
 
                     <!-- Play Effect Block Template -->
                     <DataTemplate DataType="{x:Type blockItemTypes:PlayEffectBlockItem}">
@@ -104,7 +257,7 @@
                                 <RadioButton IsChecked="{Binding Temporary, Converter={StaticResource BoolInverterConverter}}" Margin="0,0,10,0">Permanent</RadioButton>
                                 <RadioButton IsChecked="{Binding Temporary}" >Temporary</RadioButton>
                             </WrapPanel>
-                            <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:EffectColor}}}" Style="{StaticResource MetroComboBox}"
+                            <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:EffectColor}}}" Style="{StaticResource MahApps.Styles.ComboBox}"
                                                               DisplayMemberPath="Description"
                                                               SelectedValue="{Binding Color}"
                                                               SelectedValuePath="Value" />
@@ -163,7 +316,7 @@
                             <Button Command="{Binding Path=DataContext.PlaySoundCommand, RelativeSource={RelativeSource AncestorType={x:Type views:ItemFilterBlockView}}}" Width="20" Height="20" Background="Transparent" BorderBrush="Transparent">
                                 <Image Source="/Filtration;component/Resources/Icons/speaker_icon.png"  VerticalAlignment="Center" HorizontalAlignment="Center" />
                             </Button>
-                            <ComboBox ItemsSource="{Binding ElementName=BlockItemContentControl, Path=DataContext.SoundsAvailable}" SelectedValue="{Binding Value}" Style="{StaticResource MetroComboBox}" />
+                            <ComboBox ItemsSource="{Binding ElementName=BlockItemContentControl, Path=DataContext.SoundsAvailable}" SelectedValue="{Binding Value}" Style="{StaticResource MahApps.Styles.ComboBox}" />
                             <xctk:ShortUpDown Value="{Binding Path=SecondValue}" Minimum="1" Maximum="300" HorizontalAlignment="Right" ToolTip="Volume"/>
                             <userControls:ThemeComponentSelectionControl ThemeComponent="{Binding ThemeComponent}" Margin="0,2,0,0">
                                 <userControls:ThemeComponentSelectionControl.AvailableThemeComponents>
@@ -182,7 +335,7 @@
                             <Button Command="{Binding Path=DataContext.PlayPositionalSoundCommand, RelativeSource={RelativeSource AncestorType={x:Type views:ItemFilterBlockView}}}" Width="20" Height="20" Background="Transparent" BorderBrush="Transparent">
                                 <Image Source="/Filtration;component/Resources/Icons/speaker_icon.png"  VerticalAlignment="Center" HorizontalAlignment="Center" />
                             </Button>
-                            <ComboBox ItemsSource="{Binding ElementName=BlockItemContentControl, Path=DataContext.SoundsAvailable}" SelectedValue="{Binding Value}" Style="{StaticResource MetroComboBox}" />
+                            <ComboBox ItemsSource="{Binding ElementName=BlockItemContentControl, Path=DataContext.SoundsAvailable}" SelectedValue="{Binding Value}" Style="{StaticResource MahApps.Styles.ComboBox}" />
                             <xctk:ShortUpDown Value="{Binding Path=SecondValue}" Minimum="1" Maximum="300" HorizontalAlignment="Right" ToolTip="Volume"/>
                             <userControls:ThemeComponentSelectionControl ThemeComponent="{Binding ThemeComponent}" Margin="0,2,0,0">
                                 <userControls:ThemeComponentSelectionControl.AvailableThemeComponents>
@@ -198,15 +351,15 @@
                     <!-- Map Icon Template -->
                     <DataTemplate DataType="{x:Type blockItemTypes:MapIconBlockItem}">
                         <StackPanel Orientation="Vertical" Margin="5,5,5,5">
-                            <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:IconSize}}}" Style="{StaticResource MetroComboBox}"
+                            <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:IconSize}}}" Style="{StaticResource MahApps.Styles.ComboBox}"
                                                               DisplayMemberPath="Description"
                                                               SelectedValue="{Binding Size}"
                                                               SelectedValuePath="Value" />
-                            <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:IconColor}}}" Style="{StaticResource MetroComboBox}"
+                            <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:IconColor}}}" Style="{StaticResource MahApps.Styles.ComboBox}"
                                                               DisplayMemberPath="Description"
                                                               SelectedValue="{Binding Color}"
                                                               SelectedValuePath="Value" />
-                            <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:IconShape}}}" Style="{StaticResource MetroComboBox}"
+                            <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:IconShape}}}" Style="{StaticResource MahApps.Styles.ComboBox}"
                                                               DisplayMemberPath="Description"
                                                               SelectedValue="{Binding Shape}"
                                                               SelectedValuePath="Value" />
@@ -237,7 +390,7 @@
                                 <Image Source="/Filtration;component/Resources/Icons/speaker_icon.png"  VerticalAlignment="Center" HorizontalAlignment="Center" />
                             </Button>
                             <ComboBox Grid.Column="1" Grid.Row="0" ItemsSource="{Binding Path=DataContext.CustomSoundsAvailable, UpdateSourceTrigger=PropertyChanged, RelativeSource={RelativeSource AncestorType={x:Type views:ItemFilterScriptView}}}"
-                                      SelectedValue="{Binding Value, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource MetroComboBox}"/>
+                                      SelectedValue="{Binding Value, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource MahApps.Styles.ComboBox}"/>
                             <Button Grid.Column="1" Grid.Row="0" Command="{Binding Path=DataContext.CustomSoundFileDialogCommand, RelativeSource={RelativeSource AncestorType={x:Type views:ItemFilterBlockView}}}"
                                     Width="20" Height="20" Background="Transparent" BorderBrush="Transparent" Margin="0,0,30,0" VerticalAlignment="Center" HorizontalAlignment="Right">
                                 <Image Grid.Column="1" Source="/Filtration;component/Resources/Icons/open_icon.png"/>

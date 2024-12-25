@@ -16,5 +16,16 @@ namespace Filtration.ObjectModel
         }
 
         public SocketColor Color { get; }
+
+        public override bool Equals(object obj)
+        {
+            if ((obj == null) || !this.GetType().Equals(obj.GetType()))
+            {
+                return false;
+            }
+
+            Socket s = (Socket)obj;
+            return Color == s.Color;
+        }
     }
 }
