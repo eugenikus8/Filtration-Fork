@@ -84,20 +84,20 @@
                     </DataTemplate>
 
 
-                    <!-- Class Template --><!--
+                    <!-- Class Template -->
                     <DataTemplate DataType="{x:Type blockItemTypes:ClassBlockItem}">
                         <userControls:EditableListBoxControl Margin="5,5,5,5" ItemsSource="{Binding Items}" AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutoCompleteItemClasses}" />
-                    </DataTemplate>-->
+                    </DataTemplate>
 
-                    <!-- Base Type Template --><!--
+                    <!-- Base Type Template -->
                     <DataTemplate DataType="{x:Type blockItemTypes:BaseTypeBlockItem}">
                         <userControls:EditableListBoxControl Margin="5,5,5,5" ItemsSource="{Binding Items}" AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutoCompleteItemBaseTypes}" />
-                    </DataTemplate>-->
+                    </DataTemplate>
 
-                    <!-- Explicit Mods Template --><!--
+                    <!-- Explicit Mods Template -->
                     <DataTemplate DataType="{x:Type blockItemTypes:HasExplicitModBlockItem}">
                         <userControls:EditableListBoxControl Margin="5,5,5,5" ItemsSource="{Binding Items}" AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutoCompleteItemMods}" />
-                    </DataTemplate>-->
+                    </DataTemplate>
 
                     <!-- Enchantments Template -->
                     <DataTemplate DataType="{x:Type blockItemTypes:HasEnchantmentBlockItem}">
@@ -125,22 +125,22 @@
                     <!--Margin=  "2,  0,   2,     5">-->
 
 
-                    <!--Class Template-->
+                    <!--Class Template--><!--
                     <DataTemplate DataType="{x:Type blockItemTypes:ClassBlockItem}">
                         <StackPanel Margin="2,0,2,0"  Height="155">
-                            <!--Оператор-->
+                            --><!--Оператор--><!--
                             <StackPanel Orientation="Horizontal" Margin="0,0,0,2">
                                 <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:FilterPredicateOperator}}}"
                                     SelectedValue="{Binding PredicateOperator, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                                     DisplayMemberPath="Description" SelectedValuePath="Value" Width="50" Margin="0,0,4,0" />
-                            <!--Операнд-->
+                            --><!--Операнд--><!--
                                 <xctk:ShortUpDown Value="{Binding PredicateOperand, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                                     Minimum="{Binding Minimum}" Maximum="{Binding Maximum}" Margin="0,0,5,0" />
-                                <!--WIP (TEMP)-->
+                                --><!--WIP (TEMP)--><!--
                                 <TextBlock Text="[Panel WIP]" VerticalAlignment="Center" Margin="0,0,0,0" />
                             </StackPanel>
                             <StackPanel>
-                            <!--Список элементов-->
+                            --><!--Список элементов--><!--
                             <userControls:EditableListBoxControl Margin="0,0,0,0"
                                 Height="195"
                                 ItemsSource="{Binding Items}"
@@ -150,22 +150,22 @@
                     </DataTemplate>
 
 
-                    <!--Base Type Template-->
+                    --><!--Base Type Template--><!--
                     <DataTemplate DataType="{x:Type blockItemTypes:BaseTypeBlockItem}">
                         <StackPanel Margin="2,0,2,0"  Height="155">
-                            <!--Оператор-->
+                            --><!--Оператор--><!--
                             <StackPanel Orientation="Horizontal" Margin="0,0,0,2">
                                 <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:FilterPredicateOperator}}}"
                                     SelectedValue="{Binding PredicateOperator, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                                     DisplayMemberPath="Description" SelectedValuePath="Value" Width="50" Margin="0,0,4,0" />
-                                <!--Операнд-->
+                                --><!--Операнд--><!--
                                 <xctk:ShortUpDown Value="{Binding PredicateOperand, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                                     Minimum="{Binding Minimum}" Maximum="{Binding Maximum}" Margin="0,0,5,0" />
-                                <!--WIP (TEMP)-->
+                                --><!--WIP (TEMP)--><!--
                                 <TextBlock Text="[Panel WIP]" VerticalAlignment="Center" Margin="0,0,0,0" />
                             </StackPanel>
                             <StackPanel>
-                                <!--Список элементов-->
+                                --><!--Список элементов--><!--
                                 <userControls:EditableListBoxControl Margin="0,0,0,0"
                                     Height="195"
                                     ItemsSource="{Binding Items}"
@@ -175,22 +175,22 @@
                     </DataTemplate>
 
 
-                    <!--Explicit Mods Template-->
+                    --><!--Explicit Mods Template--><!--
                     <DataTemplate DataType="{x:Type blockItemTypes:HasExplicitModBlockItem}">
                         <StackPanel Margin="2,0,2,2"  Height="155">
-                            <!--Оператор-->
+                            --><!--Оператор--><!--
                             <StackPanel Orientation="Horizontal" Margin="0,0,0,2">
                                 <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:FilterPredicateOperator}}}"
                                     SelectedValue="{Binding PredicateOperator, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                                     DisplayMemberPath="Description" SelectedValuePath="Value" Width="50" Margin="0,0,4,0" />
-                                <!--Операнд-->
+                                --><!--Операнд--><!--
                                 <xctk:ShortUpDown Value="{Binding PredicateOperand, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                                     Minimum="{Binding Minimum}" Maximum="{Binding Maximum}" Margin="0,0,5,0" />
-                                <!--WIP (TEMP)-->
+                                --><!--WIP (TEMP)--><!--
                                 <TextBlock Text="[Panel WIP]" VerticalAlignment="Center" Margin="0,0,0,0" />
                             </StackPanel>
                             <StackPanel>
-                                <!--Список элементов-->
+                                --><!--Список элементов--><!--
                                 <userControls:EditableListBoxControl Margin="0,0,0,0"
                                     Height="195"
                                     ItemsSource="{Binding Items}"
@@ -201,22 +201,22 @@
                     
                     
                     
-                    <!-- SocketsBlock Template -->
+                    --><!-- SocketsBlock Template --><!--
                     <DataTemplate DataType="{x:Type blockItemTypes:SocketsBlockItem}">
                         <StackPanel Margin="2,2,2,3">
-                            <!--Оператор + Операнд-->
+                            --><!--Оператор + Операнд--><!--
                             <StackPanel Orientation="Horizontal" Margin="2,0,2,5">
                                 <userControls:NumericFilterPredicateControl Margin="1,1,1,1"
                                     NumericFilterPredicate="{Binding FilterPredicate}"
                                     Minimum="{Binding Minimum, Mode=OneTime}" Maximum="{Binding Maximum, Mode=OneTime}" />
                             </StackPanel>
 
-                        <!-- Пояснение панели Description  -->
+                        --><!-- Пояснение панели Description  --><!--
                         <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
                             <TextBlock Text="[Panel WIP] (POE1)FilterColorsSockets" VerticalAlignment="Center" Margin="0,0,5,0" />
                         </StackPanel>
 
-                         <!-- Сокеты R, G, B -->
+                         --><!-- Сокеты R, G, B --><!--
                          <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
                             <TextBlock Text="R" VerticalAlignment="Center" Margin="1" />
                             <xctk:IntegerUpDown Value="{Binding RedSockets, UpdateSourceTrigger=PropertyChanged}"
@@ -231,7 +231,7 @@
                                            Minimum="0" Maximum="6" Width="Auto" Margin="0,0,0,0" />
                          </StackPanel>
 
-                         <!-- Сокеты A, D, W -->
+                         --><!-- Сокеты A, D, W --><!--
                          <StackPanel Orientation="Horizontal">
                             <TextBlock Text="A" VerticalAlignment="Center" Margin="1" />
                             <xctk:IntegerUpDown Value="{Binding AbyssSockets, UpdateSourceTrigger=PropertyChanged}"
@@ -246,7 +246,7 @@
                                            Minimum="0" Maximum="6" Width="Auto" Margin="0,0,0,0" />
                          </StackPanel>
                       </StackPanel>
-                   </DataTemplate>
+                   </DataTemplate>-->
 
 
 
