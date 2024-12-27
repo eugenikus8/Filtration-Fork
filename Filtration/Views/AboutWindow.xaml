@@ -41,7 +41,7 @@
                 <TextBlock FontWeight="Bold">Current support</TextBlock>
                 <TextBlock TextWrapping="Wrap">eugenikus8</TextBlock>
                 <TextBlock>
-                    <Hyperlink NavigateUri="https://github.com/eugenikus8/Filtration-POE-Fork/releases" extensions:HyperlinkExtensions.IsExternal="True">https://github.com/eugenikus8/Filtration-POE-Fork/releases</Hyperlink> <LineBreak />
+                    <Hyperlink NavigateUri="https://github.com/eugenikus8/Filtration-Fork/releases" extensions:HyperlinkExtensions.IsExternal="True">https://github.com/eugenikus8/Filtration-Fork/releases</Hyperlink> <LineBreak />
                 </TextBlock>
             </StackPanel>
             <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" TextWrapping="Wrap" Margin="0,0,20,0">
