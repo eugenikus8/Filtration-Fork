@@ -285,7 +285,7 @@ namespace Filtration.Parser.Services
         {
             var outputString = string.Empty;
 
-            outputString += "# Script edited with Filtration - https://github.com/eugenikus8/Filtration-POE-Fork" +
+            outputString += "# Script edited with Filtration - https://github.com/eugenikus8/Filtration-Fork" +
                             Environment.NewLine;
 
             if (script.ItemFilterScriptSettings.BlockGroupsEnabled)
