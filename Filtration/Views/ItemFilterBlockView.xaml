@@ -70,13 +70,17 @@
                                 <MenuItem Header="Copy Block" Command="{Binding CopyBlockCommand}" Icon="{StaticResource CopyIcon}" />
                                 <MenuItem Header="Paste Block" Command="{Binding PasteBlockCommand}" Icon="{StaticResource PasteIcon}" />
                                 <Separator />
-                                <MenuItem Header="Block Style">
+                                
+                                <!--<MenuItem Header="Block Style">-->
+                                
                                     <MenuItem Header="Copy Block Style" Command="{Binding CopyBlockStyleCommand}" Icon="{StaticResource CopyIcon}" />
-                                    <MenuItem Header="Paste Block Style" Command="{Binding PasteBlockStyleCommand}" Icon="{StaticResource PasteIcon}" />
-                                </MenuItem>
+                                    <MenuItem Header="Paste Block Style" Command="{Binding PasteBlockStyleCommand}" Icon="{StaticResource PasteStyleIcon}" />
+                                <Separator />
+                                <!--</MenuItem>-->
+                                
                                 <MenuItem Header="Add Block" Command="{Binding Data.AddBlockCommand, Source={StaticResource Proxy}}" Icon="{StaticResource AddBlockIcon}" />
                                 <MenuItem Header="Add Section" Command="{Binding Data.AddSectionCommand, Source={StaticResource Proxy}}" Icon="{StaticResource AddSectionIcon}" />
-                                <Separator />
+                                <!--<Separator />-->
                                 <MenuItem Header="Delete Block" Command="{Binding Data.DeleteBlockCommand, Source={StaticResource Proxy}}" Icon="{StaticResource DeleteIcon}" />
                                 <Separator />
                                 <MenuItem Header="Move Block To Top" Command="{Binding Data.MoveBlockToTopCommand, Source={StaticResource Proxy}}" Icon="{StaticResource MoveToTopIcon}" />
