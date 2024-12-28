@@ -1412,7 +1412,6 @@ Medium Life Flask
 Medium Mana Flask
 Melee Physical Damage Support
 Melee Splash Support
-Memory Fragment
 Merciless Armament
 Mesh Boots
 Mesh Gloves
