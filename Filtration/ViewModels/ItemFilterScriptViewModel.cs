@@ -87,6 +87,7 @@ namespace Filtration.ViewModels
         void CopyBlockStyle(IItemFilterBlockViewModel targetBlockViewModel);
         void PasteBlock(IItemFilterBlockViewModelBase targetBlockViewModelBase);
         void PasteBlockStyle(IItemFilterBlockViewModel targetBlockViewModel);
+        void ClearStyles(IItemFilterBlockViewModelBase targetBlockViewModelBase);
         void DeleteBlock(IItemFilterBlockViewModelBase targetBlockViewModelBase);
         void DeleteBlocks(IEnumerable<IItemFilterBlockViewModelBase> targetBlockViewModels);
         void MoveBlockUp(IItemFilterBlockViewModelBase targetBlockViewModelBase);
@@ -868,6 +869,23 @@ namespace Filtration.ViewModels
         }
 
         private void OnClearStylesCommand()
+        {
+            ValidateSelectedBlocks();
+            foreach (var block in SelectedBlockViewModels.OfType<IItemFilterBlockViewModel>())
+            {
+                var blockItems = block.Block.BlockItems;
+                for (var i = 0; i < blockItems.Count; i++)
+                {
+                    if (blockItems[i] is IAudioVisualBlockItem)
+                    {
+                        blockItems.RemoveAt(i--);
+                    }
+                }
+                block.RefreshBlockPreview();
+            }
+        }
+
+        public void ClearStyles(IItemFilterBlockViewModelBase targetBlockViewModelBase)
         {
             ValidateSelectedBlocks();
             foreach (var block in SelectedBlockViewModels.OfType<IItemFilterBlockViewModel>())
