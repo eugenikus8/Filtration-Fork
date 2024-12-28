@@ -32,6 +32,7 @@ namespace Filtration.ViewModels
 
             CopyBlockCommand = new RelayCommand(OnCopyBlockCommand);
             PasteBlockCommand = new RelayCommand(OnPasteBlockCommand);
+            ClearStylesCommand = new RelayCommand(OnClearStylesCommand);
             AddBlockCommand = new RelayCommand(OnAddBlockCommand);
             AddSectionCommand = new RelayCommand(OnAddSectionCommand);
             DeleteBlockCommand = new RelayCommand(OnDeleteBlockCommand, () => _parentScriptViewModel.CanModifyBlock(this));
@@ -48,6 +49,7 @@ namespace Filtration.ViewModels
 
         public RelayCommand CopyBlockCommand { get; private set; }
         public RelayCommand PasteBlockCommand { get; private set; }
+        public RelayCommand ClearStylesCommand { get; private set; }
         public RelayCommand AddBlockCommand { get; private set; }
         public RelayCommand AddSectionCommand { get; private set; }
         public RelayCommand DeleteBlockCommand { get; private set; }
@@ -88,6 +90,11 @@ namespace Filtration.ViewModels
         private void OnPasteBlockCommand()
         {
             _parentScriptViewModel.PasteBlock(this);
+        }
+
+        private void OnClearStylesCommand()
+        {
+            _parentScriptViewModel.ClearStyles(this);
         }
 
         private void OnAddBlockCommand()

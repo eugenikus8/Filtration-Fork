@@ -70,14 +70,16 @@
                                 <MenuItem Header="Copy Block" Command="{Binding CopyBlockCommand}" Icon="{StaticResource CopyIcon}" />
                                 <MenuItem Header="Paste Block" Command="{Binding PasteBlockCommand}" Icon="{StaticResource PasteIcon}" />
                                 <Separator />
-                                
+
                                 <!--<MenuItem Header="Block Style">-->
-                                
-                                    <MenuItem Header="Copy Block Style" Command="{Binding CopyBlockStyleCommand}" Icon="{StaticResource CopyIcon}" />
-                                    <MenuItem Header="Paste Block Style" Command="{Binding PasteBlockStyleCommand}" Icon="{StaticResource PasteStyleIcon}" />
+
+                                <MenuItem Header="Copy Block Style" Command="{Binding CopyBlockStyleCommand}" Icon="{StaticResource CopyIcon}" />
+                                <MenuItem Header="Paste Block Style" Command="{Binding PasteBlockStyleCommand}" Icon="{StaticResource PasteStyleIcon}" />
+                                <MenuItem Header="Clear Styles" Command="{Binding Data.ClearStylesCommand, Source={StaticResource Proxy}}" Icon="{StaticResource ThemeIcon}" />
                                 <Separator />
+
                                 <!--</MenuItem>-->
-                                
+
                                 <MenuItem Header="Add Block" Command="{Binding Data.AddBlockCommand, Source={StaticResource Proxy}}" Icon="{StaticResource AddBlockIcon}" />
                                 <MenuItem Header="Add Section" Command="{Binding Data.AddSectionCommand, Source={StaticResource Proxy}}" Icon="{StaticResource AddSectionIcon}" />
                                 <!--<Separator />-->
@@ -87,8 +89,10 @@
                                 <MenuItem Header="Move Block Up" Command="{Binding Data.MoveBlockUpCommand, Source={StaticResource Proxy}}" Icon="{StaticResource MoveUpIcon}" />
                                 <MenuItem Header="Move Block Down" Command="{Binding Data.MoveBlockDownCommand, Source={StaticResource Proxy}}" Icon="{StaticResource MoveDownIcon}" />
                                 <MenuItem Header="Move Block To Bottom" Command="{Binding Data.MoveBlockToBottomCommand, Source={StaticResource Proxy}}" Icon="{StaticResource MoveToBottomIcon}" />
-                                <Separator />
-                                <MenuItem Header="Replace Colors" Command="{Binding Data.ReplaceColorsCommand, Source={StaticResource Proxy}}" Icon="{StaticResource ReplaceColorsIcon}" />
+
+                                <!--<Separator />
+                                <MenuItem Header="Replace Colors" Command="{Binding Data.ReplaceColorsCommand, Source={StaticResource Proxy}}" Icon="{StaticResource ReplaceColorsIcon}" />-->
+
                             </ContextMenu.Items>
                         </ContextMenu>
                     </Expander.ContextMenu>

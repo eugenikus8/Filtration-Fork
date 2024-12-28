@@ -390,6 +390,11 @@ namespace Filtration.ViewModels
             }
         }
 
+        private void OnClearStylesCommand()
+        {
+            _parentScriptViewModel.ClearStyles(this);
+        }
+
         private void OnAddBlockCommand()
         {
             _parentScriptViewModel.AddBlock(this);
