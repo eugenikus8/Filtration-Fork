@@ -1,5 +1,5 @@
 Abyss Jewels
-Active Gems
+Active Skill Gems
 Amulets
 Atlas Upgrade Items
 Belts
@@ -15,7 +15,6 @@ Corpses
 Currency
 Daggers
 Divination Cards
-Embers of the Allflame
 Fishing Rods
 Flasks
 Gems
@@ -27,22 +26,18 @@ Heist Gear
 Heist Targets
 Heist Tools
 Helmets
-Hideout Doodads
 Hybrid Flasks
 Incubators
 Incursion Items
 Jewels
 Labyrinth Items
 Labyrinth Trinkets
-Leaguestones
 Life Flasks
 Logbooks
 Mana Flasks
 Map Fragments
 Maps
 Memories
-Metamorph Samples
-Microtransactions
 Misc Map Items
 One Hand
 One Hand Axes
@@ -55,15 +50,11 @@ Quivers
 Relics
 Rings
 Rune Daggers
-Sanctified Relics
 Sanctum Research
 Sceptres
-Sentinels
 Shields
-Stackable Currency
 Staves
 Support Gems
-Thrusting One Hand Swords
 Tincture
 Trinkets
 Two Hand
