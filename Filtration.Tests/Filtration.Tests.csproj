@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Filtration.Tests</RootNamespace>
     <AssemblyName>Filtration.Tests</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
     <NuGetPackageImportStamp>
@@ -105,6 +105,11 @@
     </PackageReference>
     <PackageReference Include="Moq">
       <Version>4.10.1</Version>
+    </PackageReference>
+    <PackageReference Include="NuGet.CommandLine">
+      <Version>6.14.0</Version>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="NUnit">
       <Version>3.11.0</Version>
