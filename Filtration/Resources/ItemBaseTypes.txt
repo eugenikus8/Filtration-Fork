@@ -220,7 +220,7 @@ Bestiary Scarab of Duplicating
 Bestiary Scarab of the Herd
 Bestiary Scarab of the Shadowed Crow
 Betrayal Scarab
-Betrayal Scarab of Intelligence
+Betrayal Scarab of the Allflame
 Betrayal Scarab of Perpetuation
 Betrayal Scarab of Reinforcements
 Beyond Scarab
@@ -2641,7 +2641,7 @@ Vanguard Belt
 Vanity
 Variscite Blade
 Varnished Coat
-Veiled Orb
+Veiled Exalted Orb
 Veiled Scarab
 Velvet Gloves
 Velvet Slippers
@@ -3019,14 +3019,75 @@ Perfect Spider Matriarch
 Perfect Spirit of Fortune
 Perfect Warlord
 
+Veiled Chaos Orb
+Shaper's Exalted Orb
+Elder's Exalted Orb
+Orb of Remembrance
+Orb of Unravelling
+Orb of Intention
+Runegraft of the Angler
+Runegraft of the Bound
+Runegraft of the Combatant
+Runegraft of the Fortress
+Runegraft of the Jeweller
+Runegraft of the Novamark
+Runegraft of the River
+Runegraft of the Sinistral
+Runegraft of the Soulwick
+Runegraft of the Warp
+Runegraft of the Witchmark
+Runegraft of Bellows
+Runegraft of Blasphemy
+Runegraft of Gemcraft
+Runegraft of Loyalty
+Runegraft of Quaffing
+Runegraft of Recompense
+Runegraft of Restitching
+Runegraft of Stability
+Runegraft of Time
+Runegraft of Treachery
+
+Kalguuran Scarab
+Kalguuran Scarab of Guarded Riches
+Kalguuran Scarab of Refinement
+Echo of Trauma
+Echo of Reverence
+Echo of Loneliness
+Syndicate Medallion
+Allflame Ember of Kulemak
+Allflame Ember of Resplendence
+Allflame Ember of Propagation
+Allflame Ember of Flesh
+Allflame Ember of the Wildwood
+Allflame Ember of the Ethereal
+Allflame Ember of the Gilded
+Allflame Ember of Toads
+
+Focused Channelling Support
+Dark Pact of Trarthus
+Heavy Strike of Trarthus
+Spectral Shield Throw of Trarthus
+Spectral Throw of Trarthus
+Storm Call of Trarthus
+Blast Rain of Trarthus
+Siege Ballista of Trarthus
+Sunder of Trarthus
+Wave of Conviction of Trarthus
+Chain Hook of Trarthus
+Spectral Helix of Trarthus
+Bladefall of Trarthus
+
+Runic Luck
+Last Stand
+Damnation
+When Currents Blaze
+History
 
 Uncut
 Uncut Skill Gems
 Uncut Spirit Gems
 Uncut Support Gems
 
-Advanced
-Expert
 
 Arced Claw
 Armoured Claw
@@ -3053,6 +3114,33 @@ Moon Dagger
 Obsidian Dagger
 Parrying Dagger
 Simple Dagger
+
+Hardwood Spear
+Ironhead Spear
+Hunting Spear
+Winged Spear
+War Spear
+Forked Spear
+Barbed Spear
+Broad Spear
+Crossblade Spear
+Seaglass Spear
+Sword Spear
+Striking Spear
+Helix Spear
+Steelhead Spear
+Coursing Spear
+Swift Spear
+Branched Spear
+Jagged Spear
+Massive Spear
+Orichalcum Spear
+Pronged Spear
+Stalking Spear
+Flying Spear
+Grand Spear
+Spiked Spear
+Akoyan Spear
 
 Acrid Wand
 Attuned Wand
@@ -3107,18 +3195,36 @@ Smithing Hammer
 Torment Club
 Warpick
 Wooden Club
-Advanced Brigand Mace
-Advanced Construct Hammer
-Advanced Plated Mace
-Advanced Slim Mace
-Advanced Smithing Hammer
-Advanced Warpick
-Expert Brigand Mace
-Expert Construct Hammer
-Expert Plated Mace
-Expert Slim Mace
-Expert Smithing Hammer
-Expert Warpick
+Calescent Hammer
+Flared Mace
+Battle Pick
+Marching Mace
+Bandit Mace
+Structured Hammer
+Snakewood Greathammer
+Blacksmith Maul
+Zealot Greathammer
+Solemn Maul
+Heavy Greathammer
+Disintegrating Maul
+Flanged Mace
+Crown Mace
+Molten Hammer
+Strife Pick
+Fortified Hammer
+Marauding Mace
+Anvil Maul
+Sacred Maul
+Ironwood Greathammer
+Fanatic Greathammer
+Ruination Maul
+Massive Greathammer
+Kalguuran Forgehammer
+Morning Star
+Akoyan Club
+Pointed Maul
+Totemic Greatclub
+Tawhoan Greatclub
 
 Aromatic Sceptre
 Clasped Sceptre
@@ -3156,18 +3262,19 @@ Shortbow
 Tribal Bow
 Warden Bow
 Zealot Bow
-Advanced Composite Bow
-Advanced Cultist Bow
-Advanced Dualstring Bow
-Advanced Shortbow
-Advanced Warden Bow
-Advanced Zealot Bow
-Expert Composite Bow
-Expert Cultist Bow
-Expert Dualstring Bow
-Expert Shortbow
-Expert Warden Bow
-Expert Zealot Bow
+Snakewood Shortbow
+Protector Bow
+Rider Bow
+Twin Bow
+Adherent Bow
+Militant Bow
+Ironwood Shortbow
+Cavalry Bow
+Guardian Bow
+Gemini Bow
+Fanatic Bow
+Warmonger Bow
+Obliterator Bow
 
 Ashen Staff
 Chiming Staff
@@ -3182,6 +3289,7 @@ Rending Staff
 Roaring Staff
 Spriggan Staff
 Voltaic Staff
+Sanctified Staff
 
 Ancient Greatblade
 Arced Longsword
@@ -3224,18 +3332,6 @@ Precise Greathammer
 Studded Greatclub
 Temple Maul
 Totemic Greatclub
-Advanced Crumbling Maul
-Advanced Cultist Greathammer
-Advanced Forge Maul
-Advanced Leaden Greathammer
-Advanced Oak Greathammer
-Advanced Temple Maul
-Expert Crumbling Maul
-Expert Cultist Greathammer
-Expert Forge Maul
-Expert Leaden Greathammer
-Expert Oak Greathammer
-Expert Temple Maul
 
 Anima Quarterstaff
 Barrier Quarterstaff
@@ -3250,18 +3346,19 @@ Smooth Quarterstaff
 Steelpoint Quarterstaff
 Wrapped Quarterstaff
 Wyrm Quarterstaff
-Advanced Barrier Quarterstaff
-Advanced Crackling Quarterstaff
-Advanced Crescent Quarterstaff
-Advanced Gothic Quarterstaff
-Advanced Long Quarterstaff
-Advanced Slicing Quarterstaff
-Expert Barrier Quarterstaff
-Expert Crackling Quarterstaff
-Expert Crescent Quarterstaff
-Expert Gothic Quarterstaff
-Expert Long Quarterstaff
-Expert Slicing Quarterstaff
+Barbarous Quarterstaff
+Arcing Quarterstaff
+Waxing Quarterstaff
+Bladed Quarterstaff
+Guardian Quarterstaff
+Sinister Quarterstaff
+Lunar Quarterstaff
+Bolting Quarterstaff
+Aegis Quarterstaff
+Razor Quarterstaff
+Reaching Quarterstaff
+Striking Quarterstaff
+Dreaming Quarterstaff
 
 Alloy Crossbow
 Blackfire Crossbow
@@ -3276,18 +3373,19 @@ Piercing Crossbow
 Sturdy Crossbow
 Tense Crossbow
 Varnished Crossbow
-Advanced Bombard Crossbow
-Advanced Dyad Crossbow
-Advanced Forlorn Crossbow
-Advanced Sturdy Crossbow
-Advanced Tense Crossbow
-Advanced Varnished Crossbow
-Expert Bombard Crossbow
-Expert Dyad Crossbow
-Expert Forlorn Crossbow
-Expert Sturdy Crossbow
-Expert Tense Crossbow
-Expert Varnished Crossbow
+Taut Crossbow
+Robust Crossbow
+Painted Crossbow
+Twin Crossbow
+Cannonade Crossbow
+Bleak Crossbow
+Stout Crossbow
+Engraved Crossbow
+Flexed Crossbow
+Gemini Crossbow
+Siege Crossbow
+Desolate Crossbow
+Elegant Crossbow
 
 Bladed Trap
 Clamping Trap
@@ -3345,58 +3443,61 @@ Jingling Crest Shield
 Omen Crest Shield
 Sectarian Crest Shield
 Seer Crest Shield
+Tawhoan Tower Shield
+Golden Targe
+Blacksteel Crest Shield
 Sigil Crest Shield
 Stoic Crest Shield
 Wayward Crest Shield
+Aged Tower Shield
+Metalworked Tower Shield
+Cultist Tower Shield
+Bulwark Tower Shield
+Noble Tower Shield
+Goldworked Tower Shield
+Fortress Tower Shield
+Vaal Tower Shield
+Ironwood Targe
+Fur-lined Targe
+Mercenary Targe
+Polished Targe
+Stone Targe
+Avian Targe
+Mammoth Targe
+Baroque Targe
+Soaring Targe
+Painted Crest Shield
+Engraved Crest Shield
+Descry Crest Shield
+Dekharan Crest Shield
+Quartered Crest Shield
+Glowering Crest Shield
+Intricate Crest Shield
+Sekheman Crest Shield
+Vaal Crest Shield
+
 Aegis Buckler
 Array Buckler
-Edged Buckler
-Iron Buckler
 Laminate Buckler
-Leather Buckler
-Ornate Buckler
 Pearl Buckler
-Plated Buckler
-Ridged Buckler
-Ringed Buckler
-Spiked Buckler
+Leather Buckler
 Wooden Buckler
-Advanced Braced Tower Shield
-Advanced Effigial Tower Shield
-Advanced Heraldric Tower Shield
-Advanced Painted Tower Shield
-Advanced Rampart Tower Shield
-Advanced Stone Tower Shield
-Advanced Chiseled Targe
-Advanced Crescent Targe
-Advanced Feathered Targe
-Advanced Hardwood Targe
-Advanced Pelage Targe
-Advanced Studded Targe
-Advanced Blazon Crest Shield
-Advanced Emblem Crest Shield
-Advanced Jingling Crest Shield
-Advanced Omen Crest Shield
-Advanced Sectarian Crest Shield
-Advanced Sigil Crest Shield
-Advanced Edged Buckler
-Advanced Plated Buckler
-Advanced Ridged Buckler
-Advanced Ringed Buckler
-Advanced Spiked Buckler
-Advanced Wooden Buckler
-Expert Braced Tower Shield
-Expert Rampart Tower Shield
-Expert Stone Tower Shield
-Expert Crescent Targe
-Expert Feathered Targe
-Expert Pelage Targe
-Expert Jingling Crest Shield
-Expert Omen Crest Shield
-Expert Sigil Crest Shield
-Expert Edged Buckler
-Expert Plated Buckler
-Expert Spiked Buckler
+Plated Buckler
+Iron Buckler
+Ridged Buckler
+Spiked Buckler
+Ringed Buckler
+Edged Buckler
+Oak Buckler
+Painted Buckler
+Coiled Buckler
+Spikeward Buckler
+Jingling Buckler
+Bladeguard Buckler
+Ornate Buckler
+Gutspike Buckler
+Ancient Buckler
+Desert Buckler
 
 Antler Focus
 Attuned Focus
@@ -3411,15 +3512,18 @@ Tonal Focus
 Twig Focus
 Voodoo Focus
 Woven Focus
-Advanced Woven Focus
-Advanced Voodoo Focus
-Advanced Tonal Focus
-Advanced Plumed Focus
-Advanced Crystal Focus
-Advanced Antler Focus
-Expert Antler Focus
-Expert Crystal Focus
-Expert Plumed Focus
+Wreath Focus
+Staghorn Focus
+Jingling Focus
+Arrayed Focus
+Cultist Focus
+Hallowed Focus
+Druidic Focus
+Leyline Focus
+Sacred Focus
+Runed Focus
+Whorl Focus
+Tasalian Focus
 
 Adorned Gloves
 Aged Cuffs
@@ -3428,6 +3532,13 @@ Bound Bracers
 Buckled Wraps
 Burnished Gauntlets
 Detailed Mitts
+Verisium Cuffs
+Massive Mitts
+Polished Bracers
+Sirenscale Gloves
+Blacksteel Gauntlets
+Adherent Cuffs
+Secured Wraps
 Diviner Cuffs
 Doubled Gauntlets
 Engraved Bracers
@@ -3463,51 +3574,64 @@ Tempered Mitts
 Titan Mitts
 Torn Gloves
 Utility Wraps
-Advanced Aged Cuffs
-Advanced Bolstered Mitts
-Advanced Bound Bracers
-Advanced Doubled Gauntlets
-Advanced Firm Bracers
-Advanced Gauze Wraps
-Advanced Goldcast Cuffs
-Advanced Intricate Gloves
-Advanced Jewelled Gloves
-Advanced Layered Gauntlets
-Advanced Linen Wraps
-Advanced Moulded Mitts
-Advanced Ringmail Gauntlets
-Advanced Riveted Mitts
-Advanced Rope Cuffs
-Advanced Sectioned Bracers
-Advanced Sombre Gloves
-Advanced Spined Bracers
-Advanced Spiral Wraps
-Advanced Stitched Gloves
-Advanced Tempered Mitts
-Expert Aged Cuffs
-Expert Bolstered Mitts
-Expert Doubled Gauntlets
-Expert Firm Bracers
-Expert Gauze Wraps
-Expert Goldcast Cuffs
-Expert Intricate Gloves
-Expert Jewelled Gloves
-Expert Layered Gauntlets
-Expert Linen Wraps
-Expert Moulded Mitts
-Expert Ringmail Gauntlets
-Expert Riveted Mitts
-Expert Rope Cuffs
-Expert Sectioned Bracers
-Expert Sombre Gloves
-Expert Spined Bracers
-Expert Spiral Wraps
+Plated Mitts
+Elegant Mitts
+Ancient Mitts
+Feathered Mitts
+Knightly Mitts
+Ornate Mitts
+Vaal Mitts
+Hunting Bracers
+Swift Bracers
+Refined Bracers
+Spiked Bracers
+Stalking Bracers
+Grand Bracers
+Barbed Bracers
+Ominous Gloves
+Embroidered Gloves
+Baroque Gloves
+Gold Gloves
+Grim Gloves
+Opulent Gloves
+Vaal Gloves
+Ironmail Gauntlets
+Captain Gauntlets
+Zealot Gauntlets
+Steelmail Gauntlets
+Commander Gauntlets
+Cultist Gauntlets
+Braided Cuffs
+Heirloom Cuffs
+Ornate Cuffs
+Bound Cuffs
+Ancient Cuffs
+Gleaming Cuffs
+Bandage Wraps
+Cambric Wraps
+Adorned Wraps
+War Wraps
+Elegant Wraps
+Vaal Wraps
+Soldiering Greaves
+Lionheart Greaves
+Elegant Greaves
+Carved Greaves
+Veteran Greaves
+Ornate Greaves
+Vaal Greaves
 
 Bladed Shoes
 Bold Sabatons
 Braced Sabatons
 Bronze Greaves
 Covered Sabatons
+Tasalian Greaves
+Drakeskin Boots
+Sekhema Sandals
+Blacksteel Sabatons
+Cryptic Leggings
+Daggerfoot Shoes
 Elaborate Sandals
 Embossed Boots
 Embroidered Boots
@@ -3543,45 +3667,41 @@ Trimmed Greaves
 Velour Shoes
 Weaver Leggings
 Wrapped Sandals
-Advanced Braced Sabatons
-Advanced Bronze Greaves
-Advanced Embossed Boots
-Advanced Feathered Sandals
-Advanced Frayed Shoes
-Advanced Hunting Shoes
-Advanced Iron Greaves
-Advanced Laced Boots
-Advanced Lattice Sandals
-Advanced Lizardscale Boots
-Advanced Mail Sabatons
-Advanced Padded Leggings
-Advanced Pelt Leggings
-Advanced Secured Leggings
-Advanced Silk Slippers
-Advanced Stacked Sabatons
-Advanced Steeltoe Boots
-Advanced Stone Greaves
-Advanced Threaded Shoes
-Advanced Trimmed Greaves
-Advanced Wrapped Sandals
-Expert Braced Sabatons
-Expert Feathered Sandals
-Expert Frayed Shoes
-Expert Hunting Shoes
-Expert Iron Greaves
-Expert Laced Boots
-Expert Lizardscale Boots
-Expert Mail Sabatons
-Expert Padded Leggings
-Expert Pelt Leggings
-Expert Secured Leggings
-Expert Silk Slippers
-Expert Stacked Sabatons
-Expert Steeltoe Boots
-Expert Stone Greaves
-Expert Threaded Shoes
-Expert Trimmed Greaves
-Expert Wrapped Sandals
+Bound Boots
+Sleek Boots
+Studded Boots
+Serpentscale Boots
+Cinched Boots
+Cavalry Boots
+Dragonscale Boots
+Laced Sandals
+Bangled Sandals
+Elegant Slippers
+Dunerunner Sandals
+Bound Sandals
+Luxurious Slippers
+Sandsworn Sandals
+Plated Greaves
+Soldiering Sabatons
+Goldwork Sabatons
+Bastion Sabatons
+Bulwark Greaves
+Veteran Sabatons
+Noble Sabatons
+Fortress Sabatons
+Adherent Leggings
+Bound Leggings
+Shamanistic Leggings
+Faithful Leggings
+Apostle Leggings
+Warlock Leggings
+Wayfarer Shoes
+Silverbuckled Shoes
+Treerunner Shoes
+Wanderer Shoes
+Charmed Shoes
+Quickslip Shoes
+
 Abyssal Cuirass
 Altar Robe
 Ancestral Mail
@@ -3644,6 +3764,12 @@ Sacrificial Mantle
 Scale Mail
 Scalper's Jacket
 Scoundrel Jacket
+Warlord Cuirass
+Corsair Coat
+Feathered Raiment
+Thane Mail
+Seastorm Mantle
+Austere Garb
 Scout's Vest
 Serpentscale Coat
 Shaman Mantle
@@ -3664,60 +3790,61 @@ Votive Raiment
 Waxed Jacket
 Wayfarer Jacket
 Zenith Vestments
-Advanced Altar Robe
-Advanced Anchorite Garb
-Advanced Chain Mail
-Advanced Cloaked Mail
-Advanced Explorer Armour
-Advanced Feathered Robe
-Advanced Full Plate
-Advanced Fur Plate
-Advanced Hermit Garb
-Advanced Hexer's Robe
-Advanced Iron Cuirass
-Advanced Ironclad Vestments
-Advanced Keth Raiment
-Advanced Mail Vestments
-Advanced Marabout Garb
-Advanced Maraketh Cuirass
-Advanced Pathfinder Coat
-Advanced Pelt Mantle
-Advanced Pilgrim Vestments
-Advanced Quilted Vest
-Advanced Rhoahide Coat
-Advanced Rogue Armour
-Advanced Sacrificial Mantle
-Advanced Scale Mail
-Advanced Scalper's Jacket
-Advanced Scout's Vest
-Advanced Serpentscale Coat
-Advanced Shaman Mantle
-Advanced Silk Robe
-Advanced Steel Plate
-Advanced Studded Vest
-Advanced Vaal Cuirass
-Advanced Vagabond Armour
-Advanced Votive Raiment
-Advanced Waxed Jacket
-Advanced Wayfarer Jacket
-Expert Altar Robe
-Expert Cloaked Mail
-Expert Hexer's Robe
-Expert Iron Cuirass
-Expert Keth Raiment
-Expert Pathfinder Coat
-Expert Pelt Mantle
-Expert Rogue Armour
-Expert Sacrificial Mantle
-Expert Scale Mail
-Expert Scalper's Jacket
-Expert Serpentscale Coat
-Expert Shaman Mantle
-Expert Steel Plate
-Expert Studded Vest
-Expert Vaal Cuirass
-Expert Waxed Jacket
-Expert Wayfarer Jacket
+Barbarian Plate
+Rugged Cuirass
+Sandsworn Cuirass
+Elegant Plate
+Heavy Plate
+Stone Cuirass
+Soldier Cuirass
+Ornate Plate
+Utzaal Cuirass
+Patchwork Vest
+Hunting Coat
+Riding Coat
+Layered Vest
+Runner Vest
+Lizardscale Coat
+Swiftstalker Coat
+Slipstrike Vest
+Wyrmscale Coat
+Avian Robe
+Cursespeaker's Robe
+Luxurious Robe
+River Raiment
+Adherent's Raiment
+Ceremonial Robe
+Vile Robe
+Flowing Raiment
+Priestess Robe
+Chain Hauberk
+Scoundrel Armour
+Wanderer Armour
+Mantled Mail
+Trailblazer Armour
+Golden Mail
+Sacramental Robe
+Dastard Armour
+Shrouded Mail
+Death Mail
+Templar Vestments
+Bearskin Mantle
+Chain Vestments
+Occultist Mantle
+Plated Vestments
+Heartcarver Mantle
+Wolfskin Mantle
+Conjurer Mantle
+Death Mantle
+Ascetic Garb
+Oiled Jacket
+Evangelist Garb
+Itinerant Jacket
+Hatungo Garb
+Hawker's Jacket
+Sleek Jacket
+Rambler Jacket
+Falconer's Jacket
 
 Armoured Cap
 Beaded Circlet
@@ -3753,6 +3880,13 @@ Iron Crown
 Jade Tiara
 Lace Hood
 Lavish Crown
+Vermeil Circlet
+Imperial Greathelm
+Freebooter Cap
+Ancestral Tiara
+Gladiatorial Helm
+Cryptic Crown
+Grinning Mask
 Leatherbound Hood
 Magus Tiara
 Martyr Crown
@@ -3777,54 +3911,54 @@ Visored Helm
 Warrior Greathelm
 Wicker Tiara
 Wrapped Greathelm
-Advanced Beaded Circlet
-Advanced Brimmed Helm
-Advanced Chain Tiara
-Advanced Cowled Helm
-Advanced Cultist Crown
-Advanced Elite Greathelm
-Advanced Face Mask
-Advanced Feathered Tiara
-Advanced Felt Cap
-Advanced Guarded Helm
-Advanced Heavy Crown
-Advanced Hewn Mask
-Advanced Hooded Mask
-Advanced Horned Crown
-Advanced Hunter Hood
-Advanced Iron Crown
-Advanced Lace Hood
-Advanced Martyr Crown
-Advanced Rusted Greathelm
-Advanced Shabby Hood
-Advanced Shielded Helm
-Advanced Soldier Greathelm
-Advanced Spired Greathelm
-Advanced Swathed Cap
-Advanced Tribal Mask
-Advanced Twig Circlet
-Advanced Veiled Mask
-Advanced Visored Helm
-Advanced Wicker Tiara
-Advanced Wrapped Greathelm
-Expert Chain Tiara
-Expert Cowled Helm
-Expert Elite Greathelm
-Expert Face Mask
-Expert Feathered Tiara
-Expert Felt Cap
-Expert Guarded Helm
-Expert Heavy Crown
-Expert Horned Crown
-Expert Hunter Hood
-Expert Martyr Crown
-Expert Shielded Helm
-Expert Soldier Greathelm
-Expert Spired Greathelm
-Expert Swathed Cap
-Expert Tribal Mask
-Expert Veiled Mask
-Expert Wicker Tiara
+Corroded Greathelm
+Mercenary Greathelm
+Homeguard Greathelm
+Elegant Greathelm
+Noble Greathelm
+Warmonger Greathelm
+Masked Greathelm
+Paragon Greathelm
+Rotted Hood
+Wool Cap
+Narrow Hood
+Wrapped Cap
+Deerstalker Hood
+Woven Cap
+Desert Cap
+Trapper Hood
+Druidic Circlet
+Avian Tiara
+Desert Circlet
+Sandsworn Tiara
+Jungle Tiara
+Skycrown Tiara
+Sorcerous Tiara
+Kamasan Tiara
+Domed Helm
+Engraved Helm
+Soldier Helm
+Cabalist Helm
+Gladiatoral Helm
+Warded Helm
+Cryptic Helm
+Champion Helm
+Mailed Crown
+Forest Crown
+Zealot Crown
+Hallowed Crown
+Inquisitor Crown
+Druidic Crown
+Saintly Crown
+Divine Crown
+Oak Mask
+Bandit Mask
+Skulking Mask
+Pariah Mask
+Avian Mask
+Brigand Mask
+Faridun Mask
+Soaring Mask
 
 Azure Amulet
 Bloodstone Amulet
@@ -3832,6 +3966,11 @@ Crimson Amulet
 Lunar Amulet
 Solar Amulet
 Stellar Amulet
+Dusk Amulet
+Gloam Amulet
+Penumbra Amulet
+Tenebrous Amulet
+Pearlescent Amulet
 
 Double Belt
 Fine Belt
@@ -3847,6 +3986,7 @@ Wide Belt
 Emerald Ring
 Lazuli Ring
 Pearl Ring
+Abyssal Signet
 
 Diamond
 Emerald
@@ -3858,6 +3998,16 @@ Time-Lost Ruby
 Time-Lost Sapphire
 Timeless Jewel
 
+Greater Chaos Orb
+Perfect Chaos Orb
+Greater Orb of Transmutation
+Perfect Orb of Transmutation
+Greater Exalted Orb
+Perfect Exalted Orb
+Greater Regal Orb
+Perfect Regal Orb
+Greater Orb of Augmentation
+Perfect Orb of Augmentation
 Artificer's Orb
 Lesser Jeweller's Orb
 Greater Jeweller's Orb
@@ -3902,6 +4052,7 @@ Essence of Sorcery
 Essence of the Body
 Essence of the Infinite
 Essence of the Mind
+Essence of Abrasion
 Greater Essence of Battle
 Greater Essence of Electricity
 Greater Essence of Enhancement
@@ -3910,10 +4061,78 @@ Greater Essence of Haste
 Greater Essence of Ice
 Greater Essence of Ruin
 Greater Essence of Sorcery
-Greater Essence of Torment
+Greater Essence of Abrasion
 Greater Essence of the Body
 Greater Essence of the Infinite
 Greater Essence of the Mind
+Lesser Essence of the Body
+Lesser Essence of the Mind
+Lesser Essence of Enhancement
+Lesser Essence of Abrasion
+Lesser Essence of Flames
+Lesser Essence of Ice
+Lesser Essence of Electricity
+Lesser Essence of Ruin
+Lesser Essence of Battle
+Lesser Essence of Sorcery
+Lesser Essence of Haste
+Lesser Essence of the Infinite
+Perfect Essence of the Body
+Perfect Essence of the Mind
+Perfect Essence of Enhancement
+Perfect Essence of Abrasion
+Perfect Essence of Flames
+Perfect Essence of Ice
+Perfect Essence of Electricity
+Perfect Essence of Ruin
+Perfect Essence of Battle
+Perfect Essence of Sorcery
+Perfect Essence of Haste
+Perfect Essence of the Infinite
+Lesser Essence of Seeking
+Essence of Seeking
+Greater Essence of Seeking
+Perfect Essence of Seeking
+Essence of the Abyss
+Lesser Essence of Insulation
+Essence of Insulation
+Greater Essence of Insulation
+Perfect Essence of Insulation
+Lesser Essence of Thawing
+Essence of Thawing
+Greater Essence of Thawing
+Perfect Essence of Thawing
+Lesser Essence of Grounding
+Essence of Grounding
+Greater Essence of Grounding
+Perfect Essence of Grounding
+Lesser Essence of Alacrity
+Essence of Alacrity
+Greater Essence of Alacrity
+Perfect Essence of Alacrity
+Lesser Essence of Opulence
+Essence of Opulence
+Greater Essence of Opulence
+Perfect Essence of Opulence
+Lesser Essence of Command
+Essence of Command
+Greater Essence of Command
+Perfect Essence of Command
+Greater Essence of the Infinite
+
+Petition Splinter
+Runic Splinter
+Gnawed Jawbone
+Preserved Jawbone
+Ancient Jawbone
+Gnawed Rib
+Preserved Rib
+Ancient Rib
+Gnawed Collarbone
+Preserved Collarbone
+Ancient Collarbone
+Preserved Cranium
+Preserved Vertebrae
 
 Distilled Despair
 Distilled Disgust
@@ -3963,7 +4182,37 @@ Test of Will Barya
 Ancient Crisis Fragment
 Faded Crisis Fragment
 Weathered Crisis Fragment
+Primary Calamity Fragment
+Secondary Calamity Fragment
+Tertiary Calamity Fragment
+Idol of Estazunti
+Kulemak's Invitation
 
+
+Lesser Desert Rune
+Lesser Glacial Rune
+Lesser Storm Rune
+Lesser Iron Rune
+Lesser Body Rune
+Lesser Mind Rune
+Lesser Rebirth Rune
+Lesser Inspiration Rune
+Lesser Stone Rune
+Lesser Vision Rune
+Greater Desert Rune
+Greater Glacial Rune
+Greater Storm Rune
+Greater Iron Rune
+Greater Body Rune
+Greater Mind Rune
+Greater Rebirth Rune
+Greater Inspiration Rune
+Greater Stone Rune
+Greater Vision Rune
+Greater Rune of Leadership
+Greater Rune of Tithing
+Greater Rune of Alacrity
+Greater Rune of Nobility
 Body Rune
 Desert Rune
 Glacial Rune
@@ -3974,6 +4223,46 @@ Rebirth Rune
 Stone Rune
 Storm Rune
 Vision Rune
+Craiceann's Rune of Warding
+Craiceann's Rune of Recovery
+Countess Seske's Rune of Archery
+Courtesan Mannan's Rune of Cruelty
+Farrul's Rune of Grace
+Farrul's Rune of the Hunt
+Farrul's Rune of the Chase
+Fenumus' Rune of Agony
+Fenumus' Rune of Spinning
+Fenumus' Rune of Draining
+Hedgewitch Assandra's Rune of Wisdom
+Lady Hestra's Rune of Winter
+Saqawal's Rune of Memory
+Saqawal's Rune of the Sky
+Saqawal's Rune of Erosion
+Thane Grannell's Rune of Mastery
+Thane Girt's Rune of Wildness
+Thane Leld's Rune of Spring
+Thane Myrk's Rune of Summer
+The Greatwolf's Rune of Claws
+The Greatwolf's Rune of Willpower
+
+Serpent Talisman
+Primate Talisman
+Owl Talisman
+Cat Talisman
+Wolf Talisman
+Stag Talisman
+Boar Talisman
+Bear Talisman
+Ox Talisman
+Rabbit Talisman
+Fox Talisman
+Talisman of Eeshta
+Talisman of Egrin
+Talisman of Grold
+Talisman of Maxarius
+Talisman of Ralakesh
+Talisman of Sirrius
+Talisman of Thruldana
 
 Soul Core of Atmohua
 Soul Core of Azcapa
@@ -3990,6 +4279,26 @@ Soul Core of Tzamoto
 Soul Core of Xopec
 Soul Core of Zalatl
 Soul Core of Zantipi
+Atmohua's Soul Core of Retreat
+Citaqualotl's Soul Core of Foulness
+Cholotl's Soul Core of War
+Estazunti's Soul Core of Convalescence
+Guatelitzi's Soul Core of Endurance
+Hayoxi's Soul Core of Heatproofing
+Opiloti's Soul Core of Assault
+Quipolatl's Soul Core of Flow
+Tacati's Soul Core of Affliction
+Topotante's Soul Core of Dampening
+Tzamoto's Soul Core of Ferocity
+Uromoti's Soul Core of Attenuation
+Xipocado's Soul Core of Dominion
+Xopec's Soul Core of Power
+Zalatl's Soul Core of Insulation
+
+Amanamu's Gaze
+Tecrod's Gaze
+Kurgal's Gaze
+Ulaman's Gaze
 
 Omen of Corruption
 Omen of Dextral Alchemy
@@ -4005,6 +4314,33 @@ Omen of Sinistral Coronation
 Omen of Sinistral Erasure
 Omen of Sinistral Exaltation
 Omen of Whittling
+Omen of Answered Prayers
+Omen of Secret Compartments
+Omen of the Hunt
+Omen of Reinforcements
+Omen of Homogenising Exaltation
+Omen of Homogenising Coronation
+Omen of Gambling
+Omen of Bartering
+Omen of Recombination
+Omen of the Blessed
+Omen of Chaotic Rarity
+Omen of Chaotic Monsters
+Omen of Chaotic Quantity
+Omen of Chance
+Omen of the Ancients
+Omen of Sanctification
+Omen of Dextral Crystallisation
+Omen of Sinistral Crystallisation
+Omen of Catalysing Exaltation
+Omen of Abyssal Echoes
+Omen of Putrefaction
+Omen of Light
+Omen of Sinistral Necromancy
+Omen of Dextral Necromancy
+Omen of the Sovereign
+Omen of the Liege
+Omen of the Blackblooded
 
 Gargantuan Life Flask
 Gargantuan Mana Flask
@@ -4027,3 +4363,57 @@ Staunching Charm
 Stone Charm
 Thawing Charm
 Topaz Charm
+
+Twilight Reliquary Key
+Xesht's Reliquary Key
+The Trialmaster's Reliquary Key
+Ritualistic Reliquary Key
+Tangmazu's Reliquary Key
+Olroth's Reliquary Key
+The Arbiter's Reliquary Key
+Zarokh's Reliquary Key (Against the Darkness)
+Zarokh's Reliquary Key (Sandstorm Visage)
+Zarokh's Reliquary Key (Blessed Bonds)
+Zarokh's Reliquary Key (Sekhema's Resolve)
+Zarokh's Reliquary Key (Temporalis)
+
+Atalui's Bloodletting
+Einhar's Beastrite
+Vilenta's Propulsion
+Ahn's Citadel
+Brutus' Brain
+Tecrod's Revenge
+Uruk's Smelting
+Paquate's Pact
+Ailith's Chimes
+Doedre's Undoing
+Ratha's Assault
+Arjun's Medal
+Kaom's Madness
+Sione's Temper
+Ixchel's Torment
+Romira's Requital
+Tawhoa's Tending
+Piety's Mercy
+Dialla's Desire
+Kalisa's Crescendo
+Xoph's Pyre
+Esh's Radiance
+Tul's Stillness
+Uul-Netol's Embrace
+Rakiata's Flow
+Rigwald's Ferocity
+Uhtred's Exodus
+Uhtred's Omen
+Uhtred's Augury
+Daresso's Passion
+Atziri's Allure
+Tacati's Ire
+Zarokh's Refrain
+Garukhan's Resolve
+Kurgal's Leash
+Kulemak's Dominion
+Amanamu's Tithe
+Varashta's Blessing
+Arbiter's Ignition
+Arakaali's Lust

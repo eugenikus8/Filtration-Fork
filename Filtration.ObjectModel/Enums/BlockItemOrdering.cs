@@ -6,6 +6,8 @@ namespace Filtration.ObjectModel.Enums
     {
         //Порядок блоков
         Action,
+        ZanaMemory,
+        MemoryStrands,
         Minimal,
         Identified,
         Corrupted,
