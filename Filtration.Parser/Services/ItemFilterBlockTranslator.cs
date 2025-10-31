@@ -283,6 +283,12 @@ namespace Filtration.Parser.Services
                         break;
                     }
 
+                    case "Foulborn":
+                        {
+                            AddBooleanItemToBlockItems<FoulbornBlockItem>(block, trimmedLine);
+                            break;
+                        }
+
                     case "Scourged":
                     {
                         AddBooleanItemToBlockItems<ScourgedBlockItem>(block, trimmedLine);
