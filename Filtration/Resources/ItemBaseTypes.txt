@@ -214,7 +214,7 @@ Beauty Through Death
 Behead Support
 Behemoth Mace
 Berserk
-Bestiary Orb
+
 Bestiary Scarab
 Bestiary Scarab of Duplicating
 Bestiary Scarab of the Herd
@@ -382,7 +382,7 @@ Cartography Scarab of Escalation
 Cartography Scarab of Risk
 Cartography Scarab of Singularity
 Cartography Scarab of the Multitude
-Carved Wand
+
 Carving Knife
 Cast On Critical Strike Support
 Cast on Death Support
@@ -756,7 +756,7 @@ Engineer's Shard
 Engraved Greatsword
 Engraved Hatchet
 Engraved Ultimatum
-Engraved Wand
+
 Enhance Support
 Enkindling Orb
 Enlighten Support
@@ -1176,7 +1176,7 @@ Ice Trap
 Icicle Mine
 Ignite Proliferation Support
 Imbued Catalyst
-Imbued Wand
+
 Immolate Support
 Immortal Call
 Immortal Resolve
@@ -3041,7 +3041,7 @@ Runegraft of Blasphemy
 Runegraft of Gemcraft
 Runegraft of Loyalty
 Runegraft of Quaffing
-Runegraft of Recompense
+Runegraft of Refraction
 Runegraft of Restitching
 Runegraft of Stability
 Runegraft of Time
@@ -3082,6 +3082,79 @@ Last Stand
 Damnation
 When Currents Blaze
 History
+
+
+Augmentation Implant
+Regal Implant
+Exalted Implant
+Unstable Implant
+Foulborn Orb of Augmentation
+Foulborn Regal Orb
+Foulborn Exalted Orb
+
+Wall of Force
+Conflagration
+Kinetic Rain
+Kinetic Rain of Impact
+Somatic Shell
+Thunderstorm
+Kinetic Fusillade
+
+Windburst Support
+Kinetic Instability
+Living Lightning Support
+
+Hivebrain Gland
+Traumatic Fragment
+Reverent Fragment
+Lonely Fragment
+
+Lonely Reliquary Key
+Reverent Reliquary Key
+Traumatic Reliquary Key
+
+Fleshgraft
+Battering Uulgraft
+Spiking Uulgraft
+Impaling Uulgraft
+Hardening Uulgraft
+Molten Xophgraft
+Erupting Xophgraft
+Flamecaller Xophgraft
+Stoking Xophgraft
+Storming Eshgraft
+Replicating Eshgraft
+Draining Eshgraft
+Jolting Eshgraft
+Squalling Tulgraft
+Freezing Tulgraft
+Summoning Tulgraft
+Aegis Tulgraft
+
+Provisioning Wombgift
+Lavish Wombgift
+Ancient Wombgift
+Growing Wombgift
+Mysterious Wombgift
+
+Cryonic Ring
+Enthalpic Ring
+Synaptic Ring
+Organic Ring
+Fugitive Ring
+Formless Ring
+
+Somatic Wand
+Blasting Wand
+Kinetic Wand
+
+The Last Laugh
+The Lake
+One Last Score
+Bound by Flame
+Outfoxed
+
+
 
 Uncut
 Uncut Skill Gems

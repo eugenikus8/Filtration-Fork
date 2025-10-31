@@ -60,6 +60,7 @@
     <Compile Include="BlockItemBaseTypes\IntegerBlockItem.cs" />
     <Compile Include="BlockItemBaseTypes\NumericFilterPredicateBlockItem.cs" />
     <Compile Include="BlockItemBaseTypes\StringListBlockItem.cs" />
+    <Compile Include="BlockItemTypes\FoulbornBlockItem.cs" />
     <Compile Include="BlockItemTypes\MemoryStrandsBlockItem.cs" />
     <Compile Include="BlockItemTypes\WaystoneTierBlockItem.cs" />
     <Compile Include="BlockItemTypes\TransfiguredGemBlockItem.cs" />

@@ -8,6 +8,7 @@ namespace Filtration.ObjectModel.Enums
         Action,
         ZanaMemory,
         MemoryStrands,
+        Foulborn, //3.27 new keyword
         Minimal,
         Identified,
         Corrupted,
