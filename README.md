@@ -19,7 +19,7 @@ Filtration by [Ben Wallis](https://github.com/ben-wallis/Filtration) is an edito
 
 
 ## System Requirements
-Filtration requires .NET Framework 4.6.1 installed.
+Filtration requires .NET Framework 4.8 installed.
 
 ## Features
 * Quick and easy editing and creation of item filter scripts - no direct editing of scripts required
