@@ -149,6 +149,9 @@ namespace Filtration.ViewModels.DesignTime
                                                          typeof (GemLevelBlockItem),
                                                          typeof (AlternateQualityBlockItem),
                                                          typeof (TransfiguredGemBlockItem),
+                                                         typeof (ZanaMemoryBlockItem), //3.26
+                                                         typeof (MemoryStrandsBlockItem),  //3.26
+                                                         typeof (FoulbornBlockItem), //3.27
 
                                                          ///typeof (GemQualityTypeBlockItem),
 

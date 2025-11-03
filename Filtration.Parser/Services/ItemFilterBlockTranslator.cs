@@ -272,6 +272,23 @@ namespace Filtration.Parser.Services
                         AddBooleanItemToBlockItems<ReplicaBlockItem>(block, trimmedLine);
                         break;
                     }
+                    case "ZanaMemory":
+                    {
+                        AddBooleanItemToBlockItems<ZanaMemoryBlockItem>(block, trimmedLine);
+                        break;
+                    }
+                    case "MemoryStrands":
+                    {
+                        AddNumericFilterPredicateItemToBlockItems<MemoryStrandsBlockItem>(block, trimmedLine);
+                        break;
+                    }
+
+                    case "Foulborn":
+                        {
+                            AddBooleanItemToBlockItems<FoulbornBlockItem>(block, trimmedLine);
+                            break;
+                        }
+
                     case "Scourged":
                     {
                         AddBooleanItemToBlockItems<ScourgedBlockItem>(block, trimmedLine);

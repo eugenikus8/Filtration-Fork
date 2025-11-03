@@ -6,6 +6,9 @@ namespace Filtration.ObjectModel.Enums
     {
         //Порядок блоков
         Action,
+        ZanaMemory,
+        MemoryStrands,
+        Foulborn, //3.27 new keyword
         Minimal,
         Identified,
         Corrupted,
