@@ -36,6 +36,9 @@ namespace Filtration.ObjectModel.Enums
         GemLevel,
         AlternateQuality,
         TransfiguredGem,
+        ZanaMemory,
+        MemoryStrands,
+        Foulborn, //3.27 new keyword
         GemQualityType,
         HasImplicitMod,
         HasExplicitMod,
