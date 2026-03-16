@@ -46,8 +46,6 @@ namespace Filtration.ViewModels.DesignTime
                                   };
 
             itemFilterBlock.BlockItems.Add(new RarityBlockItem(FilterPredicateOperator.Equal, ItemRarity.Rare));
-      
-            itemFilterBlock.BlockItems.Add(new GemQualityTypeBlockItem(FilterPredicateOperator.Equal, GemQualityType.Anomalous));
 
             itemFilterBlock.BlockItems.Add(new DropLevelBlockItem(FilterPredicateOperator.GreaterThan, 23));
             itemFilterBlock.BlockItems.Add(new BaseTypeBlockItem());
@@ -143,18 +141,15 @@ namespace Filtration.ViewModels.DesignTime
                                                          typeof (FracturedItemBlockItem),
                                                          typeof (AnyEnchantmentBlockItem),
                                                          typeof (MapTierBlockItem),
-                                                         typeof (WaystoneTierBlockItem),
                                                          typeof (BlightedMapBlockItem),
                                                          typeof (UberBlightedMapBlockItem),
                                                          typeof (GemLevelBlockItem),
                                                          typeof (AlternateQualityBlockItem),
                                                          typeof (TransfiguredGemBlockItem),
                                                          typeof (ZanaMemoryBlockItem), //3.26
-                                                         typeof (MemoryStrandsBlockItem),  //3.26
+                                                         typeof (MemoryStrandsBlockItem), //3.26
                                                          typeof (FoulbornBlockItem), //3.27
-
-                                                         ///typeof (GemQualityTypeBlockItem),
-
+                                                         typeof (ImbuedBlockItem), //3.28
                                                          typeof (StackSizeBlockItem),
                                                          typeof (HasImplicitModBlockItem),
                                                          typeof (HasExplicitModBlockItem),
@@ -169,6 +164,12 @@ namespace Filtration.ViewModels.DesignTime
                                                          typeof (BaseEvasionBlockItem),
                                                          typeof (BaseEnergyShieldBlockItem),
                                                          typeof (BaseWardBlockItem),
+                                                         typeof (AlwaysShowBlockItem),//POE2
+                                                         typeof (WaystoneTierBlockItem),//POE2
+                                                         typeof (HasVaalUniqueModBlockItem),//POE2
+                                                         typeof (IsVaalUniqueBlockItem),//POE2
+                                                         typeof (TwiceCorruptedBlockItem),//POE2
+                                                         typeof (UnidentifiedItemTierBlockItem),//POE2
                                                          typeof (ContinueBlockItem),
                                                      };
         public List<Type> AudioVisualBlockItemTypesAvailable { get; }

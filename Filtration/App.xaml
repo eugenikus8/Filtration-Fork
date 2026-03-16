@@ -37,7 +37,6 @@
                 <ResourceDictionary>
                     <converters:BlockItemToRemoveEnabledVisibilityConverter x:Key="BlockItemToRemoveEnabledVisibilityConverter" />
                     <converters:IntToItemRarityConverter x:Key="IntToItemRarityConverter" />
-					<converters:IntToGemQualityTypeConverter x:Key="IntToGemQualityTypeConverter" />
                     <converters:BooleanToBlockActionConverter x:Key="BooleanToBlockActionConverter" />
                     <converters:BlockItemTypeToStringConverter x:Key="BlockItemTypeToStringConverter" />
                     <converters:BooleanToBlockActionInverseConverter x:Key="BooleanToBlockActionInverseConverter" />

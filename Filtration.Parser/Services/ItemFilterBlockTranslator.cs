@@ -176,27 +176,6 @@ namespace Filtration.Parser.Services
                         }
 
 
-                    case "GemQualityType":
-                    {
-                         RemoveExistingBlockItemsOfType<GemQualityTypeBlockItem>(block);
-
-                         var blockItemValue = new GemQualityTypeBlockItem();
-                         var result = Regex.Match(trimmedLine, @"^\w+\s+([><!=]{0,2})\s*(\w+)$");
-                         if (result.Groups.Count == 3)
-                         {
-                             blockItemValue.FilterPredicate.PredicateOperator =
-                                 EnumHelper.GetEnumValueFromDescription<FilterPredicateOperator>(string.IsNullOrEmpty(result.Groups[1].Value) ? "=" : result.Groups[1].Value);
-                             blockItemValue.FilterPredicate.PredicateOperand =
-                                 (int)EnumHelper.GetEnumValueFromDescription<GemQualityType>(result.Groups[2].Value);
-                         }
-
-                         block.BlockItems.Add(blockItemValue);
-                         break;
-                    }
-
-
-
-
                //case "Sockets":
                //   {
                //      RemoveExistingBlockItemsOfType<SocketsBlockItem>(block);
@@ -282,13 +261,38 @@ namespace Filtration.Parser.Services
                         AddNumericFilterPredicateItemToBlockItems<MemoryStrandsBlockItem>(block, trimmedLine);
                         break;
                     }
-
                     case "Foulborn":
-                        {
-                            AddBooleanItemToBlockItems<FoulbornBlockItem>(block, trimmedLine);
-                            break;
-                        }
+                    {
+                        AddBooleanItemToBlockItems<FoulbornBlockItem>(block, trimmedLine);
+                        break;
+                    }
+                    case "Imbued":
+                    {
+                        AddBooleanItemToBlockItems<ImbuedBlockItem>(block, trimmedLine);
+                        break;
+                    }
 
+                    //POE2
+                    case "AlwaysShow":
+                    {
+                        AddBooleanItemToBlockItems<AlwaysShowBlockItem>(block, trimmedLine);
+                        break;
+                    }
+                    case "HasVaalUniqueMod":
+                    {
+                        AddBooleanItemToBlockItems<HasVaalUniqueModBlockItem>(block, trimmedLine);
+                        break;
+                    }
+                    case "IsVaalUnique":
+                    {
+                        AddBooleanItemToBlockItems<IsVaalUniqueBlockItem>(block, trimmedLine);
+                        break;
+                    }
+                    case "TwiceCorrupted":
+                    {
+                        AddBooleanItemToBlockItems<TwiceCorruptedBlockItem>(block, trimmedLine);
+                        break;
+                    }
                     case "Scourged":
                     {
                         AddBooleanItemToBlockItems<ScourgedBlockItem>(block, trimmedLine);
@@ -304,10 +308,6 @@ namespace Filtration.Parser.Services
                         AddStringListItemToBlockItems<HasInfluenceBlockItem>(block, trimmedLine);
                         break;
                     }
-
-
-
-
                     case "EnchantmentPassiveNode":
                     {
                         AddStringListItemToBlockItems<EnchantmentPassiveNodeBlockItem>(block, trimmedLine);
@@ -406,13 +406,6 @@ namespace Filtration.Parser.Services
                          AddNumericFilterPredicateItemToBlockItems<HasSearingExarchImplicitBlockItem>(block, trimmedLine);
                         break;
                     }
-
-
-
-
-
-
-
                     case "SetTextColor":
                     {
                         // Only ever use the last SetTextColor item encountered as multiples aren't valid.
@@ -511,13 +504,11 @@ namespace Filtration.Parser.Services
                         AddBooleanItemToBlockItems<AlternateQualityBlockItem>(block, trimmedLine);
                         break;
                     }
-
                     case "TransfiguredGem":
                     {
                         AddBooleanItemToBlockItems<TransfiguredGemBlockItem>(block, trimmedLine);
                         break;
                     }
-
                     case "StackSize":
                     {
                         AddNumericFilterPredicateItemToBlockItems<StackSizeBlockItem>(block, trimmedLine);
@@ -615,21 +606,29 @@ namespace Filtration.Parser.Services
                         AddNumericFilterPredicateItemToBlockItems<MapTierBlockItem>(block, trimmedLine);
                         break;
                     }
-                    case "WaystoneTier":
-                    {
-                        AddNumericFilterPredicateItemToBlockItems<WaystoneTierBlockItem>(block, trimmedLine);
-                        break;
-                    }
                     case "BlightedMap":
                     {
                         AddBooleanItemToBlockItems<BlightedMapBlockItem>(block, trimmedLine);
                         break;
                     }
                     case "UberBlightedMap":
-                        {
-                            AddBooleanItemToBlockItems<UberBlightedMapBlockItem>(block, trimmedLine);
-                            break;
-                        }
+                    {
+                        AddBooleanItemToBlockItems<UberBlightedMapBlockItem>(block, trimmedLine);
+                        break;
+                    }
+
+                    //POE2
+                    case "WaystoneTier":
+                    {
+                        AddNumericFilterPredicateItemToBlockItems<WaystoneTierBlockItem>(block, trimmedLine);
+                        break;
+                    }
+                    case "UnidentifiedItemTier":
+                    {
+                        AddNumericFilterPredicateItemToBlockItems<UnidentifiedItemTierBlockItem>(block, trimmedLine);
+                        break;
+                    }
+
                 }
 
                 if (!string.IsNullOrWhiteSpace(blockComment) && block.BlockItems.Count > 1)

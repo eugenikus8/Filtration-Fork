@@ -60,8 +60,14 @@
     <Compile Include="BlockItemBaseTypes\IntegerBlockItem.cs" />
     <Compile Include="BlockItemBaseTypes\NumericFilterPredicateBlockItem.cs" />
     <Compile Include="BlockItemBaseTypes\StringListBlockItem.cs" />
+    <Compile Include="BlockItemTypes\AlwaysShowBlockItem.cs" />
+    <Compile Include="BlockItemTypes\HasVaalUniqueModBlockItem.cs" />
+    <Compile Include="BlockItemTypes\TwiceCorruptedBlockItem.cs" />
+    <Compile Include="BlockItemTypes\IsVaalUniqueBlockItem.cs" />
+    <Compile Include="BlockItemTypes\ImbuedBlockItem.cs" />
     <Compile Include="BlockItemTypes\FoulbornBlockItem.cs" />
     <Compile Include="BlockItemTypes\MemoryStrandsBlockItem.cs" />
+    <Compile Include="BlockItemTypes\UnidentifiedItemTierBlockItem.cs" />
     <Compile Include="BlockItemTypes\WaystoneTierBlockItem.cs" />
     <Compile Include="BlockItemTypes\TransfiguredGemBlockItem.cs" />
     <Compile Include="BlockItemTypes\AnyEnchantmentBlockItem.cs" />
@@ -81,7 +87,6 @@
     <Compile Include="BlockItemTypes\ContinueBlockItem.cs" />
     <Compile Include="BlockItemTypes\HasExplicitModBlockItem.cs" />
     <Compile Include="BlockItemTypes\HasImplicitModBlockItem.cs" />
-    <Compile Include="BlockItemTypes\GemQualityTypeBlockItem.cs" />
     <Compile Include="BlockItemTypes\UberBlightedMapBlockItem.cs" />
     <Compile Include="BlockItemTypes\BlightedMapBlockItem.cs" />
     <Compile Include="BlockItemTypes\FracturedItemBlockItem.cs" />
@@ -141,7 +146,6 @@
     <Compile Include="Enums\IconColor.cs" />
     <Compile Include="Enums\IconShape.cs" />
     <Compile Include="Enums\IconSize.cs" />
-    <Compile Include="Enums\GemQualityType.cs" />
     <Compile Include="Enums\ItemRarity.cs" />
     <Compile Include="Enums\SocketColor.cs" />
     <Compile Include="Enums\ThemeComponentType.cs" />

@@ -167,18 +167,10 @@ namespace Filtration.ItemFilterPreview.Services
             return NumericFilterPredicateBlockItemMatch(qualityBlockItem, (int)item.ItemRarity);
         }
 
-        private static bool GemQualityTypeBlockItemMatch(GemQualityTypeBlockItem qualityBlockItem, IItem item)
-        {
-            return NumericFilterPredicateBlockItemMatch(qualityBlockItem, (int)item.GemQualityType);
-        }
-
-
-
         private static bool WidthBlockItemMatch(WidthBlockItem widthBlockItem, IItem item)
         {
             return NumericFilterPredicateBlockItemMatch(widthBlockItem, item.Width);
         }
-
 
         private static bool SocketGroupBlockItemMatch(SocketGroupBlockItem socketGroupBlockItem, IItem item)
         {

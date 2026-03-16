@@ -31,8 +31,6 @@ namespace Filtration.ObjectModel
         ItemRarity ItemRarity { get; set; }
         int SocketCount { get; }
 
-        GemQualityType GemQualityType { get; set; }
-
         int LinkedSockets { get; }
         IEnumerable<SocketGroup> LinkedSocketGroups { get; }
         List<SocketGroup> SocketGroups { get; set; }
@@ -87,8 +85,6 @@ namespace Filtration.ObjectModel
         public int HasSearingExarchImplicit { get; set; }
 
         public ItemRarity ItemRarity { get; set; }
-
-        public GemQualityType GemQualityType { get; set; }
 
         [StringLength(20)]
         public string Sockets { get; set; }
