@@ -136,44 +136,9 @@ Autoexertion
 Aventail Helmet
 Avian Slippers
 Avian Twins Talisman
-Awakened Added Chaos Damage Support
-Awakened Added Cold Damage Support
-Awakened Added Fire Damage Support
-Awakened Added Lightning Damage Support
-Awakened Ancestral Call Support
-Awakened Arrow Nova Support
-Awakened Blasphemy Support
-Awakened Brutality Support
-Awakened Burning Damage Support
-Awakened Cast on Critical Strike Support
-Awakened Cast While Channelling Support
-Awakened Chain Support
-Awakened Cold Penetration Support
-Awakened Controlled Destruction Support
-Awakened Deadly Ailments Support
-Awakened Elemental Damage with Attacks Support
-Awakened Elemental Focus Support
 Awakened Empower Support
 Awakened Enhance Support
 Awakened Enlighten Support
-Awakened Fire Penetration Support
-Awakened Fork Support
-Awakened Generosity Support
-Awakened Greater Multiple Projectiles Support
-Awakened Hextouch Support
-Awakened Increased Area of Effect Support
-Awakened Lightning Penetration Support
-Awakened Melee Physical Damage Support
-Awakened Melee Splash Support
-Awakened Minion Damage Support
-Awakened Multistrike Support
-Awakened Spell Cascade Support
-Awakened Spell Echo Support
-Awakened Swift Affliction Support
-Awakened Unbound Ailments Support
-Awakened Unleash Support
-Awakened Vicious Projectiles Support
-Awakened Void Manipulation Support
 Awakener's Orb
 Awakening Fragment
 Awl
