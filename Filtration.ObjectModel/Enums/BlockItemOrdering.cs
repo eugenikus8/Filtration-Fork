@@ -39,6 +39,7 @@ namespace Filtration.ObjectModel.Enums
         ZanaMemory,
         MemoryStrands,
         Foulborn, //3.27 new keyword
+        Imbued, //3.28
         HasImplicitMod,
         HasExplicitMod,
         AnyEnchantment,
