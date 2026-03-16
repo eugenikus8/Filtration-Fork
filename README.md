@@ -3,7 +3,7 @@
 # Filtration Fork for POE1 & POE2
 Filtration by [Ben Wallis](https://github.com/ben-wallis/Filtration) is an editor for Path of Exile item filter scripts.
 
-## Current Release Filtration Fork (released 2024-12-23)
+## Current Release Filtration Fork (released 2025-11-03)
 <b>Installer Ben Wallis version (from 2019 years) see here</b> <a href="https://github.com/ben-wallis/Filtration/releases/download/1.2.2/Setup.exe">Setup.exe</a>
 <br>
 <b>For the latest compiled portable version, see releases</b> https://github.com/eugenikus8/Filtration-Fork/releases
@@ -19,7 +19,7 @@ Filtration by [Ben Wallis](https://github.com/ben-wallis/Filtration) is an edito
 
 
 ## System Requirements
-Filtration requires .NET Framework 4.6.1 installed.
+Filtration requires .NET Framework 4.8 installed.
 
 ## Features
 * Quick and easy editing and creation of item filter scripts - no direct editing of scripts required

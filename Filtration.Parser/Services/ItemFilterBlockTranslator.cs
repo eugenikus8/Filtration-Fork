@@ -293,7 +293,6 @@ namespace Filtration.Parser.Services
                         AddBooleanItemToBlockItems<TwiceCorruptedBlockItem>(block, trimmedLine);
                         break;
                     }
-
                     case "Scourged":
                     {
                         AddBooleanItemToBlockItems<ScourgedBlockItem>(block, trimmedLine);
