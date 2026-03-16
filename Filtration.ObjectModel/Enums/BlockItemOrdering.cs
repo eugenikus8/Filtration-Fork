@@ -30,7 +30,7 @@ namespace Filtration.ObjectModel.Enums
         SynthesisedItem,
         FracturedItem,
         MapTier,
-        WaystoneTier,
+        WaystoneTier,//poe2
         BligtedMap,
         UberBlightedMap,
         GemLevel,
@@ -39,7 +39,6 @@ namespace Filtration.ObjectModel.Enums
         ZanaMemory,
         MemoryStrands,
         Foulborn, //3.27 new keyword
-        GemQualityType,
         HasImplicitMod,
         HasExplicitMod,
         AnyEnchantment,

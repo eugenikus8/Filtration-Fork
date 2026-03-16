@@ -46,8 +46,6 @@ namespace Filtration.ViewModels.DesignTime
                                   };
 
             itemFilterBlock.BlockItems.Add(new RarityBlockItem(FilterPredicateOperator.Equal, ItemRarity.Rare));
-      
-            itemFilterBlock.BlockItems.Add(new GemQualityTypeBlockItem(FilterPredicateOperator.Equal, GemQualityType.Anomalous));
 
             itemFilterBlock.BlockItems.Add(new DropLevelBlockItem(FilterPredicateOperator.GreaterThan, 23));
             itemFilterBlock.BlockItems.Add(new BaseTypeBlockItem());
@@ -143,7 +141,7 @@ namespace Filtration.ViewModels.DesignTime
                                                          typeof (FracturedItemBlockItem),
                                                          typeof (AnyEnchantmentBlockItem),
                                                          typeof (MapTierBlockItem),
-                                                         typeof (WaystoneTierBlockItem),
+                                                         typeof (WaystoneTierBlockItem),//POE2
                                                          typeof (BlightedMapBlockItem),
                                                          typeof (UberBlightedMapBlockItem),
                                                          typeof (GemLevelBlockItem),
@@ -153,7 +151,6 @@ namespace Filtration.ViewModels.DesignTime
                                                          typeof (MemoryStrandsBlockItem),  //3.26
                                                          typeof (FoulbornBlockItem), //3.27
 
-                                                         ///typeof (GemQualityTypeBlockItem),
 
                                                          typeof (StackSizeBlockItem),
                                                          typeof (HasImplicitModBlockItem),

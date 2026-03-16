@@ -176,27 +176,6 @@ namespace Filtration.Parser.Services
                         }
 
 
-                    case "GemQualityType":
-                    {
-                         RemoveExistingBlockItemsOfType<GemQualityTypeBlockItem>(block);
-
-                         var blockItemValue = new GemQualityTypeBlockItem();
-                         var result = Regex.Match(trimmedLine, @"^\w+\s+([><!=]{0,2})\s*(\w+)$");
-                         if (result.Groups.Count == 3)
-                         {
-                             blockItemValue.FilterPredicate.PredicateOperator =
-                                 EnumHelper.GetEnumValueFromDescription<FilterPredicateOperator>(string.IsNullOrEmpty(result.Groups[1].Value) ? "=" : result.Groups[1].Value);
-                             blockItemValue.FilterPredicate.PredicateOperand =
-                                 (int)EnumHelper.GetEnumValueFromDescription<GemQualityType>(result.Groups[2].Value);
-                         }
-
-                         block.BlockItems.Add(blockItemValue);
-                         break;
-                    }
-
-
-
-
                //case "Sockets":
                //   {
                //      RemoveExistingBlockItemsOfType<SocketsBlockItem>(block);

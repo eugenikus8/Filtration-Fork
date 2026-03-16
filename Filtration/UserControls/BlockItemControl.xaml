@@ -67,23 +67,6 @@
                         </StackPanel>
                     </DataTemplate>
 
-
-                    <!-- Not Used (hide) -->
-                    <!-- GemQualityType Template -->
-                    <DataTemplate DataType="{x:Type blockItemTypes:GemQualityTypeBlockItem}">
-                        <StackPanel Orientation="Horizontal" Margin="1,1,1,1">
-                            <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:FilterPredicateOperator}}}"
-                                                              DisplayMemberPath="Description"
-                                                              SelectedValue="{Binding FilterPredicate.PredicateOperator}"
-                                                              SelectedValuePath="Value" Width="50" Margin="0,0,4,0"  />
-                            <ComboBox ItemsSource="{Binding Source={extensions:Enumeration {x:Type enums:GemQualityType}}}"
-                                                              DisplayMemberPath="Description"
-                                                              SelectedValue="{Binding FilterPredicate.PredicateOperand, Converter={StaticResource IntToGemQualityTypeConverter}}"
-                                                              SelectedValuePath="Value" />
-                        </StackPanel>
-                    </DataTemplate>
-
-
                     <!-- Class Template -->
                     <DataTemplate DataType="{x:Type blockItemTypes:ClassBlockItem}">
                         <userControls:EditableListBoxControl Margin="5,5,5,5" ItemsSource="{Binding Items}" AutoCompleteItemsSource="{Binding ElementName=TopLevelGrid, Path=DataContext.AutoCompleteItemClasses}" />

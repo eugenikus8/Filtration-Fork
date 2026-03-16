@@ -241,18 +241,15 @@ namespace Filtration.ViewModels
             typeof (SynthesisedItemBlockItem),
             typeof (FracturedItemBlockItem),
             typeof (MapTierBlockItem),
-            typeof (WaystoneTierBlockItem),
+            typeof (WaystoneTierBlockItem), //POE2
             typeof (BlightedMapBlockItem),
             typeof (UberBlightedMapBlockItem),
             typeof (GemLevelBlockItem),
             typeof (AlternateQualityBlockItem),
             typeof (TransfiguredGemBlockItem),
             typeof (ZanaMemoryBlockItem), //3.26
-            typeof (MemoryStrandsBlockItem),  //3.26
+            typeof (MemoryStrandsBlockItem), //3.26
             typeof (FoulbornBlockItem), //3.27
-
-            ///typeof (GemQualityTypeBlockItem),
-           
             typeof (HasImplicitModBlockItem),
             typeof (HasExplicitModBlockItem), 
             typeof (AnyEnchantmentBlockItem),
