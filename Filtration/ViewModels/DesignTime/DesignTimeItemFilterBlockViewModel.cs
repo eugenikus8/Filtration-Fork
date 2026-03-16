@@ -141,7 +141,6 @@ namespace Filtration.ViewModels.DesignTime
                                                          typeof (FracturedItemBlockItem),
                                                          typeof (AnyEnchantmentBlockItem),
                                                          typeof (MapTierBlockItem),
-                                                         typeof (WaystoneTierBlockItem),//POE2
                                                          typeof (BlightedMapBlockItem),
                                                          typeof (UberBlightedMapBlockItem),
                                                          typeof (GemLevelBlockItem),
@@ -165,6 +164,12 @@ namespace Filtration.ViewModels.DesignTime
                                                          typeof (BaseEvasionBlockItem),
                                                          typeof (BaseEnergyShieldBlockItem),
                                                          typeof (BaseWardBlockItem),
+                                                         typeof (AlwaysShowBlockItem),//POE2
+                                                         typeof (WaystoneTierBlockItem),//POE2
+                                                         typeof (HasVaalUniqueModBlockItem),//POE2
+                                                         typeof (IsVaalUniqueBlockItem),//POE2
+                                                         typeof (TwiceCorruptedBlockItem),//POE2
+                                                         typeof (UnidentifiedItemTierBlockItem),//POE2
                                                          typeof (ContinueBlockItem),
                                                      };
         public List<Type> AudioVisualBlockItemTypesAvailable { get; }

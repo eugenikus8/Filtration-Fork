@@ -4,12 +4,18 @@ namespace Filtration.ObjectModel.Enums
 {
     public enum BlockItemOrdering
     {
-        //Порядок блоков
+        //[en] Block ordering in Filtration
+        //[ru] Порядок блоков в Filtration
         Action,
         Minimal,
         Identified,
         Corrupted,
         CorruptedMods,
+        AlwaysShow, //poe2
+        UnidentifiedItemTier, //poe2
+        TwiceCorrupted, //poe2
+        HasVaalUniqueMod, //poe2
+        IsVaalUnique, //poe2
         HasCruciblePassiveTree,
         Mirrored,
         Replica,
@@ -30,15 +36,15 @@ namespace Filtration.ObjectModel.Enums
         SynthesisedItem,
         FracturedItem,
         MapTier,
-        WaystoneTier,//poe2
+        WaystoneTier, //poe2
         BligtedMap,
         UberBlightedMap,
         GemLevel,
         AlternateQuality,
         TransfiguredGem,
-        ZanaMemory,
-        MemoryStrands,
-        Foulborn, //3.27 new keyword
+        ZanaMemory, //3.26
+        MemoryStrands, //3.26
+        Foulborn, //3.27
         Imbued, //3.28
         HasImplicitMod,
         HasExplicitMod,
