@@ -13,9 +13,9 @@ Aberrant Fossil
 Abrasive Catalyst
 Absolution
 Abyss Scarab
-Abyss Scarab of Multitudes
-Abyss Scarab of Edifice
 Abyss Scarab of Descending
+Abyss Scarab of Edifice
+Abyss Scarab of Multitudes
 Abyss Scarab of Profound Depth
 Abyssal Axe
 Abyssal Delirium Orb
@@ -29,18 +29,27 @@ Added Cold Damage Support
 Added Fire Damage Support
 Added Lightning Damage Support
 Additional Accuracy Support
+Adherent of Zarokh
 Advanced Traps Support
 Aetheric Fossil
 Aetherwind Gloves
 Agate Amulet
 Aggregator Charm
 Akil's Prophecy
+Al-Hezmin's Crest
 Albino Rhoa Feather
 Alchemist's Mark
 Alchemy Shard
 Alder Spiked Shield
-Al-Hezmin's Crest
 Alivia's Grace
+Allflame Ember of Flesh
+Allflame Ember of Kulemak
+Allflame Ember of Propagation
+Allflame Ember of Resplendence
+Allflame Ember of Toads
+Allflame Ember of the Ethereal
+Allflame Ember of the Gilded
+Allflame Ember of the Wildwood
 Alloyed Spiked Shield
 Alluring Bounty
 Alone in the Darkness
@@ -55,14 +64,15 @@ Ambush
 Ambush Boots
 Ambush Mitts
 Ambush Scarab
-Ambush Scarab of Hidden Compartments
-Ambush Scarab of Potency
 Ambush Scarab of Containment
 Ambush Scarab of Discernment
+Ambush Scarab of Hidden Compartments
+Ambush Scarab of Potency
 Ambusher
 Amethyst Flask
 Amethyst Ring
 Amplifying Power Core
+An Audience With The King
 Anarchic Spiritblade
 Anarchy Scarab
 Anarchy Scarab of Gigantification
@@ -74,25 +84,30 @@ Ancestral Club
 Ancestral Cry
 Ancient Gauntlets
 Ancient Greaves
+Ancient Mask
 Ancient Orb
 Ancient Spirit Shield
 Ancient Sword
+Ancient Wombgift
 Angelic Kite Shield
 Anger
 Animate Guardian
 Animate Weapon
+Annihilation Support
 Annulment Shard
 Antique Gauntlets
 Antique Greaves
 Antique Rapier
 Apex Cleaver
 Apex Rapier
+Apocalypse
 Apothecary's Gloves
 Apprentice Gloves
 Aquamarine Flask
 Arc
 Arcane Cloak
 Arcane Surge Support
+Arcane Vestment
 Arcanist Brand
 Arcanist Gloves
 Arcanist Slippers
@@ -106,8 +121,8 @@ Armageddon Brand
 Arming Axe
 Armourer's Scrap
 Armoursmith's Delirium Orb
-Arrogance of the Vaal
 Arrogance Support
+Arrogance of the Vaal
 Arrow Nova Support
 Artillery Ballista
 Artillery Quiver
@@ -122,6 +137,8 @@ Assassin's Mark
 Assassin's Mitts
 Assembler Wand
 Astragali
+Astral Leather
+Astral Lich
 Astral Plate
 Astral Protection
 Astrolabe Amulet
@@ -134,6 +151,7 @@ Auric Mace
 Auspicious Ambitions
 Autoexertion
 Aventail Helmet
+Avian Pursuit
 Avian Slippers
 Avian Twins Talisman
 Awakened Empower Support
@@ -182,9 +200,9 @@ Bestiary Scarab
 Bestiary Scarab of Duplicating
 Bestiary Scarab of the Herd
 Betrayal Scarab
-Betrayal Scarab of the Allflame
 Betrayal Scarab of Reinforcements
 Betrayal Scarab of Unbreaking
+Betrayal Scarab of the Allflame
 Beyond Scarab
 Beyond Scarab of Haemophilia
 Beyond Scarab of Resurgence
@@ -203,14 +221,19 @@ Blade Trap
 Blade Vortex
 Bladed Mace
 Bladefall
+Bladefall of Trarthus
 Bladestorm
+Blasphemer
 Blasphemy Support
 Blast Rain
+Blast Rain of Trarthus
 Blastchain Mine Support
 Blasting Blade
+Blasting Wand
 Blazing Arrow Quiver
 Blazing Fragment
 Blazing Salvo
+Blessed Call Support
 Blessed Orb
 Blessing of Chayula
 Blessing of Esh
@@ -220,9 +243,9 @@ Blessing of Uul-Netol
 Blessing of Xoph
 Blight
 Blight Scarab
-Blight Scarab of the Blightheart
 Blight Scarab of Blooming
 Blight Scarab of Invigoration
+Blight Scarab of the Blightheart
 Blighted Delirium Orb
 Blighted Incubator
 Blind Support
@@ -231,14 +254,16 @@ Blinder
 Blink Arrow
 Blizzard Crown
 Block Chance Reduction Support
-Blood and Sand
+Blood Demon
 Blood Magic Support
 Blood Rage
 Blood Raiment
 Blood Sap Tincture
 Blood Sceptre
+Blood and Sand
 Blood-filled Vessel
 Bloodlust Support
+Bloodsoaked Banner Support
 Bloodstained Fossil
 Bloodthirst Support
 Blue Pearl Amulet
@@ -264,6 +289,7 @@ Bone Ring
 Bone Spirit Shield
 Bonechill Support
 Boneshatter
+Bonespire Support
 Bonespire Talisman
 Boom Mace
 Boon of Justice
@@ -272,7 +298,10 @@ Boot Blade
 Boot Knife
 Borealwood Tincture
 Bound Fossil
+Bound Rune
+Bound by Flame
 Boundless Realms
+Bounty Rune
 Bowyer's Dream
 Brand Recall
 Branded Kite Shield
@@ -280,11 +309,11 @@ Brass Maul
 Brass Spirit Shield
 Breach Ring
 Breach Scarab
-Breach Scarab of the Hive
 Breach Scarab of Instability
-Breach Scarab of the Marshal
-Breach Scarab of the Incensed Swarm
 Breach Scarab of Resonant Cascade
+Breach Scarab of the Hive
+Breach Scarab of the Incensed Swarm
+Breach Scarab of the Marshal
 Breakrib Talisman
 Brimstone Treads
 Broad Axe
@@ -298,9 +327,9 @@ Bronze Sceptre
 Bronze Tower Shield
 Bronzescale Boots
 Bronzescale Gauntlets
-Brotherhood in Exile
 Brother's Gift
 Brother's Stash
+Brotherhood in Exile
 Brush, Paint and Palette
 Brutality Support
 Buckskin Tower Shield
@@ -334,14 +363,15 @@ Cartographer's Delight
 Cartographer's Delirium Orb
 Cartographer's Incubator
 Cartography Scarab
+Cartography Scarab of Corruption
 Cartography Scarab of Escalation
 Cartography Scarab of Risk
-Cartography Scarab of Corruption
 Cartography Scarab of the Multitude
 Carving Knife
 Cast On Critical Strike Support
 Cast on Death Support
 Cast on Melee Kill Support
+Cast on Ward Break Support
 Cast when Damage Taken Support
 Cast when Stunned Support
 Cast while Channelling
@@ -361,6 +391,7 @@ Chain Belt
 Chain Boots
 Chain Gloves
 Chain Hauberk
+Chain Hook of Trarthus
 Chain Support
 Chainmail Doublet
 Chainmail Tunic
@@ -371,9 +402,11 @@ Chance to Flee Support
 Chance to Poison Support
 Chaos Orb
 Chaos Shard
+Chaotic Astrolabe
 Chaotic Disposition
 Charan's Sword
 Charged Dash
+Charged Dash of Projection
 Charged Mines Support
 Charged Traps Support
 Chasing Risk
@@ -382,6 +415,8 @@ Chayula's Flawless Breachstone
 Checkmate
 Chest Splitter
 Chestplate
+Chimerascale Boots
+Chimerascale Gauntlets
 Chiming Spirit Shield
 Choking Guilt
 Chromatic Orb
@@ -408,6 +443,11 @@ Cogs of Disruption
 Cogwork Ring
 Coiled Staff
 Coiled Wand
+Coin of Desecration
+Coin of Knowledge
+Coin of Power
+Coin of Restoration
+Coin of Skill
 Cold Penetration Support
 Cold Snap
 Cold to Fire Support
@@ -424,6 +464,7 @@ Common Black Scythe Artifact
 Common Broken Circle Artifact
 Common Order Artifact
 Common Sun Artifact
+Companionship Support
 Composite Bow
 Composite Ring
 Compound Bow
@@ -434,11 +475,17 @@ Conductive Quiver
 Conductivity
 Conduit Line
 Cone Helmet
+Conflagration
+Congregation Support
 Congregator Wand
 Conjurer Boots
 Conjurer Gloves
 Conjurer's Vestment
+Conjuror of Rot
+Conqueror's Helmet
 Conquest Chainmail
+Conquest Helmet
+Conquest Lamellar
 Consecrated Path
 Contagion
 Contract: Bunker
@@ -455,12 +502,14 @@ Convening Wand
 Conversion Trap
 Convocation
 Convoking Wand
+Cooldown Recovery Support
 Copper Kris
 Copper Plate
 Copper Sword
 Copper Tower Shield
 Coral Amulet
 Coral Ring
+Cord Belt
 Coronal Leather
 Coronal Maul
 Corroded Blade
@@ -481,6 +530,7 @@ Coveted Possession
 Crack Mace
 Crackling Lance
 Creeping Frost
+Creeping Frost of Floes
 Cremation
 Crescent Splinter
 Crescent Staff
@@ -503,11 +553,14 @@ Crusader Plate
 Crusader's Exalted Orb
 Crushing Fist
 Crushing Force Magnifier
+Cryonic Ring
 Crypt Armour
 Crystal Belt
 Crystal Sceptre
 Crystal Wand
+Crystallised Rancour
 Cube Of Absorption
+Cull the Weak Support
 Culling Strike Support
 Cured Quiver
 Curse On Hit Support
@@ -519,8 +572,13 @@ Cutthroat's Garb
 Cyclone
 Dagger Axe
 Damage on Full Life Support
+Damnation
+Dancing Sword
 Dark Dreams
+Dark Marionette
 Dark Pact
+Dark Pact of Trarthus
+Dark Reaper
 Dark Temptation
 Darker Half
 Darksteel Treads
@@ -571,10 +629,10 @@ Deft Fossil
 Deicide Mask
 Delirium Orb
 Delirium Scarab
-Delirium Scarab of Mania
-Delirium Scarab of Paranoia
-Delirium Scarab of Neuroses
 Delirium Scarab of Delusions
+Delirium Scarab of Mania
+Delirium Scarab of Neuroses
+Delirium Scarab of Paranoia
 Dementophobia
 Demigod's Wager
 Demon Crown
@@ -597,25 +655,31 @@ Devour Support
 Devouring Fragment
 Devouring Totem
 Devout Chainmail
+Dextral Catalyst
 Dialla's Subjugation
 Diamond Flask
 Diamond Ring
+Dire Pelt
 Disapprobation Axe
 Discharge
 Discipline
 Disdain
 Disperser
 Divination Scarab
-Divination Scarab of The Cloister
-Divination Scarab of Plenty
 Divination Scarab of Pilfering
+Divination Scarab of Plenty
+Divination Scarab of The Cloister
 Divine Beauty
+Divine Blast
 Divine Blessing Support
+Divine Crown
 Divine Ire
 Divine Justice
 Divine Life Flask
 Divine Mana Flask
 Divine Orb
+Divine Retribution
+Divine Sentinel Support
 Divine Vessel
 Diviner's Delirium Orb
 Diviner's Incubator
@@ -646,6 +710,7 @@ Driftwood Sceptre
 Driftwood Spiked Shield
 Driftwood Wand
 Drox's Crest
+Druidic Alchemist
 Dual Strike
 Duality
 Dusk Blade
@@ -658,8 +723,12 @@ Earth Drinker
 Earthquake
 Earthshatter
 Ebony Tower Shield
+Echo of Loneliness
+Echo of Reverence
+Echo of Trauma
 Echoes of Love
 Eclipse Staff
+Eclipse Support
 Eelskin Boots
 Eelskin Gloves
 Eelskin Sole
@@ -667,9 +736,12 @@ Eelskin Tunic
 Efficacy Support
 Einhar's Memory
 Elder Sword
+Elder's Exalted Orb
 Elder's Orb
+Eldritch Blasphemy Support
 Eldritch Chaos Orb
 Eldritch Exalted Orb
+Eldritch Eye
 Eldritch Incubator
 Eldritch Orb of Annulment
 Eldritch Perfection
@@ -703,15 +775,23 @@ Engraved Ultimatum
 Enhance Support
 Enkindling Orb
 Enlighten Support
+Enshrouded Astrolabe
 Ensnaring Arrow
+Enthalpic Ring
 Esh's Breachstone
 Esh's Flawless Breachstone
 Espionage Disguise Kit
 Essence Drain
+Essence Scarab
+Essence Scarab of Adaptation
+Essence Scarab of Ascent
+Essence Scarab of Calcification
+Essence Scarab of Stability
 Essence of Anger
 Essence of Anguish
 Essence of Contempt
 Essence of Delirium
+Essence of Desolation
 Essence of Doubt
 Essence of Dread
 Essence of Envy
@@ -732,17 +812,12 @@ Essence of Torment
 Essence of Woe
 Essence of Wrath
 Essence of Zeal
-Essence Scarab
-Essence Scarab of Ascent
-Essence Scarab of Stability
-Essence Scarab of Calcification
-Essence Scarab of Adaptation
 Essential Keyring
 Estoc
 Etched Greatsword
 Etched Hatchet
-Etched in Blood
 Etched Kite Shield
+Etched in Blood
 Eternal Blessing Support
 Eternal Bonds
 Eternal Burgonet
@@ -753,18 +828,22 @@ Eternal Sword
 Ethereal Knives
 Eventuality Rod
 Ever-Changing
+Eviscerate
 Exalted Orb
 Exalted Shard
 Exceptional Eldritch Ember
 Exceptional Eldritch Ichor
+Excommunicate Support
+Exemplar Support
 Exhausting Spirit Shield
 Exothermic Tower Shield
 Exotic Coinage
 Expedition Scarab
-Expedition Scarab of Runefinding
-Expedition Scarab of Verisium Powder
 Expedition Scarab of Archaeology
 Expedition Scarab of Infusion
+Expedition Scarab of Runefinding
+Expedition Scarab of Verisium Powder
+Expert Retaliation Support
 Explosive Arrow
 Explosive Concoction
 Explosive Trap
@@ -782,12 +861,14 @@ Ezomyte Staff
 Ezomyte Tower Shield
 Faceted Fossil
 Facetor's Lens
+Faithful Helmet
 Fancy Foil
 Fangjaw Talisman
 Faster Attacks Support
 Faster Casting Support
 Faster Projectiles Support
 Fateful Meeting
+Father's Love
 Faun's Horn
 Feathered Arrow Quiver
 Feeding Frenzy Support
@@ -798,6 +879,7 @@ Festival Mask
 Fickle Spiritblade
 Field Lamellar
 Fiend Dagger
+Fiery Cannibal
 Fine Delirium Orb
 Fine Incubator
 Fine Lockpick
@@ -806,13 +888,14 @@ Fine Sharpening Stone
 Fingerless Silk Gloves
 Fir Round Shield
 Fire Arrow Quiver
-Fire of Unknown Origin
 Fire Penetration Support
 Fire Trap
+Fire of Unknown Origin
 Fireball
 Firestorm
 Fishing Rod
 Fishscale Gauntlets
+Fissure Support
 Fist of War Support
 Flame Dash
 Flame Link
@@ -821,6 +904,7 @@ Flame Totem
 Flame Wall
 Flameblast
 Flamethrower Trap
+Flamethrower Trap of Stability
 Flamewood Support
 Flammability
 Flanged Arrowhead
@@ -830,8 +914,9 @@ Flare Mace
 Flashfire Blade
 Flashpowder Keg
 Flaying Knife
-Flesh and Stone
 Flesh Offering
+Flesh and Stone
+Flesh of Xesht
 Fleshripper
 Flicker Strike
 Flickerflame Blade
@@ -839,19 +924,27 @@ Fluted Bascinet
 Focal Stone
 Focused Amulet
 Focused Ballista Support
+Focused Channelling Support
 Foliate Brooch
 Footman Sword
 Forbidden Power
 Forbidden Rite
 Forbidden Tome
 Foreboding Incubator
+Forest Tiger
+Forest Warrior
 Forgotten Reliquary Key
 Fork Support
+Formless Ring
 Fortify Support
 Fossilised Delirium Orb
 Fossilised Incubator
 Fossilised Spirit Shield
 Foul Staff
+Foulborn Exalted Orb
+Foulborn Orb of Augmentation
+Foulborn Regal Orb
+Foulgrasp Support
 Foundry Bow
 Foxhide Sole
 Fractured Fossil
@@ -889,8 +982,12 @@ Frost Wall
 Frostbite
 Frostblink
 Frostbolt
+Frostmage Support
+Frozen Cannibal
 Frozen Legion
+Fruiting Astrolabe
 Fugitive Boots
+Fugitive Ring
 Fulgurite Tincture
 Full Chainmail
 Full Dragonscale
@@ -899,7 +996,9 @@ Full Plate
 Full Ringmail
 Full Scale Armour
 Full Wyrmscale
+Full Wyvernscale
 Fundamental Fossil
+Fungal Astrolabe
 Further Invention
 Gale Crown
 Galvanic Field
@@ -912,12 +1011,14 @@ Gemini Claw
 Gemstone Sword
 General's Brigandine
 General's Cry
+General's Helmet
 Generosity Support
 Geodesic Ring
 Geomancer's Incubator
 Ghastly Eye Jewel
 Giant Life Flask
 Giant Mana Flask
+Giantslayer Helmet
 Gift of Asenath
 Gift of the Gemling Queen
 Gift to the Goddess
@@ -938,12 +1039,14 @@ Glimmer of Hope
 Gloam Ring
 Glorious Leather
 Glorious Plate
+Gluttony Support
 Glyphic Fossil
 Gnarled Branch
+Goat's Horn
 Goathide Boots
 Goathide Buckler
 Goathide Gloves
-Goat's Horn
+Gold
 Gold Amulet
 Gold Flask
 Gold Ring
@@ -973,10 +1076,12 @@ Grand Eldritch Ichor
 Grand Life Flask
 Grand Mana Flask
 Grand Order Artifact
+Grand Ringmail
 Grand Sun Artifact
 Grandmaster Keyring
 Granite Flask
 Grappler
+Grasping Astrolabe
 Grasping Mail
 Grasping Voidstone
 Grave Knowledge
@@ -984,26 +1089,39 @@ Great Crown
 Great Helmet
 Great Mallet
 Great White Claw
+Greater Ancestral Call Support
 Greater Black Scythe Artifact
 Greater Broken Circle Artifact
+Greater Chain Support
+Greater Devour Support
 Greater Eldritch Ember
 Greater Eldritch Ichor
+Greater Fork Support
+Greater Kinetic Instability Support
 Greater Life Flask
 Greater Mana Flask
 Greater Multiple Projectiles Support
+Greater Multistrike Support
 Greater Order Artifact
+Greater Spell Cascade Support
+Greater Spell Echo Support
 Greater Sun Artifact
+Greater Unleash Support
 Greater Volley Support
 Greatwolf Talisman
 Grinning Fetish
 Gripped Gloves
+Grizzly Pelt
 Ground Slam
 Grove Bow
+Guardian Turtle
 Guardian's Blessing Support
 Guardian's Challenge
 Guarding Gauntlets
 Gut Ripper
 Gutting Knife
+Half-remembered Goliath
+Hallow Support
 Hallowed Hybrid Flask
 Hallowed Life Flask
 Hallowed Mana Flask
@@ -1013,11 +1131,14 @@ Harlequin Mask
 Harmonic Spirit Shield
 Harmony of Souls
 Harpy Rapier
+Harpyskin Boots
+Harpyskin Gloves
 Harvest Scarab
-Harvest Scarab of Doubling
 Harvest Scarab of Cornucopia
+Harvest Scarab of Doubling
 Haste
 Hatred
+Haunted Bascinet
 Haunting Shadows
 Headman's Sword
 Headsman Axe
@@ -1028,6 +1149,7 @@ Heavy Arrow Quiver
 Heavy Belt
 Heavy Quiver
 Heavy Strike
+Heavy Strike of Trarthus
 Hedron Bow
 Helical Ring
 Hellion's Paw
@@ -1041,18 +1163,27 @@ Heterochromia
 Hex Bloom Support
 Hexblast
 Hexclaw Talisman
+Hexpass Support
+Hextoad Support
 Hextouch Support
+High-Impact Mine Support
 Highborn Bow
 Highborn Staff
-High-Impact Mine Support
 Highland Blade
 Hinekora's Lock
+History
+Hiveborn Support
+Hivebrain Gland
 Hollow Fossil
 Hollowpoint Arrowhead
 Hollowpoint Dagger
 Holy Chainmail
+Holy Hammers
+Holy Strike
+Holy Sweep
 Home
 Honed Cleaver
+Honoured Incubator
 Honoured Tattoo of the Barbarian
 Honoured Tattoo of the Berserker
 Honoured Tattoo of the Dove
@@ -1073,25 +1204,27 @@ Honoured Tattoo of the Wise
 Hooded Cloak
 Hook Sword
 Hope
+Horned Scarab of Awakening
 Horned Scarab of Bloodlines
+Horned Scarab of Glittering
 Horned Scarab of Nemeses
-Horned Scarab of Tradition
 Horned Scarab of Pandemonium
 Horned Scarab of Preservation
-Horned Scarab of Awakening
-Horned Scarab of Glittering
+Horned Scarab of Tradition
 Horned Sceptre
 Horned Talisman
 Horticrafting Station
 House of Mirrors
 Hubris
 Hubris Circlet
+Hulking Miscreation
 Humility
 Hunter Hood
 Hunter's Exalted Orb
 Hunter's Resolve
 Hunter's Reward
 Hussar Brigandine
+Hydra
 Hydrascale Boots
 Hydrascale Gauntlets
 Hydrosphere
@@ -1115,6 +1248,40 @@ Imp Dagger
 Impact Force Propagator
 Impale Support
 Impending Doom Support
+Imperfect Adherent of Zarokh
+Imperfect Astral Lich
+Imperfect Blasphemer
+Imperfect Blood Demon
+Imperfect Conjuror of Rot
+Imperfect Dancing Sword
+Imperfect Dark Marionette
+Imperfect Dark Reaper
+Imperfect Druidic Alchemist
+Imperfect Eldritch Eye
+Imperfect Fiery Cannibal
+Imperfect Forest Tiger
+Imperfect Forest Warrior
+Imperfect Frozen Cannibal
+Imperfect Guardian Turtle
+Imperfect Half-remembered Goliath
+Imperfect Hulking Miscreation
+Imperfect Hydra
+Imperfect Judgemental Spirit
+Imperfect Meatsack
+Imperfect Naval Officer
+Imperfect Needle Horror
+Imperfect Pain Artist
+Imperfect Primal Demiurge
+Imperfect Primal Thunderbird
+Imperfect Runic Skeleton
+Imperfect Sanguimancer Demon
+Imperfect Sawblade Horror
+Imperfect Serpent Warrior
+Imperfect Shadow Construct
+Imperfect Slashing Horror
+Imperfect Spider Matriarch
+Imperfect Spirit of Fortune
+Imperfect Warlord
 Imperial Bow
 Imperial Buckler
 Imperial Claw
@@ -1129,8 +1296,8 @@ Increased Area of Effect Support
 Increased Critical Damage Support
 Increased Critical Strikes Support
 Incursion Scarab
-Incursion Scarab of Invasion
 Incursion Scarab of Champions
+Incursion Scarab of Invasion
 Incursion Scarab of Timelines
 Indigo Oil
 Infantry Brigandine
@@ -1140,10 +1307,12 @@ Infernal Blow
 Infernal Cry
 Infernal Legion Support
 Infernal Sword
-Influencing Scarab of the Shaper
-Influencing Scarab of the Elder
+Infiltrator Boots
+Infiltrator Mitts
 Influencing Scarab of Hordes
 Influencing Scarab of Interference
+Influencing Scarab of the Elder
+Influencing Scarab of the Shaper
 Infused Channelling Support
 Infused Incubator
 Innervate Support
@@ -1154,6 +1323,8 @@ Intensify Support
 Intimidating Cry
 Intrinsic Catalyst
 Intuitive Link
+Invention Support
+Invert the Rules Support
 Iolite Ring
 Iron Circlet
 Iron Flask
@@ -1184,23 +1355,26 @@ Jagged Fossil
 Jagged Maul
 Jasper Axe
 Jasper Chopper
+Jester Mask
 Jet Amulet
 Jet Ring
 Jewelled Foil
 Jeweller's Delirium Orb
 Jeweller's Orb
 Jingling Spirit Shield
+Journey Rune
 Journey Tattoo of the Body
 Journey Tattoo of the Mind
 Journey Tattoo of the Soul
 Judgement Staff
+Judgemental Spirit
 Judging Voices
 Justified Ambition
 Kalguuran Incubator
 Kalguuran Scarab
+Kalguuran Scarab of Enriching
 Kalguuran Scarab of Guarded Riches
 Kalguuran Scarab of Refinement
-Kalguuran Scarab of Enriching
 Karui Axe
 Karui Chopper
 Karui Maul
@@ -1208,7 +1382,14 @@ Karui Sceptre
 Keeper's Corruption
 Kinetic Blast
 Kinetic Bolt
+Kinetic Fusillade
+Kinetic Fusillade of Detonation
+Kinetic Instability
+Kinetic Rain
+Kinetic Rain of Impact
+Kinetic Wand
 Kirac's Memory
+Knight Helm
 Knockback Support
 Labrys
 Lacerate
@@ -1226,8 +1407,10 @@ Large Hybrid Flask
 Large Life Flask
 Large Mana Flask
 Last Hope
+Last Stand
 Lathi
 Latticed Ringmail
+Lavish Wombgift
 Layered Kite Shield
 Lead Sceptre
 Leap Slam
@@ -1240,27 +1423,33 @@ Left to Fate
 Legion Boots
 Legion Gloves
 Legion Hammer
+Legion Plate
 Legion Scarab
+Legion Scarab of Eternal Conflict
 Legion Scarab of Officers
 Legion Scarab of Treasures
-Legion Scarab of Eternal Conflict
 Legion Sword
 Less Duration Support
 Lesser Black Scythe Artifact
 Lesser Broken Circle Artifact
 Lesser Eldritch Ember
 Lesser Eldritch Ichor
-Multiple Projectiles Support
 Lesser Order Artifact
 Lesser Sun Artifact
+Lethal Dose Support
 Lethean Temptation
+Leviathan Gauntlets
+Leviathan Greaves
 Leyline Gloves
+Lich's Circlet
 Life Gain on Hit Support
 Life Leech Support
+Life Rune
 Lifetap Support
-Light and Truth
 Light Brigandine
 Light Quiver
+Light and Truth
+Lightless Astrolabe
 Lightning Arrow
 Lightning Conduit
 Lightning Penetration Support
@@ -1274,8 +1463,12 @@ Lingering Remnants
 Lion Pelt
 Lion Sword
 Lithe Blade
+Living Lightning Support
 Locus Mine Support
 Lone Antler Talisman
+Lonely Fragment
+Lonely Reliquary Key
+Lonely Warrior
 Long Bow
 Long Staff
 Longsword
@@ -1296,6 +1489,7 @@ Loyalty Tattoo of Rakiata
 Loyalty Tattoo of Tawhanuku
 Loyalty Tattoo of Utula
 Lucent Fossil
+Lucky Bastion
 Lucky Connections
 Lucky Deck
 Luminous Trove
@@ -1303,6 +1497,7 @@ Lunaris Circlet
 Lupine Charm
 Lustrous Ward
 Lysah's Respite
+Machinations Support
 Maddening Incubator
 Maelström Staff
 Mage's Vestment
@@ -1311,6 +1506,7 @@ Magmatic Tower Shield
 Magnum Opus
 Mahogany Tower Shield
 Maim Support
+Majestic Pelt
 Majestic Plate
 Malevolence
 Malign Fangs
@@ -1322,15 +1518,40 @@ Manabond
 Manaforged Arrows Support
 Mandible Talisman
 Manifold Ring
+Map (Tier 1)
+Map (Tier 10)
+Map (Tier 11)
+Map (Tier 12)
+Map (Tier 13)
+Map (Tier 14)
+Map (Tier 15)
+Map (Tier 16)
+Map (Tier 2)
+Map (Tier 3)
+Map (Tier 4)
+Map (Tier 5)
+Map (Tier 6)
+Map (Tier 7)
+Map (Tier 8)
+Map (Tier 9)
 Maple Round Shield
 Maraketh Bow
 Marble Amulet
 Mark on Hit Support
+Marshall's Brigandine
+Martyr Boots
+Martyr Gloves
 Master Lockpick
 Matryoshka
+Maven's Chisel of Avarice
+Maven's Chisel of Divination
+Maven's Chisel of Procurement
+Maven's Chisel of Proliferation
+Maven's Chisel of Scarabs
 Mawr Blaidd
 Meat Shield Support
 Meatgrinder
+Meatsack
 Mechalarm Belt
 Mechanical Belt
 Medium Cluster Jewel
@@ -1339,6 +1560,9 @@ Medium Life Flask
 Medium Mana Flask
 Melee Physical Damage Support
 Melee Splash Support
+Memory of Loneliness
+Memory of Reverence
+Memory of Trauma
 Merciless Armament
 Mesh Boots
 Mesh Gloves
@@ -1351,11 +1575,13 @@ Mind Cage
 Minefield Support
 Minion Damage Support
 Minion Life Support
+Minion Pact Support
 Minion Speed Support
 Mirage Archer Support
+Miraged Incubator
 Mirror Arrow
-Mirror of Kalandra
 Mirror Shard
+Mirror of Kalandra
 Mirrored Spiked Shield
 Misery in Darkness
 Mitts
@@ -1366,6 +1592,7 @@ Monkey Paw Talisman
 Monkey Twins Talisman
 Monochrome
 Moon Staff
+Moonlit Circlet
 Moonstone Ring
 More Duration Support
 More is Never Enough
@@ -1375,6 +1602,8 @@ Mortal Hope
 Mortal Ignorance
 Mortal Rage
 Mosaic Kite Shield
+Mountain Rune
+Multiple Projectiles Support
 Multiple Totems Support
 Multiple Traps Support
 Multistrike Support
@@ -1391,13 +1620,21 @@ Muttering Essence of Sorrow
 Muttering Essence of Torment
 Muttering Essence of Woe
 Mysterious Incubator
+Mysterious Wombgift
 Nailed Fist
+Nameless Astrolabe
+Nameless Ring
+Naval Officer
 Necromancer Circlet
 Necromancer Silks
+Necrotic Armour
+Needle Horror
 Nexus Gloves
 Nightblade Support
 Nightmare Bascinet
 Nightmare Mace
+Nightmare Map
+Nightweave Robe
 Nightwind Slippers
 Niko's Memory
 No Traces
@@ -1417,6 +1654,7 @@ Ochre Sceptre
 Offering to the Goddess
 Oiled Coat
 Oiled Vest
+Omen Wand
 Omen of Acceleration
 Omen of Adrenaline
 Omen of Amelioration
@@ -1424,8 +1662,8 @@ Omen of Bequeathal
 Omen of Blanching
 Omen of Brilliance
 Omen of Connections
-Omen of Death-dancing
 Omen of Death's Door
+Omen of Death-dancing
 Omen of Fortune
 Omen of Refreshment
 Omen of Resurgence
@@ -1433,8 +1671,8 @@ Omen of Return
 Omen of Revenge
 Omen of the Jeweller
 Omen of the Soul Devourer
-Omen Wand
 Omniscient Voidstone
+One Last Score
 Onyx Amulet
 Opal Ring
 Opal Sceptre
@@ -1451,11 +1689,16 @@ Orb of Conflict
 Orb of Dominance
 Orb of Elemental Dispersion
 Orb of Fusing
+Orb of Intention
 Orb of Regret
+Orb of Remembrance
 Orb of Scouring
 Orb of Storms
+Orb of Storms of Squalls
 Orb of Transmutation
 Orb of Unmaking
+Orb of Unravelling
+Organic Ring
 Ornate Incubator
 Ornate Mace
 Ornate Ringmail
@@ -1464,12 +1707,22 @@ Ornate Sword
 Oscillating Sceptre
 Otherworldly Incubator
 Oubliette Reliquary Key
+Outfoxed
 Overcharge Support
+Overexertion Support
+Overheat Support
+Overloaded Intensity Support
+Pacifism Support
 Padded Jacket
 Padded Vest
 Pagan Wand
+Pain Artist
 Painted Buckler
 Painted Tower Shield
+Paladin Boots
+Paladin Crown
+Paladin Gloves
+Paladin's Hauberk
 Papyrus Relic
 Parasitic Passengers
 Paua Amulet
@@ -1480,13 +1733,49 @@ Penance Brand
 Penetrating Arrow Quiver
 Penitent Mask
 Penumbra Ring
+Perfect Adherent of Zarokh
+Perfect Astral Lich
+Perfect Blasphemer
+Perfect Blood Demon
+Perfect Conjuror of Rot
+Perfect Dancing Sword
+Perfect Dark Marionette
+Perfect Dark Reaper
+Perfect Druidic Alchemist
+Perfect Eldritch Eye
+Perfect Fiery Cannibal
+Perfect Forest Tiger
+Perfect Forest Warrior
+Perfect Frozen Cannibal
+Perfect Guardian Turtle
+Perfect Half-remembered Goliath
+Perfect Hulking Miscreation
+Perfect Hydra
+Perfect Judgemental Spirit
+Perfect Meatsack
+Perfect Naval Officer
+Perfect Needle Horror
+Perfect Pain Artist
+Perfect Primal Demiurge
+Perfect Primal Thunderbird
+Perfect Runic Skeleton
+Perfect Sanguimancer Demon
+Perfect Sawblade Horror
+Perfect Serpent Warrior
+Perfect Shadow Construct
+Perfect Slashing Horror
+Perfect Spider Matriarch
+Perfect Spirit of Fortune
+Perfect Warlord
 Perfection
 Perforate
 Pernach
 Pestilent Strike
 Petrified Blood
 Petrified Club
+Phantom Boots
 Phantom Mace
+Phantom Mitts
 Phase Run
 Physical to Lightning Support
 Pierce Support
@@ -1523,11 +1812,14 @@ Potent Chaotic Resonator
 Potentiality Rod
 Power Charge On Critical Support
 Power Core
+Power Rune
 Power Siphon
 Powerful Chaotic Resonator
 Praetor Crown
 Precise Arrowhead
 Precision
+Precursor Gauntlets
+Precursor Greaves
 Predator Support
 Prehistoric Claw
 Prejudice
@@ -1545,6 +1837,7 @@ Primal Crushclaw Bulb
 Primal Crystallised Lifeforce
 Primal Cystcaller Bulb
 Primal Delirium Orb
+Primal Demiurge
 Primal Dustcrab Seed
 Primal Dustspitter Grain
 Primal Feasting Horror Grain
@@ -1557,6 +1850,7 @@ Primal Rhex Seed
 Primal Rhoa Grain
 Primal Scrabbler Seed
 Primal Skull Talisman
+Primal Thunderbird
 Primal Viper Seed
 Prime Chaotic Resonator
 Prime Cleaver
@@ -1569,7 +1863,9 @@ Prismatic Burst Support
 Prismatic Catalyst
 Prismatic Fossil
 Prismatic Jewel
+Prismatic Oil
 Prismatic Ring
+Prismatic Tincture
 Pristine Fossil
 Processional Relic
 Profane Wand
@@ -1579,6 +1875,7 @@ Prophecy Wand
 Prophet Crown
 Prosperity
 Protective Link
+Provisioning Wombgift
 Psychotic Axe
 Pulverise Support
 Puncture
@@ -1588,6 +1885,7 @@ Purity of Elements
 Purity of Fire
 Purity of Ice
 Purity of Lightning
+Pyre Support
 Pyroclast Mine
 Quarterstaff
 Quartz Flask
@@ -1597,9 +1895,9 @@ Quicksilver Flask
 Quilted Jacket
 Rage Support
 Rage Vortex
+Rain Tempter
 Rain of Arrows
 Rain of Chaos
-Rain Tempter
 Raise Spectre
 Raise Zombie
 Rallying Cry
@@ -1624,8 +1922,11 @@ Reckless Ambition
 Recurve Bow
 Redeemer's Exalted Orb
 Redwood Spiked Shield
+Reflecting Mist
+Reflection of the Heart
 Reflective Oil
 Reflex Bow
+Refracting Fog
 Regal Orb
 Regal Shard
 Regicide Disguise Kit
@@ -1638,19 +1939,22 @@ Remembrance
 Remnant of Corruption
 Returning Projectiles
 Returning Projectiles Support
+Reverent Fragment
+Reverent Reliquary Key
 Righteous Fire
 Ring
 Ringmail Boots
 Ringmail Coat
 Ringmail Gloves
 Ritual Scarab
-Ritual Scarab of Selectiveness
-Ritual Scarab of Wisps
 Ritual Scarab of Abundance
 Ritual Scarab of Corpses
+Ritual Scarab of Selectiveness
+Ritual Scarab of Wisps
 Ritual Sceptre
 Ritual Splinter
 Ritual Vessel
+River Rune
 Riveted Boots
 Riveted Gloves
 Rock Breaker
@@ -1665,6 +1969,7 @@ Rough Sharpening Stone
 Royal Axe
 Royal Bow
 Royal Burgonet
+Royal Plate
 Royal Sceptre
 Royal Skean
 Royal Staff
@@ -1673,6 +1978,38 @@ Ruby Flask
 Ruby Ring
 Rugged Quiver
 Runed Bracers
+Runegraft of Bellows
+Runegraft of Blasphemy
+Runegraft of Connection
+Runegraft of Consecration
+Runegraft of Fury
+Runegraft of Gemcraft
+Runegraft of Loyalty
+Runegraft of Quaffing
+Runegraft of Rallying
+Runegraft of Refraction
+Runegraft of Restitching
+Runegraft of Resurgence
+Runegraft of Rotblood
+Runegraft of Stability
+Runegraft of Suffering
+Runegraft of Time
+Runegraft of Treachery
+Runegraft of the Agile
+Runegraft of the Angler
+Runegraft of the Bound
+Runegraft of the Combatant
+Runegraft of the Fortress
+Runegraft of the Imbued
+Runegraft of the Jeweller
+Runegraft of the Novamark
+Runegraft of the River
+Runegraft of the Sinistral
+Runegraft of the Soulwick
+Runegraft of the Spellbound
+Runegraft of the Warp
+Runegraft of the Witchmark
+Runic Astrolabe
 Runic Crest
 Runic Crown
 Runic Gages
@@ -1681,8 +2018,11 @@ Runic Gloves
 Runic Greaves
 Runic Hatchet
 Runic Helm
+Runic Luck
 Runic Sabatons
+Runic Skeleton
 Runic Sollerets
+Rupture Support
 Rusted Coif
 Rusted Hatchet
 Rusted Spike
@@ -1691,24 +2031,28 @@ Rustic Sash
 Ruthless Support
 Sabre
 Sacred Blossom
+Sacred Chainmail
 Sacred Crystallised Lifeforce
 Sacred Hybrid Flask
+Sacred Incubator
 Sacred Life Flask
 Sacred Mana Flask
 Sacred Orb
+Sacrifice Support
 Sacrifice at Dawn
 Sacrifice at Dusk
 Sacrifice at Midnight
 Sacrifice at Noon
-Sacrifice Support
 Sacrificial Garb
 Sadism Support
 Sadist Garb
+Sage Gloves
+Sage Slippers
 Sage Wand
 Sage's Robe
 Sai
-Saintly Chainmail
 Saint's Hauberk
+Saintly Chainmail
 Sallet
 Sambar Sceptre
 Sambodhi's Vow
@@ -1725,22 +2069,25 @@ Sanctum Cathedral Research
 Sanctum Necropolis Research
 Sanctum Vaults Research
 Sand of Eternity
+Sanguimancer Demon
+Sanguine Raiment
 Sapphire Flask
 Sapphire Ring
 Satin Gloves
 Satin Slippers
 Savant's Robe
+Sawblade Horror
 Scale Doublet
 Scale Vest
 Scarab
-Scarab of Monstrous Lineage
 Scarab of Adversaries
 Scarab of Divinity
-Scarab of Wisps
-Scarab of Stability
+Scarab of Monstrous Lineage
 Scarab of Radiant Storms
-Scarab of the Sinistral
+Scarab of Stability
+Scarab of Wisps
 Scarab of the Dextral
+Scarab of the Sinistral
 Scare Mask
 Scarlet Raiment
 Scarlet Round Shield
@@ -1749,6 +2096,7 @@ Scholar of the Seas
 Scholar's Robe
 Scorched Fossil
 Scorching Ray
+Scornful Herald Support
 Scourge Arrow
 Scrap Metal
 Screaming Essence
@@ -1777,6 +2125,7 @@ Scroll of Wisdom
 Seaglass Amulet
 Searching Eye Jewel
 Searing Bond
+Searing Bond of Detonation
 Second Wind Support
 Secondary Regrading Lens
 Secutor Helm
@@ -1785,6 +2134,7 @@ Seismic Trap
 Sekhem
 Sentinel Jacket
 Sepia Oil
+Serpent Warrior
 Serpentine Staff
 Serpentscale Boots
 Serpentscale Gauntlets
@@ -1795,12 +2145,15 @@ Seven Years Bad Luck
 Shabby Jerkin
 Shackled Boots
 Shadow Axe
+Shadow Construct
 Shadow Fangs
 Shadow Sceptre
 Shadowed Ring
 Shagreen Boots
 Shagreen Gloves
 Shagreen Tower Shield
+Shaper Guardian Map
+Shaper's Exalted Orb
 Shaper's Orb
 Shard of Fate
 Sharkskin Boots
@@ -1811,11 +2164,14 @@ Sharktooth Claw
 Shattering Steel
 Shield Charge
 Shield Crush
+Shield of Light
 Shining Ward
 Shiny Reliquary Key
 Shock Nova
+Shock Nova of Procession
 Shockwave Support
 Shockwave Totem
+Shockwave Totem of Authority
 Short Bow
 Shrapnel Ballista
 Shrapnel Shot
@@ -1843,6 +2199,7 @@ Shrieking Essence of Zeal
 Shuddering Fossil
 Siege Axe
 Siege Ballista
+Siege Ballista of Trarthus
 Siege Helmet
 Sigil of Power
 Silence and Frost
@@ -1865,13 +2222,16 @@ Simulacrum
 Simulacrum Splinter
 Singular Delirium Orb
 Singular Incubator
+Sinistral Catalyst
 Sinner Tricorne
 Siphoning Trap
+Siphoning Trap of Pain
 Skean
 Skeleton Keyring
 Skinning Knife
 Skittering Delirium Orb
 Skittering Incubator
+Slashing Horror
 Slaughter Knife
 Sledgehammer
 Sleek Coat
@@ -1896,6 +2256,8 @@ Soldier Boots
 Soldier Gloves
 Soldier Helmet
 Soldier's Brigandine
+Somatic Shell
+Somatic Wand
 Something Dark
 Sorcerer Boots
 Sorcerer Gloves
@@ -1908,20 +2270,24 @@ Spark
 Sparkling Claw
 Spectral Axe
 Spectral Helix
+Spectral Helix of Trarthus
 Spectral Shield Throw
+Spectral Shield Throw of Trarthus
 Spectral Sword
 Spectral Throw
+Spectral Throw of Trarthus
 Spell Cascade Support
 Spell Echo Support
 Spell Totem Support
 Spellblade Support
 Spellslinger
+Spider Matriarch
 Spidersilk Robe
+Spike-Point Arrow Quiver
 Spiked Bundle
 Spiked Club
 Spiked Gloves
 Spiked Round Shield
-Spike-Point Arrow Quiver
 Spine Bow
 Spinefuse Talisman
 Spiny Maul
@@ -1929,6 +2295,7 @@ Spiny Round Shield
 Spiraled Foil
 Spiraled Wand
 Spirit Offering
+Spirit of Fortune
 Splendid Round Shield
 Splinter
 Splinter of Chayula
@@ -1940,6 +2307,7 @@ Splintered Tower Shield
 Split Arrow
 Splitnewt Talisman
 Splitting Steel
+Sporebloom Tincture
 Squandered Prosperity
 Stabilising Sceptre
 Stacked Deck
@@ -1948,6 +2316,7 @@ Stanchion
 Standard Lockpick
 Standard Sharpening Stone
 Static Strike
+Static Strike of Gathering Lightning
 Stealth Boots
 Stealth Gloves
 Steel Bracers
@@ -1970,7 +2339,9 @@ Stone of Passage
 Storm Barrier Support
 Storm Brand
 Storm Burst
+Storm Burst of Repulsion
 Storm Call
+Storm Call of Trarthus
 Storm Rain
 Stormbind
 Stormblast Mine
@@ -2004,14 +2375,20 @@ Summon Skitterbots
 Summon Stone Golem
 Sun Leather
 Sun Plate
+Sun Rune
 Sunder
+Sunder of Trarthus
 Sundering Axe
+Sunfire Circlet
+Supreme Leather
 Supreme Spiked Shield
-Holy Sweep
 Swift Affliction Support
 Swift Assembly Support
 Swiftbrand Support
 Swordstorm
+Synaptic Ring
+Syndicate Medallion
+Syndicate's Garb
 Synthesised Map
 Synthesising Fragment
 Tailoring Orb
@@ -2095,10 +2472,12 @@ Tattoo of the Valako Warrior
 Teak Round Shield
 Teal Oil
 Tectonic Slam
+Temperance
 Tempered Foil
 Tempering Catalyst
 Tempering Orb
 Tempest Shield
+Templar Astrolabe
 Temporal Chains
 Temporal Rift
 Tenderizer
@@ -2129,6 +2508,7 @@ The Bear Woman
 The Beast
 The Betrayal
 The Bitter Blossom
+The Black Barya
 The Blazing Fire
 The Blessing of Moosh
 The Body
@@ -2182,7 +2562,9 @@ The Enthusiasts
 The Escape
 The Eternal War
 The Ethereal
+The Everlasting
 The Explorer
+The Eye of Terror
 The Eye of the Dragon
 The Fathomless Depths
 The Feast
@@ -2192,6 +2574,7 @@ The Fishmonger
 The Fletcher
 The Flora's Gift
 The Fool
+The Forbidden Fruit
 The Forgotten Treasure
 The Formless Sea
 The Forsaken
@@ -2227,6 +2610,8 @@ The Jeweller's Boon
 The Journalist
 The King's Blade
 The King's Heart
+The Lake
+The Last Laugh
 The Last One Standing
 The Last Supper
 The Leviathan
@@ -2248,6 +2633,7 @@ The Mayor
 The Mercenary
 The Metalsmith's Gift
 The Mind's Eyes
+The Miracle
 The Mountain
 The Nurse
 The Oath
@@ -2296,8 +2682,10 @@ The Shepherd's Sandals
 The Shieldbearer
 The Shortcut
 The Sigil
+The Silly Boy
 The Siren
 The Skeleton
+The Slumbering Beast
 The Soul
 The Spark and the Flame
 The Spoiled Prince
@@ -2364,11 +2752,16 @@ Three Voices
 Thresher Claw
 Throat Stabber
 Thunderous Skies
+Thunderstorm
 Thwarting Gauntlets
 Tiger Hook
 Tiger Sword
 Tiger's Paw
 Timber Axe
+Time Rune
+Time-Lost Incubator
+Time-Lost Relic
+Timeless Astrolabe
 Timeless Delirium Orb
 Timeless Eternal Empire Emblem
 Timeless Eternal Empire Splinter
@@ -2380,15 +2773,14 @@ Timeless Templar Emblem
 Timeless Templar Splinter
 Timeless Vaal Emblem
 Timeless Vaal Splinter
-Time-Lost Incubator
-Time-Lost Relic
 Timeworn Claw
 Tinker Gloves
 Titan Gauntlets
 Titan Greaves
+Titan Plate
 Titanic Scarab
-Titanic Scarab of Treasures
 Titanic Scarab of Legend
+Titanic Scarab of Treasures
 Titanium Spirit Shield
 Tomahawk
 Tome Relic
@@ -2402,20 +2794,26 @@ Tornado
 Tornado Shot
 Tornado Wand
 Torture Cage
+Torturer Garb
+Torturer's Mask
 Totemic Maul
 Toxic Rain
+Toxic Tidings
 Tranquillity
 Transfer-attuned Spirit Shield
 Transformer Staff
 Transforming Power Core
+Transfusion Support
 Transmutation Shard
-Trap and Mine Damage Support
 Trap Support
+Trap and Mine Damage Support
 Trapper Boots
 Trapper Mitts
 Trapsetter Gloves
 Trarthan Flashpowder
 Trauma Support
+Traumatic Fragment
+Traumatic Reliquary Key
 Treasure Hunter
 Treasure Key
 Tribal Circlet
@@ -2434,6 +2832,7 @@ Turn the Other Cheek
 Turquoise Amulet
 Twig Spirit Shield
 Twilight Blade
+Twilight Regalia
 Twin Claw
 Two-Handed Sword
 Two-Point Arrow Quiver
@@ -2442,14 +2841,15 @@ Two-Toned Boots
 Tyrant's Sekhem
 Ultimatum Scarab
 Ultimatum Scarab of Bribing
-Ultimatum Scarab of Dueling
 Ultimatum Scarab of Catalysing
+Ultimatum Scarab of Dueling
 Ultimatum Scarab of Inscription
 Unbound Ailments Support
 Unchained
 Underground Forest
 Undying Flesh Talisman
 Unearth
+Unholy Trinity Support
 Unleash Support
 Unrelenting Timeless Eternal Emblem
 Unrelenting Timeless Karui Emblem
@@ -2462,8 +2862,8 @@ Unset Ring
 Unshaping Orb
 Unstable Catalyst
 Urgent Orders Support
-Urn of Farud
 Urn Relic
+Urn of Farud
 Ursine Charm
 Ursine Pelt
 Uul-Netol's Breachstone
@@ -2526,6 +2926,7 @@ Vaal Reave
 Vaal Regalia
 Vaal Rejuvenation Totem
 Vaal Righteous Fire
+Vaal Sacrifice Support
 Vaal Sceptre
 Vaal Smite
 Vaal Spark
@@ -2533,33 +2934,39 @@ Vaal Spectral Throw
 Vaal Spirit Shield
 Vaal Storm Call
 Vaal Summon Skeletons
+Vaal Temptation Support
 Vaal Venom Gyre
 Vaal Volcanic Fissure
+Valdo Map
 Valdo's Puzzle Box
 Vampiric Link
 Vanguard Belt
 Vanity
 Variscite Blade
 Varnished Coat
+Veiled Chaos Orb
 Veiled Exalted Orb
 Veiled Scarab
+Velour Boots
+Velour Gloves
 Velvet Gloves
 Velvet Slippers
+Vengeful Cry
 Venom Gyre
 Verdant Oil
 Veritania's Crest
 Vermillion Ring
 Versatile Keyring
+Vial Of Power
 Vial of Awakening
 Vial of Consequence
 Vial of Dominance
 Vial of Fate
-Vial Of Power
 Vial of Sacrifice
 Vial of Summoning
+Vial of Transcendence
 Vial of the Ghost
 Vial of the Ritual
-Vial of Transcendence
 Vicious Projectiles Support
 Vigilant Strike
 Vile Arrow Quiver
@@ -2595,12 +3002,15 @@ Vivid Whipleg Bulb
 Void Axe
 Void Fangs
 Void Manipulation Support
-Void of the Elements
 Void Sceptre
+Void Shockwave Support
 Void Sphere
+Void of the Elements
 Voidborn Reliquary Key
+Voidstorm Support
 Volatile Dead
 Volatile Power
+Volatile Vaal Orb
 Volatility Support
 Volcanic Fissure
 Volley Support
@@ -2625,16 +3035,22 @@ Wailing Essence of Torment
 Wailing Essence of Woe
 Wailing Essence of Wrath
 Wailing Essence of Zeal
+Wall of Force
 Walnut Spirit Shield
 War Axe
 War Banner
 War Buckler
 War Hammer
 War Plate
+War Rune
 War Sword
+Warlock Boots
+Warlock Gloves
+Warlord
 Warlord's Exalted Orb
 Warlord's Mark
 Wave of Conviction
+Wave of Conviction of Trarthus
 Waxed Garb
 Wealth and Power
 Weeping Essence
@@ -2652,7 +3068,9 @@ Weeping Essence of Woe
 Weeping Essence of Wrath
 Wereclaw Talisman
 Whalebone Rapier
+When Currents Blaze
 Whirling Blades
+Whisper-woven Cloak
 Whispering Delirium Orb
 Whispering Essence
 Whispering Essence of Contempt
@@ -2660,7 +3078,6 @@ Whispering Essence of Greed
 Whispering Essence of Hatred
 Whispering Essence of Woe
 Whispering Incubator
-Whisper-woven Cloak
 Who Asked
 Widowsilk Robe
 Wild Ape Grain
@@ -2684,6 +3101,7 @@ Wild Thornmaw Bulb
 Wild Thornwolf Grain
 Wild Ursaling Grain
 Windbreak Boots
+Windburst Support
 Winged Sole
 Winter Crown
 Winter Orb
@@ -2709,6 +3127,8 @@ Wyrmbone Rapier
 Wyrmscale Boots
 Wyrmscale Doublet
 Wyrmscale Gauntlets
+Wyvernscale Boots
+Wyvernscale Gauntlets
 Xoph's Breachstone
 Xoph's Flawless Breachstone
 Yew Spirit Shield
@@ -2718,323 +3138,15 @@ Zealot Helmet
 Zealotry
 Zodiac Leather
 
-Divine Retribution
-Eviscerate
-Vengeful Cry
-
-Expert Retaliation Support
-Overexertion Support
-Rupture Support
-
-Father's Love
-Avian Pursuit
-Temperance
-Lonely Warrior
-Toxic Tidings
-
-Nameless Ring
-General's Helmet
-Conqueror's Helmet
-Giantslayer Helmet
-Dire Pelt
-Grizzly Pelt
-Majestic Pelt
-Moonlit Circlet
-Sunfire Circlet
-Lich's Circlet
-Knight Helm
-Conquest Helmet
-Haunted Bascinet
-Faithful Helmet
-Paladin Crown
-Divine Crown
-Jester Mask
-Ancient Mask
-Torturer's Mask
-
-Titan Plate
-Legion Plate
-Royal Plate
-Supreme Leather
-Astral Leather
-Syndicate's Garb
-Arcane Vestment
-Nightweave Robe
-Twilight Regalia
-Full Wyvernscale
-Marshall's Brigandine
-Conquest Lamellar
-Grand Ringmail
-Paladin's Hauberk
-Sacred Chainmail
-Sanguine Raiment
-Torturer Garb
-Necrotic Armour
-
-Precursor Greaves
-Leviathan Greaves
-Harpyskin Boots
-Velour Boots
-Sage Slippers
-Warlock Boots
-Chimerascale Boots
-Wyvernscale Boots
-Martyr Boots
-Paladin Boots
-Infiltrator Boots
-Phantom Boots
-
-Precursor Gauntlets
-Leviathan Gauntlets
-Harpyskin Gloves
-Velour Gloves
-Sage Gloves
-Warlock Gloves
-Chimerascale Gauntlets
-Wyvernscale Gauntlets
-Martyr Gloves
-Paladin Gloves
-Infiltrator Mitts
-Phantom Mitts
-
-Gold
-
-An Audience With The King
-
-Bound Rune
-Bounty Rune
-Journey Rune
-Life Rune
-Mountain Rune
-Power Rune
-Prismatic Oil
-Reflecting Mist
-River Rune
-Sun Rune
-Time Rune
-War Rune
-
-Maven's Chisel of Avarice
-Maven's Chisel of Divination
-Maven's Chisel of Procurement
-Maven's Chisel of Proliferation
-Maven's Chisel of Scarabs
-
-Prismatic Tincture
-Sporebloom Tincture
-
-Blasphemer
-Blood Demon
-Dancing Sword
-Dark Marionette
-Dark Reaper
-Druidic Alchemist
-Eldritch Eye
-Fiery Cannibal
-Forest Tiger
-Forest Warrior
-Frozen Cannibal
-Guardian Turtle
-Half-remembered Goliath
-Hulking Miscreation
-Hydra
-Judgemental Spirit
-Meatsack
-Naval Officer
-Needle Horror
-Pain Artist
-Primal Demiurge
-Primal Thunderbird
-Runic Skeleton
-Sanguimancer Demon
-Sawblade Horror
-Serpent Warrior
-Shadow Construct
-Slashing Horror
-Spider Matriarch
-Spirit of Fortune
-Warlord
-
-Imperfect Blasphemer
-Imperfect Blood Demon
-Imperfect Dancing Sword
-Imperfect Dark Marionette
-Imperfect Dark Reaper
-Imperfect Druidic Alchemist
-Imperfect Eldritch Eye
-Imperfect Fiery Cannibal
-Imperfect Forest Tiger
-Imperfect Forest Warrior
-Imperfect Frozen Cannibal
-Imperfect Guardian Turtle
-Imperfect Half-remembered Goliath
-Imperfect Hulking Miscreation
-Imperfect Hydra
-Imperfect Judgemental Spirit
-Imperfect Meatsack
-Imperfect Naval Officer
-Imperfect Needle Horror
-Imperfect Pain Artist
-Imperfect Primal Demiurge
-Imperfect Primal Thunderbird
-Imperfect Runic Skeleton
-Imperfect Sanguimancer Demon
-Imperfect Sawblade Horror
-Imperfect Serpent Warrior
-Imperfect Shadow Construct
-Imperfect Slashing Horror
-Imperfect Spider Matriarch
-Imperfect Spirit of Fortune
-Imperfect Warlord
-
-Perfect Blasphemer
-Perfect Blood Demon
-Perfect Dancing Sword
-Perfect Dark Marionette
-Perfect Dark Reaper
-Perfect Druidic Alchemist
-Perfect Eldritch Eye
-Perfect Fiery Cannibal
-Perfect Forest Tiger
-Perfect Forest Warrior
-Perfect Frozen Cannibal
-Perfect Guardian Turtle
-Perfect Half-remembered Goliath
-Perfect Hulking Miscreation
-Perfect Hydra
-Perfect Judgemental Spirit
-Perfect Meatsack
-Perfect Naval Officer
-Perfect Needle Horror
-Perfect Pain Artist
-Perfect Primal Demiurge
-Perfect Primal Thunderbird
-Perfect Runic Skeleton
-Perfect Sanguimancer Demon
-Perfect Sawblade Horror
-Perfect Serpent Warrior
-Perfect Shadow Construct
-Perfect Slashing Horror
-Perfect Spider Matriarch
-Perfect Spirit of Fortune
-Perfect Warlord
-
-Veiled Chaos Orb
-Shaper's Exalted Orb
-Elder's Exalted Orb
-Orb of Remembrance
-Orb of Unravelling
-Orb of Intention
-Runegraft of the Angler
-Runegraft of the Bound
-Runegraft of the Combatant
-Runegraft of the Fortress
-Runegraft of the Jeweller
-Runegraft of the Novamark
-Runegraft of the River
-Runegraft of the Sinistral
-Runegraft of the Soulwick
-Runegraft of the Warp
-Runegraft of the Witchmark
-Runegraft of Bellows
-Runegraft of Blasphemy
-Runegraft of Gemcraft
-Runegraft of Loyalty
-Runegraft of Quaffing
-Runegraft of Refraction
-Runegraft of Restitching
-Runegraft of Stability
-Runegraft of Time
-Runegraft of Treachery
-
-Echo of Trauma
-Echo of Reverence
-Echo of Loneliness
-Syndicate Medallion
-Allflame Ember of Kulemak
-Allflame Ember of Resplendence
-Allflame Ember of Propagation
-Allflame Ember of Flesh
-Allflame Ember of the Wildwood
-Allflame Ember of the Ethereal
-Allflame Ember of the Gilded
-Allflame Ember of Toads
-
-Focused Channelling Support
-Dark Pact of Trarthus
-Heavy Strike of Trarthus
-Spectral Shield Throw of Trarthus
-Spectral Throw of Trarthus
-Storm Call of Trarthus
-Blast Rain of Trarthus
-Siege Ballista of Trarthus
-Sunder of Trarthus
-Wave of Conviction of Trarthus
-Chain Hook of Trarthus
-Spectral Helix of Trarthus
-Bladefall of Trarthus
-
-Runic Luck
-Last Stand
-Damnation
-When Currents Blaze
-History
 
 
-Foulborn Orb of Augmentation
-Foulborn Regal Orb
-Foulborn Exalted Orb
 
-Wall of Force
-Conflagration
-Kinetic Rain
-Kinetic Rain of Impact
-Somatic Shell
-Thunderstorm
-Kinetic Fusillade
-
-Windburst Support
-Kinetic Instability
-Living Lightning Support
-
-Hivebrain Gland
-Traumatic Fragment
-Reverent Fragment
-Lonely Fragment
-
-Lonely Reliquary Key
-Reverent Reliquary Key
-Traumatic Reliquary Key
-
-Provisioning Wombgift
-Lavish Wombgift
-Ancient Wombgift
-Mysterious Wombgift
-
-Cryonic Ring
-Enthalpic Ring
-Synaptic Ring
-Organic Ring
-Fugitive Ring
-Formless Ring
-
-Somatic Wand
-Blasting Wand
-Kinetic Wand
-
-The Last Laugh
-The Lake
-One Last Score
-Bound by Flame
-Outfoxed
-
-
+##POE2 base type (START)
 
 Uncut
 Uncut Skill Gems
 Uncut Spirit Gems
 Uncut Support Gems
-
 
 Arced Claw
 Armoured Claw
@@ -3173,16 +3285,8 @@ Pointed Maul
 Totemic Greatclub
 Tawhoan Greatclub
 
-Aromatic Sceptre
-Clasped Sceptre
-Devotional Sceptre
-Devouring Sceptre
-Hallowed Sceptre
-Lupine Sceptre
 Omen Sceptre
-Pious Sceptre
 Rattling Sceptre
-Shrine Sceptre
 Stoic Sceptre
 Wrath Sceptre
 
@@ -3199,6 +3303,7 @@ Splintered Flail
 Stone Flail
 Tearing Flail
 Twin Flail
+
 Artillery Bow
 Cultist Bow
 Double Limb Bow
@@ -3280,32 +3385,27 @@ Studded Greatclub
 Temple Maul
 Totemic Greatclub
 
-Anima Quarterstaff
+Aegis Quarterstaff
 Barrier Quarterstaff
+Bladed Quarterstaff
+Bolting Quarterstaff
 Crackling Quarterstaff
 Crescent Quarterstaff
+Dreaming Quarterstaff
 Gothic Quarterstaff
-Graceful Quarterstaff
+Guardian Quarterstaff
 Hefty Quarterstaff
 Long Quarterstaff
+Lunar Quarterstaff
+Razor Quarterstaff
+Sinister Quarterstaff
+Skullcrusher Quarterstaff
 Slicing Quarterstaff
 Smooth Quarterstaff
 Steelpoint Quarterstaff
-Wrapped Quarterstaff
-Wyrm Quarterstaff
-Barbarous Quarterstaff
-Arcing Quarterstaff
-Waxing Quarterstaff
-Bladed Quarterstaff
-Guardian Quarterstaff
-Sinister Quarterstaff
-Lunar Quarterstaff
-Bolting Quarterstaff
-Aegis Quarterstaff
-Razor Quarterstaff
-Reaching Quarterstaff
 Striking Quarterstaff
-Dreaming Quarterstaff
+Waxing Quarterstaff
+Wrapped Quarterstaff
 
 Alloy Crossbow
 Blackfire Crossbow
@@ -4135,7 +4235,6 @@ Tertiary Calamity Fragment
 Idol of Estazunti
 Kulemak's Invitation
 
-
 Lesser Desert Rune
 Lesser Glacial Rune
 Lesser Storm Rune
@@ -4365,150 +4464,4 @@ Varashta's Blessing
 Arbiter's Ignition
 Arakaali's Lust
 
-
-Refracting Fog
-Essence of Desolation
-Flesh of Xesht
-Sinistral Catalyst
-Dextral Catalyst
-Volatile Vaal Orb
-Memory of Trauma
-Memory of Reverence
-Memory of Loneliness
-Crystallised Rancour
-Runegraft of Consecration
-Runegraft of Fury
-Runegraft of Rallying
-Runegraft of Rotblood
-Runegraft of the Imbued
-Runegraft of the Agile
-Runegraft of Suffering
-Runegraft of the Spellbound
-Runegraft of Resurgence
-Runegraft of Connection
-Coin of Restoration
-Coin of Desecration
-Coin of Knowledge
-Coin of Power
-Coin of Skill
-Templar Astrolabe
-Fruiting Astrolabe
-Lightless Astrolabe
-Grasping Astrolabe
-Nameless Astrolabe
-Fungal Astrolabe
-Chaotic Astrolabe
-Enshrouded Astrolabe
-Timeless Astrolabe
-Runic Astrolabe
-
-Holy Hammers
-Shield of Light
-Holy Strike
-Divine Blast
-Charged Dash of Projection
-Shock Nova of Procession
-Shockwave Totem of Authority
-Creeping Frost of Floes
-Storm Burst of Repulsion
-Searing Bond of Detonation
-Static Strike of Gathering Lightning
-Orb of Storms of Squalls
-Siphoning Trap of Pain
-Flamethrower Trap of Stability
-Kinetic Fusillade of Detonation
-
-Greater Spell Cascade Support
-Eclipse Support
-Invert the Rules Support
-Cast on Ward Break Support
-Vaal Sacrifice Support
-Greater Spell Echo Support
-Vaal Temptation Support
-Machinations Support
-Pyre Support
-Bonespire Support
-Foulgrasp Support
-Hiveborn Support
-Scornful Herald Support
-Cull the Weak Support
-Greater Ancestral Call Support
-Fissure Support
-Hextoad Support
-Hexpass Support
-Greater Fork Support
-Greater Chain Support
-Lethal Dose Support
-Companionship Support
-Divine Sentinel Support
-Annihilation Support
-Invention Support
-Greater Kinetic Instability Support
-Cooldown Recovery Support
-Voidstorm Support
-Void Shockwave Support
-Eldritch Blasphemy Support
-Gluttony Support
-Overheat Support
-Greater Multistrike Support
-Congregation Support
-Frostmage Support
-Greater Devour Support
-Greater Unleash Support
-Pacifism Support
-Bloodsoaked Banner Support
-Minion Pact Support
-Unholy Trinity Support
-Overloaded Intensity Support
-Transfusion Support
-Excommunicate Support
-Exemplar Support
-Blessed Call Support
-Hallow Support
-
-The Black Barya
-
-Cord Belt
-
-Honoured Incubator
-Sacred Incubator
-Miraged Incubator
-
-Imperfect Astral Lich
-Astral Lich
-Perfect Astral Lich
-Imperfect Conjuror of Rot
-Conjuror of Rot
-Perfect Conjuror of Rot
-Imperfect Adherent of Zarokh
-Adherent of Zarokh
-Perfect Adherent of Zarokh
-
-Map (Tier 1)
-Map (Tier 2)
-Map (Tier 3)
-Map (Tier 4)
-Map (Tier 5)
-Map (Tier 6)
-Map (Tier 7)
-Map (Tier 8)
-Map (Tier 9)
-Map (Tier 10)
-Map (Tier 11)
-Map (Tier 12)
-Map (Tier 13)
-Map (Tier 14)
-Map (Tier 15)
-Map (Tier 16)
-Valdo Map
-Shaper Guardian Map
-Nightmare Map
-
-The Everlasting
-Lucky Bastion
-The Miracle
-Apocalypse
-The Slumbering Beast
-The Forbidden Fruit
-The Silly Boy
-Reflection of the Heart
+##POE2 base type (END)
