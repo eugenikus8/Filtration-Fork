@@ -121,6 +121,7 @@ namespace Filtration.ViewModels.DesignTime
                                                          typeof (IdentifiedBlockItem),
                                                          typeof (CorruptedBlockItem),
                                                          typeof (CorruptedModsBlockItem),
+                                                         typeof (FoulbornBlockItem), //3.27
                                                          typeof (HasCruciblePassiveTreeBlockItem),
                                                          typeof (MirroredBlockItem),
                                                          typeof (ReplicaBlockItem),
@@ -148,7 +149,6 @@ namespace Filtration.ViewModels.DesignTime
                                                          typeof (TransfiguredGemBlockItem),
                                                          typeof (ZanaMemoryBlockItem), //3.26
                                                          typeof (MemoryStrandsBlockItem), //3.26
-                                                         typeof (FoulbornBlockItem), //3.27
                                                          typeof (ImbuedBlockItem), //3.28
                                                          typeof (StackSizeBlockItem),
                                                          typeof (HasImplicitModBlockItem),

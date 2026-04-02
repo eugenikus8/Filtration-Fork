@@ -142,6 +142,11 @@ namespace Filtration.Parser.Services
                         AddBooleanItemToBlockItems<HasCruciblePassiveTreeBlockItem>(block, trimmedLine);
                         break;
                     }
+                    case "Foulborn":
+                    {
+                        AddBooleanItemToBlockItems<FoulbornBlockItem>(block, trimmedLine);
+                        break;
+                    }
                     case "Mirrored":
                     {
                         AddBooleanItemToBlockItems<MirroredBlockItem>(block, trimmedLine);
@@ -335,11 +340,6 @@ namespace Filtration.Parser.Services
                     case "MemoryStrands":
                     {
                         AddNumericFilterPredicateItemToBlockItems<MemoryStrandsBlockItem>(block, trimmedLine);
-                        break;
-                    }
-                    case "Foulborn":
-                    {
-                        AddBooleanItemToBlockItems<FoulbornBlockItem>(block, trimmedLine);
                         break;
                     }
                     case "Imbued":

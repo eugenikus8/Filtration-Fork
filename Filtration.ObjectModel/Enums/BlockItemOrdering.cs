@@ -16,6 +16,7 @@ namespace Filtration.ObjectModel.Enums
         TwiceCorrupted, //poe2
         HasVaalUniqueMod, //poe2
         IsVaalUnique, //poe2
+        Foulborn, //3.27
         HasCruciblePassiveTree,
         Mirrored,
         Replica,
@@ -44,7 +45,6 @@ namespace Filtration.ObjectModel.Enums
         TransfiguredGem,
         ZanaMemory, //3.26
         MemoryStrands, //3.26
-        Foulborn, //3.27
         Imbued, //3.28
         HasImplicitMod,
         HasExplicitMod,
