@@ -8,6 +8,8 @@ Body Armours
 Boots
 Bows
 Breachstones
+Chart
+Enshrouded Items
 Charms
 Claws
 Contracts
@@ -52,6 +54,8 @@ Rings
 Rune Daggers
 Sanctum Research
 Sceptres
+Skill Gems
+Stackable Currency
 Shields
 Staves
 Support Gems
@@ -65,6 +69,7 @@ Utility Flasks
 Vault Keys
 Wands
 Warstaves
+Wombgift
 
 Crossbows
 Flails

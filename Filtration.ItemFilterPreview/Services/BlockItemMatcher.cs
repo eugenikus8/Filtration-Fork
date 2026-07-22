@@ -75,15 +75,12 @@ namespace Filtration.ItemFilterPreview.Services
             if (blockItemType == typeof(RarityBlockItem))
                 return RarityBlockItemMatch((RarityBlockItem)blockItem, item);
 
-
-
-
             if (blockItemType == typeof(WidthBlockItem))
                 return WidthBlockItemMatch((WidthBlockItem)blockItem, item);
 
             if (blockItemType == typeof(SocketGroupBlockItem))
                 return SocketGroupBlockItemMatch((SocketGroupBlockItem)blockItem, item);
-                        
+
             return false;
         }
 

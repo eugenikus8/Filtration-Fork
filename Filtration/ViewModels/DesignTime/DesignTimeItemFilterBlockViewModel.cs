@@ -150,6 +150,7 @@ namespace Filtration.ViewModels.DesignTime
                                                          typeof (ZanaMemoryBlockItem), //3.26
                                                          typeof (MemoryStrandsBlockItem), //3.26
                                                          typeof (ImbuedBlockItem), //3.28
+                                                         typeof (VestigialBlockItem), //3.29
                                                          typeof (StackSizeBlockItem),
                                                          typeof (HasImplicitModBlockItem),
                                                          typeof (HasExplicitModBlockItem),

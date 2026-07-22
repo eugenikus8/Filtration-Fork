@@ -46,6 +46,7 @@ namespace Filtration.ObjectModel.Enums
         ZanaMemory, //3.26
         MemoryStrands, //3.26
         Imbued, //3.28
+        Vestigial, //3.29
         HasImplicitMod,
         HasExplicitMod,
         AnyEnchantment,
