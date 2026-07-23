@@ -62,6 +62,7 @@
     <Compile Include="BlockItemBaseTypes\StringListBlockItem.cs" />
     <Compile Include="BlockItemTypes\AlwaysShowBlockItem.cs" />
     <Compile Include="BlockItemTypes\HasVaalUniqueModBlockItem.cs" />
+    <Compile Include="BlockItemTypes\MirageMapBlockItem.cs" />
     <Compile Include="BlockItemTypes\VestigialBlockItem.cs" />
     <Compile Include="BlockItemTypes\TwiceCorruptedBlockItem.cs" />
     <Compile Include="BlockItemTypes\IsVaalUniqueBlockItem.cs" />

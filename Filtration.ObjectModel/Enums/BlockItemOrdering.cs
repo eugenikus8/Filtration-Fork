@@ -11,11 +11,11 @@ namespace Filtration.ObjectModel.Enums
         Identified,
         Corrupted,
         CorruptedMods,
-        AlwaysShow, //poe2
-        UnidentifiedItemTier, //poe2
-        TwiceCorrupted, //poe2
-        HasVaalUniqueMod, //poe2
-        IsVaalUnique, //poe2
+        AlwaysShow, //POE2
+        UnidentifiedItemTier, //POE2
+        TwiceCorrupted, //POE2
+        HasVaalUniqueMod, //POE2
+        IsVaalUnique, //POE2
         Foulborn, //3.27
         HasCruciblePassiveTree,
         Mirrored,
@@ -36,8 +36,9 @@ namespace Filtration.ObjectModel.Enums
         Width,
         SynthesisedItem,
         FracturedItem,
+        MirageMap, //3.29 ???
         MapTier,
-        WaystoneTier, //poe2
+        WaystoneTier, //POE2
         BligtedMap,
         UberBlightedMap,
         GemLevel,

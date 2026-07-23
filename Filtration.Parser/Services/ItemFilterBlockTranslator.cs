@@ -302,6 +302,11 @@ namespace Filtration.Parser.Services
                         AddBooleanItemToBlockItems<FracturedItemBlockItem>(block, trimmedLine);
                         break;
                     }
+                    case "MirageMap":
+                    {
+                        AddBooleanItemToBlockItems<MirageMapBlockItem>(block, trimmedLine);
+                        break;
+                    }
                     case "MapTier":
                     {
                         AddNumericFilterPredicateItemToBlockItems<MapTierBlockItem>(block, trimmedLine);
@@ -428,15 +433,11 @@ namespace Filtration.Parser.Services
                         break;
                     }
 
-                    //POE2
+
+                    // POE2 ========================
                     case "AlwaysShow":
                     {
                         AddBooleanItemToBlockItems<AlwaysShowBlockItem>(block, trimmedLine);
-                        break;
-                    }
-                    case "WaystoneTier":
-                    {
-                        AddNumericFilterPredicateItemToBlockItems<WaystoneTierBlockItem>(block, trimmedLine);
                         break;
                     }
                     case "HasVaalUniqueMod":
@@ -459,6 +460,12 @@ namespace Filtration.Parser.Services
                         AddNumericFilterPredicateItemToBlockItems<UnidentifiedItemTierBlockItem>(block, trimmedLine);
                         break;
                     }
+                    case "WaystoneTier":
+                    {
+                        AddNumericFilterPredicateItemToBlockItems<WaystoneTierBlockItem>(block, trimmedLine);
+                        break;
+                    }
+                    // END POE2 ========================
 
 
                     case "SetTextColor":
