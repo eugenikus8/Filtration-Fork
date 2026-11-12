@@ -48,6 +48,7 @@ namespace Filtration.ObjectModel.Enums
         MemoryStrands, //3.26
         Imbued, //3.28
         Vestigial, //3.29
+        Fated, //3.30
         HasImplicitMod,
         HasExplicitMod,
         AnyEnchantment,

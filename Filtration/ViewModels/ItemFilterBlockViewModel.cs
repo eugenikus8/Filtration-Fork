@@ -254,6 +254,7 @@ namespace Filtration.ViewModels
             typeof (MemoryStrandsBlockItem), //3.26
             typeof (ImbuedBlockItem), //3.28
             typeof (VestigialBlockItem), //3.29
+            typeof (FatedBlockItem), //3.30
             typeof (HasImplicitModBlockItem),
             typeof (HasExplicitModBlockItem),
             typeof (AnyEnchantmentBlockItem),

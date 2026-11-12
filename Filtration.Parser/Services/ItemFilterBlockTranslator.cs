@@ -357,6 +357,11 @@ namespace Filtration.Parser.Services
                         AddBooleanItemToBlockItems<VestigialBlockItem>(block, trimmedLine);
                         break;
                     }
+                    case "Fated":
+                    {
+                        AddBooleanItemToBlockItems<FatedBlockItem>(block, trimmedLine);
+                        break;
+                    }
                     case "HasImplicitMod":
                     {
                         AddBooleanItemToBlockItems<HasImplicitModBlockItem>(block, trimmedLine);

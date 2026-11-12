@@ -116,64 +116,65 @@ namespace Filtration.ViewModels.DesignTime
         public IEnumerable<string> AutoCompleteEnchantmentPassiveNode { get; }
         public IEnumerable<string> AutoCompleteItemMods { get; }
         public List<Type> BlockItemTypesAvailable => new List<Type>
-                                                     {
-                                                         typeof (MinimalBlockItem),
-                                                         typeof (IdentifiedBlockItem),
-                                                         typeof (CorruptedBlockItem),
-                                                         typeof (CorruptedModsBlockItem),
-                                                         typeof (FoulbornBlockItem), //3.27
-                                                         typeof (HasCruciblePassiveTreeBlockItem),
-                                                         typeof (MirroredBlockItem),
-                                                         typeof (ReplicaBlockItem),
-                                                         typeof (ScourgedBlockItem),
-                                                         typeof (AreaLevelBlockItem),
-                                                         typeof (DropLevelBlockItem),
-                                                         typeof (ItemLevelBlockItem),
-                                                         typeof (RarityBlockItem),
-                                                         typeof (ClassBlockItem),
-                                                         typeof (BaseTypeBlockItem),
-                                                         typeof (QualityBlockItem),
-                                                         typeof (LinkedSocketsBlockItem),
-                                                         typeof (SocketsBlockItem),
-                                                         typeof (SocketGroupBlockItem),
-                                                         typeof (HeightBlockItem),
-                                                         typeof (WidthBlockItem),
-                                                         typeof (SynthesisedItemBlockItem),
-                                                         typeof (FracturedItemBlockItem),
-                                                         typeof (AnyEnchantmentBlockItem),
-                                                         typeof (MirageMapBlockItem), //3.29 ???
-                                                         typeof (MapTierBlockItem),
-                                                         typeof (BlightedMapBlockItem),
-                                                         typeof (UberBlightedMapBlockItem),
-                                                         typeof (GemLevelBlockItem),
-                                                         typeof (AlternateQualityBlockItem),
-                                                         typeof (TransfiguredGemBlockItem),
-                                                         typeof (ZanaMemoryBlockItem), //3.26
-                                                         typeof (MemoryStrandsBlockItem), //3.26
-                                                         typeof (ImbuedBlockItem), //3.28
-                                                         typeof (VestigialBlockItem), //3.29
-                                                         typeof (StackSizeBlockItem),
-                                                         typeof (HasImplicitModBlockItem),
-                                                         typeof (HasExplicitModBlockItem),
-                                                         typeof (HasEaterOfWorldsImplicitBlockItem),
-                                                         typeof (HasSearingExarchImplicitBlockItem),
-                                                         typeof (HasEnchantmentBlockItem),
-                                                         typeof (EnchantmentPassiveNumBlockItem),
-                                                         typeof (EnchantmentPassiveNodeBlockItem),
-                                                         typeof (HasInfluenceBlockItem),
-                                                         typeof (BaseDefencePercentileBlockItem),
-                                                         typeof (BaseArmourBlockItem),
-                                                         typeof (BaseEvasionBlockItem),
-                                                         typeof (BaseEnergyShieldBlockItem),
-                                                         typeof (BaseWardBlockItem),
-                                                         typeof (AlwaysShowBlockItem),//POE2
-                                                         typeof (HasVaalUniqueModBlockItem),//POE2
-                                                         typeof (IsVaalUniqueBlockItem),//POE2
-                                                         typeof (TwiceCorruptedBlockItem),//POE2
-                                                         typeof (UnidentifiedItemTierBlockItem),//POE2
-                                                         typeof (WaystoneTierBlockItem),//POE2
-                                                         typeof (ContinueBlockItem),
-                                                     };
+        {
+            typeof (MinimalBlockItem),
+            typeof (IdentifiedBlockItem),
+            typeof (CorruptedBlockItem),
+            typeof (CorruptedModsBlockItem),
+            typeof (FoulbornBlockItem), //3.27
+            typeof (HasCruciblePassiveTreeBlockItem),
+            typeof (MirroredBlockItem),
+            typeof (ReplicaBlockItem),
+            typeof (ScourgedBlockItem),
+            typeof (AreaLevelBlockItem),
+            typeof (DropLevelBlockItem),
+            typeof (ItemLevelBlockItem),
+            typeof (RarityBlockItem),
+            typeof (ClassBlockItem),
+            typeof (BaseTypeBlockItem),
+            typeof (QualityBlockItem),
+            typeof (LinkedSocketsBlockItem),
+            typeof (SocketsBlockItem),
+            typeof (SocketGroupBlockItem),
+            typeof (HeightBlockItem),
+            typeof (WidthBlockItem),
+            typeof (SynthesisedItemBlockItem),
+            typeof (FracturedItemBlockItem),
+            typeof (AnyEnchantmentBlockItem),
+            typeof (MirageMapBlockItem), //3.29 ???
+            typeof (MapTierBlockItem),
+            typeof (BlightedMapBlockItem),
+            typeof (UberBlightedMapBlockItem),
+            typeof (GemLevelBlockItem),
+            typeof (AlternateQualityBlockItem),
+            typeof (TransfiguredGemBlockItem),
+            typeof (ZanaMemoryBlockItem), //3.26
+            typeof (MemoryStrandsBlockItem), //3.26
+            typeof (ImbuedBlockItem), //3.28
+            typeof (VestigialBlockItem), //3.29
+            typeof (FatedBlockItem), //3.30
+            typeof (StackSizeBlockItem),
+            typeof (HasImplicitModBlockItem),
+            typeof (HasExplicitModBlockItem),
+            typeof (HasEaterOfWorldsImplicitBlockItem),
+            typeof (HasSearingExarchImplicitBlockItem),
+            typeof (HasEnchantmentBlockItem),
+            typeof (EnchantmentPassiveNumBlockItem),
+            typeof (EnchantmentPassiveNodeBlockItem),
+            typeof (HasInfluenceBlockItem),
+            typeof (BaseDefencePercentileBlockItem),
+            typeof (BaseArmourBlockItem),
+            typeof (BaseEvasionBlockItem),
+            typeof (BaseEnergyShieldBlockItem),
+            typeof (BaseWardBlockItem),
+            typeof (AlwaysShowBlockItem),//POE2
+            typeof (HasVaalUniqueModBlockItem),//POE2
+            typeof (IsVaalUniqueBlockItem),//POE2
+            typeof (TwiceCorruptedBlockItem),//POE2
+            typeof (UnidentifiedItemTierBlockItem),//POE2
+            typeof (WaystoneTierBlockItem),//POE2
+            typeof (ContinueBlockItem),
+        };
         public List<Type> AudioVisualBlockItemTypesAvailable { get; }
         public Color DisplayTextColor => Colors.Red;
         public Color DisplayBackgroundColor => Colors.White;
