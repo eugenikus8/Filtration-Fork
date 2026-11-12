@@ -61,6 +61,7 @@
     <Compile Include="BlockItemBaseTypes\NumericFilterPredicateBlockItem.cs" />
     <Compile Include="BlockItemBaseTypes\StringListBlockItem.cs" />
     <Compile Include="BlockItemTypes\AlwaysShowBlockItem.cs" />
+    <Compile Include="BlockItemTypes\UnidentifiedItemTierBlockItem.cs" />
     <Compile Include="BlockItemTypes\HasVaalUniqueModBlockItem.cs" />
     <Compile Include="BlockItemTypes\MirageMapBlockItem.cs" />
     <Compile Include="BlockItemTypes\FatedBlockItem.cs" />
@@ -70,7 +71,6 @@
     <Compile Include="BlockItemTypes\ImbuedBlockItem.cs" />
     <Compile Include="BlockItemTypes\FoulbornBlockItem.cs" />
     <Compile Include="BlockItemTypes\MemoryStrandsBlockItem.cs" />
-    <Compile Include="BlockItemTypes\UnidentifiedItemTierBlockItem.cs" />
     <Compile Include="BlockItemTypes\WaystoneTierBlockItem.cs" />
     <Compile Include="BlockItemTypes\TransfiguredGemBlockItem.cs" />
     <Compile Include="BlockItemTypes\AnyEnchantmentBlockItem.cs" />

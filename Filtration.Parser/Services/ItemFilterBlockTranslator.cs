@@ -177,6 +177,11 @@ namespace Filtration.Parser.Services
                         AddNumericFilterPredicateItemToBlockItems<ItemLevelBlockItem>(block, trimmedLine);
                         break;
                     }
+                    case "UnidentifiedItemTier":
+                    {
+                        AddNumericFilterPredicateItemToBlockItems<UnidentifiedItemTierBlockItem>(block, trimmedLine);
+                        break;
+                    }
                     case "Rarity":
                     {
                         RemoveExistingBlockItemsOfType<RarityBlockItem>(block);
@@ -458,11 +463,6 @@ namespace Filtration.Parser.Services
                     case "TwiceCorrupted":
                     {
                         AddBooleanItemToBlockItems<TwiceCorruptedBlockItem>(block, trimmedLine);
-                        break;
-                    }
-                    case "UnidentifiedItemTier":
-                    {
-                        AddNumericFilterPredicateItemToBlockItems<UnidentifiedItemTierBlockItem>(block, trimmedLine);
                         break;
                     }
                     case "WaystoneTier":

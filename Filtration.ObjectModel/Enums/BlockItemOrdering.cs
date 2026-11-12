@@ -12,7 +12,6 @@ namespace Filtration.ObjectModel.Enums
         Corrupted,
         CorruptedMods,
         AlwaysShow, //POE2
-        UnidentifiedItemTier, //POE2
         TwiceCorrupted, //POE2
         HasVaalUniqueMod, //POE2
         IsVaalUnique, //POE2
@@ -24,6 +23,7 @@ namespace Filtration.ObjectModel.Enums
         AreaLevel,
         DropLevel,
         ItemLevel,
+        UnidentifiedItemTier, //3.30 and POE2
         Rarity,
         Class,
         BaseType,

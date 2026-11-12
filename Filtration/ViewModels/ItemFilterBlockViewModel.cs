@@ -231,6 +231,7 @@ namespace Filtration.ViewModels
             typeof (AreaLevelBlockItem),
             typeof (DropLevelBlockItem),
             typeof (ItemLevelBlockItem),
+            typeof (UnidentifiedItemTierBlockItem),//3.30 and POE2
             typeof (RarityBlockItem),
             typeof (ClassBlockItem),
             typeof (BaseTypeBlockItem),
@@ -273,7 +274,6 @@ namespace Filtration.ViewModels
             typeof (HasVaalUniqueModBlockItem),//POE2
             typeof (IsVaalUniqueBlockItem),//POE2
             typeof (TwiceCorruptedBlockItem),//POE2
-            typeof (UnidentifiedItemTierBlockItem),//POE2
             typeof (WaystoneTierBlockItem), //POE2
             typeof (ContinueBlockItem),
         };
