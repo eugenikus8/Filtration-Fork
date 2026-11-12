@@ -67,6 +67,7 @@ Two Hand Maces
 Two Hand Swords
 Utility Flasks
 Vault Keys
+Viscera
 Wands
 Warstaves
 Wombgift
