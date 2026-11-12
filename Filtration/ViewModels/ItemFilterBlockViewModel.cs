@@ -217,6 +217,8 @@ namespace Filtration.ViewModels
 
         public List<Type> BlockItemTypesAvailable => new List<Type>
         {
+            //[en] Order of the Hyperlink List in Filtration (+Minimal +Identified +Corrupted ect.)
+            //[ru] Порядок списка гиперссылок в Filtration
             typeof (MinimalBlockItem),
             typeof (IdentifiedBlockItem),
             typeof (CorruptedBlockItem),
@@ -253,7 +255,7 @@ namespace Filtration.ViewModels
             typeof (ImbuedBlockItem), //3.28
             typeof (VestigialBlockItem), //3.29
             typeof (HasImplicitModBlockItem),
-            typeof (HasExplicitModBlockItem), 
+            typeof (HasExplicitModBlockItem),
             typeof (AnyEnchantmentBlockItem),
             typeof (HasEnchantmentBlockItem),
             typeof (HasEaterOfWorldsImplicitBlockItem),
@@ -277,10 +279,10 @@ namespace Filtration.ViewModels
 
         public List<Type> AudioVisualBlockItemTypesAvailable => new List<Type>
         {
+            typeof (FontSizeBlockItem),
             typeof (TextColorBlockItem),
             typeof (BackgroundColorBlockItem),
             typeof (BorderColorBlockItem),
-            typeof (FontSizeBlockItem),
             typeof (SoundBlockItem),
             typeof (PositionalSoundBlockItem),
             typeof (DisableDropSoundBlockItem),

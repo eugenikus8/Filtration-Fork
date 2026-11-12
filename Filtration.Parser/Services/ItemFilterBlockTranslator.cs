@@ -468,6 +468,19 @@ namespace Filtration.Parser.Services
                     // END POE2 ========================
 
 
+                    case "SetFontSize":
+                    {
+                        // Only ever use the last SetFontSize item encountered as multiples aren't valid.
+                        RemoveExistingBlockItemsOfType<FontSizeBlockItem>(block);
+                        var match = Regex.Matches(trimmedLine, @"(\s+(\d+)\s*)");
+                        if (match.Count > 0)
+                        {
+                            var blockItem = new FontSizeBlockItem(Convert.ToInt16(match[0].Groups[2].Value));
+                            block.BlockItems.Add(blockItem);
+                            themeComponentType = (int)ThemeComponentType.FontSize;
+                        }
+                        break;
+                    }
                     case "SetTextColor":
                     {
                         // Only ever use the last SetTextColor item encountered as multiples aren't valid.
@@ -502,20 +515,6 @@ namespace Filtration.Parser.Services
                         var blockItem = new BorderColorBlockItem {Color = GetColorFromString(result[0].Groups[1].Value)};
                         block.BlockItems.Add(blockItem);
                         themeComponentType = (int)ThemeComponentType.BorderColor;
-                        break;
-                    }
-                    case "SetFontSize":
-                    {
-                        // Only ever use the last SetFontSize item encountered as multiples aren't valid.
-                        RemoveExistingBlockItemsOfType<FontSizeBlockItem>(block);
-
-                        var match = Regex.Matches(trimmedLine, @"(\s+(\d+)\s*)");
-                        if (match.Count > 0)
-                        {
-                            var blockItem = new FontSizeBlockItem(Convert.ToInt16(match[0].Groups[2].Value));
-                            block.BlockItems.Add(blockItem);
-                            themeComponentType = (int)ThemeComponentType.FontSize;
-                        }
                         break;
                     }
                     case "PlayAlertSound":
